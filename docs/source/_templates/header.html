@@ -1,0 +1,13 @@
+{#- breadcrumbs -#}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div style="width: max-content;">
+    <ul class="wy-breadcrumbs">
+        {%- block breadcrumbs %}
+        <li style="list-style: none;"><a href="{{ pathto(master_doc) }}" aria-label="Home"><i class="fa fa-home"></i></a></li>
+            {%- for doc in parents %}
+            <li class="breadcrumb-item">&ensp;<a href="{{ doc.link|e }}">{{ doc.title }}</a></li>
+            {%- endfor %}
+        <li class="breadcrumb-item breadcrumb-active">&ensp;{{ title }}</li>
+        {%- endblock %}
+    </ul>
+</div>
