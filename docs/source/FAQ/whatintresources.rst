@@ -15,7 +15,7 @@ The following documents represent a timeline view of international perspectives 
 
 *   October 2022, ENISA, `Post-Quantum Cryptography: Anticipating Threats and Preparing the Future <https://www.enisa.europa.eu/news/enisa-news/post-quantum-cryptography-anticipating-threats-and-preparing-the-future>`_
 
-*	February 2023, Global Systems for Mobile technology Association \(GSMA\), `Post Quantum Telco Network Impact Assessment Whitepaper, Version 1.0 <https://www.gsma.com/newsroom/wp-content/uploads/PQ.1-Post-Quantum-Telco-Network-Impact-Assessment-Whitepaper-Version1.0.pdf>`_ 
+*	February 2023, Global Systems for Mobile communications Association \(GSMA\), `Post Quantum Telco Network Impact Assessment Whitepaper, Version 1.0 <https://www.gsma.com/newsroom/wp-content/uploads/PQ.1-Post-Quantum-Telco-Network-Impact-Assessment-Whitepaper-Version1.0.pdf>`_ 
 
 *	March 2023, Financial Services Information Sharing and Analysis Center \(FS-ISAC\), `Preparing for a Post-Quantum World by Managing Cryptographic Risk <https://www.fsisac.com/hubfs/Knowledge/PQC/PreparingForAPostQuantumWorldByManagingCryptographicRisk.pdf>`_ 
 
@@ -25,7 +25,7 @@ The following documents represent a timeline view of international perspectives 
 
 *   August 2023, International Organization for Standardization/International Electrotechnical Commission \(ISO/IEC\), `ISO/IEC 23837-1:2023 - Information security — Security requirements, test and evaluation methods for quantum key distribution — Part 1: Requirements <https://www.iso.org/standard/77097.html>`_
 
-*   September 2023, GSM Association \(GSMA\), `Guidelines for Quantum Risk Management for Telco, Version 1.0 <https://www.gsma.com/get-involved/working-groups/wp-content/uploads/2023/09/Guidelines-for-Quantum-Risk-Management-for-Telco-v1.0.pdf>`_
+*   September 2023, GSMA, `Guidelines for Quantum Risk Management for Telco, Version 1.0 <https://www.gsma.com/get-involved/working-groups/wp-content/uploads/2023/09/Guidelines-for-Quantum-Risk-Management-for-Telco-v1.0.pdf>`_
 
 *   March 2024, Internet Engineering Task Force \(IETF\), `Post-Quantum Cryptography Recommendations for TLS-based Applications <https://datatracker.ietf.org/doc/draft-reddy-uta-pqc-app/>`_
 

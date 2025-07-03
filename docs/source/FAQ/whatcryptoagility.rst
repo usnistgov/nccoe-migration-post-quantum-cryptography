@@ -12,6 +12,8 @@ Migration to PQC brings a new focus on developing capabilities to replace crypto
 
 *   InfoSec Global, `Cryptographic Agility in Practice <https://cdn.prod.website-files.com/612fec6a451c71c9308f4b69/614b712e53ce8f7fad0c3c4a_ISG_AgilityUseCases_Whitepaper-FINAL.pdf>`_
 
-*   NIST, `NIST Cybersecurity White Paper (CSWP 39), Considerations for Achieving Crypto Agility: Strategies and Practices \(Initial Public Draft\) <https://csrc.nist.gov/pubs/cswp/39/considerations-for-achieving-cryptographic-agility/ipd>`_ discusses approaches to achieve crypto agility while maintaining interoperability.
+*   NIST, `NIST Cybersecurity White Paper \(CSWP 39\), Considerations for Achieving Crypto Agility: Strategies and Practices \(Initial Public Draft\) <https://csrc.nist.gov/pubs/cswp/39/considerations-for-achieving-cryptographic-agility/ipd>`_ discusses approaches to achieve crypto agility while maintaining interoperability.
 
 *   PostQuantum, `Introduction to Crypto-Agility <https://postquantum.com/post-quantum/introduction-crypto-agility/>`_
+
+*   Alliance for Telecommunications Industry Solutions \(ATIS\), `Strategic Framework for Crypto Agility and Quantum Risk Assessment<https://atis.org/resources/strategic-framework-for-crypto-agility-and-quantum-risk-assessment/>`_
