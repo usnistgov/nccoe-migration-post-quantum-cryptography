@@ -46,9 +46,12 @@ The following bullets offer a timeline that illustrates the directives and resou
 What are some additional U.S. government resources?
 -----------------------------------------------------
 
-*   Cybersecurity and Infrastructure Security Agency’s \(CISA\) `Post-Quantum Cryptography Initiative <https://www.cisa.gov/quantum>`_
+*   Cybersecurity and Infrastructure Security Agency \(CISA\), `Post-Quantum Cryptography Initiative <https://www.cisa.gov/quantum>`_
 
-*   Department of Homeland Security \(DHS\) `Post-Quantum Cryptography <https://www.dhs.gov/quantum>`_
+*   Department of Homeland Security \(DHS\), `Post-Quantum Cryptography <https://www.dhs.gov/quantum>`_
 
-*   Homeland Security Operational Analysis Center's \(HSOAC\) `Preparing for Post-Quantum Critical Infrastructure: Assessments of Quantum Computing Vulnerabilities of National Critical Functions <https://www.rand.org/pubs/research_reports/RRA1367-6.html>`_
+*   Homeland Security Operational Analysis Center \(HSOAC\), `Preparing for Post-Quantum Critical Infrastructure: Assessments of Quantum Computing Vulnerabilities of National Critical Functions <https://www.rand.org/pubs/research_reports/RRA1367-6.html>`_
 
+*   FedRAMP, `Policy for Cryptographic Module Selection and Use <https://www.fedramp.gov/rev5/fips/>`_
+
+*   General Services Administration \(GSA\), `Post Quantum Cryptography Buyer's Guide <https://www.fedramp.gov/rev5/fips/>`_
