@@ -11,3 +11,9 @@ Knowing the extent, location, and use of the current cryptography that you have 
 *   Canadian Forum for Digital Infrastructure Resilience \(CFDIR\), `Chapter Three of Canadian National Quantum-Readiness: Best Practices and Guidelines, version 04, July 2024 <https://ised-isde.canada.ca/site/spectrum-management-telecommunications/sites/default/files/documents/Quantum-Readiness%20Best%20Practices%20-%20v04%20-%2010%20July%202024.pdf>`_ 
 
 *   European Telecommunications Standards Institute \(ETSI\),  `TR 104 016 V1.1.1 – CYBER; Quantum-Safe Cryptography (QSC); A Repeatable Framework for Quantum-Safe Migrations <https://www.etsi.org/deliver/etsi_tr/104000_104099/104016/01.01.01_60/tr_104016v010101p.pdf>`_ 
+
+*   The United Kingdom's National Cyber Security Centre \(NCSC\), ``
+
+*   MITRE's Post-Quantum Cryptography Coalition \(PQCC\), `Post-Quantum Cryptography \(PQC\) Migration Roadmap <https://pqcc.org/post-quantum-cryptography-migration-roadmap/>`_ 
+
+    *   `PQC Inventory Workbook <https://pqcc.org/pqc-inventory-workbook/>`_

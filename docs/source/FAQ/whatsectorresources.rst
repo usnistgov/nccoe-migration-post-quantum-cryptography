@@ -8,16 +8,22 @@ Financial Services Sector
 
 *	X9, `Effort to Create Post-Quantum Cryptography Assessment Guidelines <https://x9.org/x9-launches-effort-to-create-post-quantum-cryptography-assessment-guidelines-participants-sought/>`_
 
+*   Bank for International Settlements \(BIS\), `Quantum-readiness for the financial system: a roadmap <https://www.bis.org/publ/bppdf/bispap158.pdf>`_
+
 
 Information Technology Sector
 -------------------------------
 *   Microsoft, `Microsoft's Quantum-resistant cryptography is here <https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsofts-quantum-resistant-cryptography-is-here/4238780>`_
+
+    *   `Post-Quantum Cryptography Comes to Windows Insiders and Linux <https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-comes-to-windows-insiders-and-linux/4413803>`_
 
 *	Google, `Announcing quantum-safe digital signatures in Cloud KMS <https://cloud.google.com/blog/products/identity-security/announcing-quantum-safe-digital-signatures-in-cloud-kms>`_
 
 *	Cloudflare, `Cloudflare Advances Industry’s First Cloud-Native Quantum-Safe Zero Trust Solution <https://www.cloudflare.com/press-releases/2025/cloudflare-advances-industrys-first-cloud-native-quantum-safe-zero-trust/>`_ 
 
 *   Bouncy Castle, `A PQC Almanac <https://downloads.bouncycastle.org/csharp/docs/PQC-Almanac.pdf>`_
+
+*   IBM and InfoSec Global, `IBM Consulting and InfoSec Global collaborate on visibility and control of cryptographic assets <https://www.ibm.com/new/announcements/ibm-consulting-and-infosec-global-collaborate-on-visibility-control-of-cryptographic-assets>`_
 
 
 Telecom
