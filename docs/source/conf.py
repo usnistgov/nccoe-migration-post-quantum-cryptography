@@ -81,17 +81,13 @@ html_theme_options = {
     "home_page_in_toc": True,
     "path_to_docs": "docs/source",
     "home_page_in_toc": True,
-    "show_breadcrumbs": True,
-    #"icon_links": [
-    #    {
-    #        "name": "Main Project Page",
-    #        "url": "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms",
-    #        "icon": "_static/MainProjectLogo.jpg",
-    #        "type": "local",
-    #    },
-    #],
-    "additional_breadcrumbs": [
-        ("Main Project Page", "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms"),
+    "icon_links": [
+        {
+            "name": "Main Project Page",
+            "url": "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms",
+            "icon": "_static/MainProjectLogo.png",
+            "type": "local",
+        },
     ],
     "navbar_start": ["header.html"]
 }
