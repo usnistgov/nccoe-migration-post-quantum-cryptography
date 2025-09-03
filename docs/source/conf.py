@@ -62,7 +62,7 @@ on_rtd = os.environ.get("READTHEDOCS") == "True"
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 html_favicon = 'images/favicon.svg'
-html_title = 'Project Publications'
+html_title = 'Migration to Post-Quantum Cryptography Project Publications'
 
 html_css_files = [
     "content.css",
@@ -81,13 +81,16 @@ html_theme_options = {
     "home_page_in_toc": True,
     "path_to_docs": "docs/source",
     "home_page_in_toc": True,
-    "icon_links": [
-        {
-            "name": "Main Project Page",
-            "url": "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms",
-            "icon": "_static/MainProjectLogo.jpg",
-            "type": "local",
-        },
+    #"icon_links": [
+    #    {
+    #        "name": "Main Project Page",
+    #        "url": "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms",
+    #        "icon": "_static/MainProjectLogo.jpg",
+    #        "type": "local",
+    #    },
+    #],
+    "additional_breadcrumbs": [
+        ("Main Project Page", "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms"),
     ],
     "navbar_start": ["header.html"]
 }
