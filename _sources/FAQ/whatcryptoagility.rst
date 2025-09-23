@@ -16,4 +16,4 @@ Migration to PQC brings a new focus on developing capabilities to replace crypto
 
 *   PostQuantum, `Introduction to Crypto-Agility <https://postquantum.com/post-quantum/introduction-crypto-agility/>`_
 
-*   Alliance for Telecommunications Industry Solutions \(ATIS\), `Strategic Framework for Crypto Agility and Quantum Risk Assessment<https://atis.org/resources/strategic-framework-for-crypto-agility-and-quantum-risk-assessment/>`_
+*   Alliance for Telecommunications Industry Solutions \(ATIS\), `Strategic Framework for Crypto Agility and Quantum Risk Assessment <https://atis.org/resources/strategic-framework-for-crypto-agility-and-quantum-risk-assessment/>`_
