@@ -11,7 +11,7 @@ This Frequently Asked Questions \(FAQ\) resource is designed to offer answers to
 This FAQ is not an exhaustive list and will be updated periodically.
 Please send new questions for consideration to be added to this resource to `<applied-crypto-pqc@nist.gov>`_.
 
-**Last Updated:** September 3, 2025
+**Last Updated:** December 10, 2025
 
 .. include:: /FAQ/whatispqc.rst
 .. include:: /FAQ/whatlanguage.rst
