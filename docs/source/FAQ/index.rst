@@ -2,6 +2,7 @@ Frequently Asked Questions about Post-Quantum Cryptography
 =========================================================================
 
 .. include:: /_publication_note.rst
+
 .. toctree::
    :glob:
    :hidden:

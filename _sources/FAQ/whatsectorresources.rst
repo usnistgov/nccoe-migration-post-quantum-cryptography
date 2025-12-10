@@ -23,7 +23,7 @@ Information Technology Sector
 
 *	Cloudflare, `Cloudflare Advances Industry’s First Cloud-Native Quantum-Safe Zero Trust Solution <https://www.cloudflare.com/press-releases/2025/cloudflare-advances-industrys-first-cloud-native-quantum-safe-zero-trust/>`_ 
 
-    *   `Securing today for the quantum future: WARP client now supports post-quantum cryptography \(PQC\) <https://blog.cloudflare.com/post-quantum-warp/>`_
+    *    `Securing today for the quantum future: WARP client now supports post-quantum cryptography \(PQC\) <https://blog.cloudflare.com/post-quantum-warp/>`_
 
 *   Bouncy Castle, `A PQC Almanac <https://downloads.bouncycastle.org/csharp/docs/PQC-Almanac.pdf>`_
 
