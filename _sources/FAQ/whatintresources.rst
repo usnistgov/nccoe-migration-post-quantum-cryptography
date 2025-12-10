@@ -41,6 +41,7 @@ The following documents represent a timeline view of international perspectives 
 
 *   June 2025, Canadian Centre for Cyber Security, `Roadmap for the migration to post-quantum cryptography for the Govenrment of Canda (ITSM.40.001) <https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001>`_
 
+*   September 2025, Australian Signals Directorate \(ASD\), `Planning for post-quantum cryptography <https://www.cyber.gov.au/business-government/secure-design/planning-for-post-quantum-cryptography>`_
 
 What are some additional international resources?
 -----------------------------------------------------

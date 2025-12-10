@@ -15,3 +15,5 @@ Knowing the extent, location, and use of the current cryptography that you have 
 *   MITRE's Post-Quantum Cryptography Coalition \(PQCC\), `Post-Quantum Cryptography \(PQC\) Migration Roadmap <https://pqcc.org/post-quantum-cryptography-migration-roadmap/>`_ 
 
     *   `PQC Inventory Workbook <https://pqcc.org/pqc-inventory-workbook/>`_
+
+*   Public Key Infrastructure Consortium \(PKIC\), `PQC Capabilities Matrix \(PQCCM\) <https://pkic.org/pqccm>`_

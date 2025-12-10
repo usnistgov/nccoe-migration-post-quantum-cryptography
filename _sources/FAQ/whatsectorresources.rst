@@ -10,6 +10,8 @@ Financial Services Sector
 
 *   Bank for International Settlements \(BIS\), `Quantum-readiness for the financial system: a roadmap <https://www.bis.org/publ/bppdf/bispap158.pdf>`_
 
+*   Mastercard, `Migration to post-quantum cryptography white paper <https://www.mastercard.com/us/en/news-and-trends/Insights/2025/post-quantum-cryptography-white-paper.html>`_
+
 
 Information Technology Sector
 -------------------------------
@@ -20,6 +22,8 @@ Information Technology Sector
 *	Google, `Announcing quantum-safe digital signatures in Cloud KMS <https://cloud.google.com/blog/products/identity-security/announcing-quantum-safe-digital-signatures-in-cloud-kms>`_
 
 *	Cloudflare, `Cloudflare Advances Industry’s First Cloud-Native Quantum-Safe Zero Trust Solution <https://www.cloudflare.com/press-releases/2025/cloudflare-advances-industrys-first-cloud-native-quantum-safe-zero-trust/>`_ 
+
+    *   `Securing today for the quantum future: WARP client now supports post-quantum cryptography \(PQC\) <https://blog.cloudflare.com/post-quantum-warp/>`_
 
 *   Bouncy Castle, `A PQC Almanac <https://downloads.bouncycastle.org/csharp/docs/PQC-Almanac.pdf>`_
 
