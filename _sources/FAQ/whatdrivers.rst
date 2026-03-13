@@ -1,8 +1,8 @@
 
-What are some examples of the drivers for acting to migration to PQC?
+Where can I learn more about the critical need to counter the threat to public key cryptography from a cryptanalytically relevant quantum computer?
 ***********************
 
-The following industry resources advocate the critical need to counter the threat to public key cryptography from a cryptanalytically relevant quantum computer: 
+The following industry resources advocate for countering this threat: 
 
 *   U.S. Cybersecurity and Infrastructure Security Agency \(CISA\), `Quantum-Readiness: Migration to Post-Quantum Cryptography <https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF>`_
 
