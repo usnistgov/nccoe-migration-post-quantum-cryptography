@@ -15,7 +15,7 @@ If you have a question that is not answered within this FAQ, please fill out `th
 
 If you have anything to further discuss, please contact us at `<applied-crypto-pqc@nist.gov>`_.
 
-**Last Updated:** February 2026
+**Last Updated:** March 2026
 
 The following questions have been broken up into key migration steps. Some additional information for each step was outlined well by G7 in their `Coordinated Roadmap for the Transition to Post-quantum Cryptography <https://home.treasury.gov/system/files/136/G7-CEG-Quantum-Roadmap.pdf>`_.
 Some of these questions and answers may fit into multiple of these steps, but are placed into their best-fit for ease of navigation.
