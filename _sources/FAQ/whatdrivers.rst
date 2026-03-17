@@ -13,3 +13,5 @@ The following industry resources advocate for countering this threat:
 *   Center for European Policy Studies \(CEPS\), `We need to urgently strengthen the EU's transition to a quantum-safe world <https://www.ceps.eu/we-need-to-urgently-strengthen-the-eus-transition-to-a-quantum-safe-world/>`_
 
 *   Palo Alto Networks, `Quantum Readiness: What It Means and How to Achieve It <https://www.paloaltonetworks.com/cyberpedia/quantum-readiness>`_
+
+*   SafeLogic, `CISA Takes a Major Step Toward Post-Quantum Readiness <https://www.safelogic.com/blog/cisa-takes-a-major-step-toward-post-quantum-readiness-safelogic>`_
