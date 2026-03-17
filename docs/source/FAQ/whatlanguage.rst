@@ -27,6 +27,8 @@ With the growing attention on quantum computing as an emerging technology, compo
 
 *   Technology Review, `What are quantum-resistant algorithms—and why do we need them? <https://www.technologyreview.com/2022/09/14/1059400/explainer-quantum-resistant-algorithms/>`_
 
+*   SafeLogic, `Why Post-Quantum Cryptography \(PQC\) is Now a Competitive Advantage for Tech Vendors <https://www.safelogic.com/blog/post-quantum-cryptography-pqc-competitive-advantage-for-tech-vendors>`_
+
 "Quantum-Safe"
 -----------------------
 
@@ -35,6 +37,8 @@ With the growing attention on quantum computing as an emerging technology, compo
 *   European Telecommunications Standards Institute \(ESTI\), `Quantum-Safe Cryptography \(QSC\) <https://www.etsi.org/technologies/quantum-safe-cryptography>`_ 
 
 *   Germany's Federal Office for Information Security \(BSI\), `Quantum Technologies and Quantum-Safe Cryptography <https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/quantentechnologien-und-post-quanten-kryptografie_node.html>`_
+
+*   SafeLogic, `Comparing PQC and Classical Algorithms <https://www.safelogic.com/blog/comparing-pqc-and-classical-algorithms>`_
 
 "Quantum Secure"
 -----------------------

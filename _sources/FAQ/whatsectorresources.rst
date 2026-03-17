@@ -37,3 +37,4 @@ Telecom
 
 *   Alliance for Telecommunications Industry Solutions \(ATIS\), `Preparing 5G for the Quantum Era: An Analysis of 3GPP Architecture and the Transition to Quantum-Resistant Cryptography <https://cdn.atis.org/atis.org/2025/02/25152429/Preparing-5G-for-the-Quantum-Era-WP-V9.pdf>`_
 
+*   Communications Sector Coordinating Council \(CSSC\), `Committee Impact Report on Post Quantum Cryptography <https://comms-scc.org/2023/07/31/the-engineer-who-cried-quantum/>`_
