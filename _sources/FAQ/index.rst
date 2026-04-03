@@ -37,14 +37,15 @@ Awareness and Preparation
 Discovery and Inventory
 -------------------------------
 
-There are currently no frequently asked questions for this category. If you have a question that aligns with Discovery and Inventory, please fill out `this form <https://forms.gle/2mQEe97LrG3P4vAN6>`_ and let us know. We appreciate your contribution.
-
+.. include:: /FAQ/mandates.rst
+.. include:: /FAQ/whattools.rst
 -------------------------------
 Risk Assessment and Planning
 -------------------------------
 
 .. include:: /FAQ/whenstart.rst
 .. include:: /FAQ/whattimeline.rst
+.. include:: /FAQ/actionabledocuments.rst
 
 -------------------------------
 Migration Execution

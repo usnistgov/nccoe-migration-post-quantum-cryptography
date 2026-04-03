@@ -409,10 +409,19 @@ document.write(`
 </li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discovery-and-inventory">Discovery and Inventory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discovery-and-inventory">Discovery and Inventory</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-mandates-for-action-related-to-crqc-readiness-or-migration-to-pqc">Are there mandates for action related to CRQC-readiness or migration to PQC?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">What are some existing tools that can be used for cryptographic inventorying?</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-tools">Open source tools:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#nccoe-collaborator-tools">NCCoE collaborator tools:</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#risk-assessment-and-planning">Risk Assessment and Planning</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#where-can-you-start-your-migration-to-pqc">Where can you start your migration to PQC?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-some-timelines-for-activities-which-organizations-must-carry-out-to-migrate-to-post-quantum-cryptography-in-the-coming-years">What are some timelines for activities which organizations must carry out to migrate to post-quantum cryptography in the coming years?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#is-there-a-document-that-provides-actionable-guidelines-to-incorporate-crqc-readiness-into-existing-risk-management-frameworks">Is there a document that provides actionable guidelines to incorporate CRQC-readiness into existing risk management frameworks?</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#migration-execution">Migration Execution</a><ul class="nav section-nav flex-column">
@@ -692,7 +701,37 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 </section>
 <section id="discovery-and-inventory">
 <h2>Discovery and Inventory<a class="headerlink" href="#discovery-and-inventory" title="Link to this heading">#</a></h2>
-<p>There are currently no frequently asked questions for this category. If you have a question that aligns with Discovery and Inventory, please fill out <a class="reference external" href="https://forms.gle/2mQEe97LrG3P4vAN6">this form</a> and let us know. We appreciate your contribution.</p>
+<section id="are-there-mandates-for-action-related-to-crqc-readiness-or-migration-to-pqc">
+<h3>Are there mandates for action related to CRQC-readiness or migration to PQC?<a class="headerlink" href="#are-there-mandates-for-action-related-to-crqc-readiness-or-migration-to-pqc" title="Link to this heading">#</a></h3>
+<p>The US Government has some mandates for federal agencies about the migration to PQC.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/11/M-23-02-M-Memo-on-Migrating-to-Post-Quantum-Cryptography.pdf">Office of Management and Budget M-23-02</a></p></li>
+</ul>
+</section>
+<section id="what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">
+<h3>What are some existing tools that can be used for cryptographic inventorying?<a class="headerlink" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying" title="Link to this heading">#</a></h3>
+<p>The following tools are not an exhaustive list, but rather ones that are open source or ones that we have in our lab through our collaborators. Please refer to their websites and repositories to learn more about their capabilities.</p>
+<section id="open-source-tools">
+<h4>Open source tools:<a class="headerlink" href="#open-source-tools" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/anvilsecure/pqcscan">pqcscan</a></p></li>
+<li><p><a href="#id17"><span class="problematic" id="id18">`sslscan2 https://github.com/rbsec/sslscan`_</span></a></p></li>
+<li><p><a class="reference external" href="https://crt.sh/">crt.sh</a></p></li>
+<li><p><a class="reference external" href="https://scan.cyberzero.io/">cyberzero PQC Edge Scanner</a></p></li>
+</ul>
+</section>
+<section id="nccoe-collaborator-tools">
+<h4>NCCoE collaborator tools:<a class="headerlink" href="#nccoe-collaborator-tools" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.aqtiveguard.com/">SandboxAQ AQtive Guard</a></p></li>
+<li><p><a class="reference external" href="https://datawh.info/">Data-Warehouse PCert</a></p></li>
+<li><p><a class="reference external" href="https://www.keyfactor.com/products/cryptographic-discovery-inventory/">Keyfactor AgileSec</a></p></li>
+<li><p><a class="reference external" href="https://github.com/cisco/mercury/">Cisco Mercury</a> (also open source)</p></li>
+<li><p><a class="reference external" href="https://tychon.io/cryptographic-inventory/">Tychon Cryptographic Inventory</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql">CodeQL</a> (also open source)</p></li>
+</ul>
+</section>
+</section>
 </section>
 <section id="risk-assessment-and-planning">
 <h2>Risk Assessment and Planning<a class="headerlink" href="#risk-assessment-and-planning" title="Link to this heading">#</a></h2>
@@ -721,6 +760,14 @@ Knowing the extent, location, and use of the current cryptography that you have 
 <li><p>NSA, <a class="reference external" href="https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF">The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ</a></p></li>
 <li><p>The United Kingdom’s National Cyber Security Center, <a class="reference external" href="https://www.ncsc.gov.uk/guidance/pqc-migration-timelines">Timelines for migration to post-quantum cryptography</a></p></li>
 <li><p>Canadian Centre for Cyber Security, <a class="reference external" href="https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001">Roadmap for the migration to post-quantum cryptography for the Govenrment of Canda (ITSM.40.001)</a></p></li>
+</ul>
+</section>
+<section id="is-there-a-document-that-provides-actionable-guidelines-to-incorporate-crqc-readiness-into-existing-risk-management-frameworks">
+<h3>Is there a document that provides actionable guidelines to incorporate CRQC-readiness into existing risk management frameworks?<a class="headerlink" href="#is-there-a-document-that-provides-actionable-guidelines-to-incorporate-crqc-readiness-into-existing-risk-management-frameworks" title="Link to this heading">#</a></h3>
+<p>Here are some documents that discuss actionable guidelines:</p>
+<ul class="simple">
+<li><p>Europol, <a class="reference external" href="https://www.europol.europa.eu/cms/sites/default/files/documents/Post-quantum-cryptography-report.pdf">Prioritising Post-Quantum Cryptography Migration Activities in Financial Services</a></p></li>
+<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/resources/checklists/continuous-pqc-remediation">Continuous PQC Remediation Checklist</a></p></li>
 </ul>
 </section>
 </section>
@@ -914,10 +961,19 @@ The CAVP, through ACVTS, will generate test vectors to match the capabilities of
 </li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discovery-and-inventory">Discovery and Inventory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discovery-and-inventory">Discovery and Inventory</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-mandates-for-action-related-to-crqc-readiness-or-migration-to-pqc">Are there mandates for action related to CRQC-readiness or migration to PQC?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">What are some existing tools that can be used for cryptographic inventorying?</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-tools">Open source tools:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#nccoe-collaborator-tools">NCCoE collaborator tools:</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#risk-assessment-and-planning">Risk Assessment and Planning</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#where-can-you-start-your-migration-to-pqc">Where can you start your migration to PQC?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-some-timelines-for-activities-which-organizations-must-carry-out-to-migrate-to-post-quantum-cryptography-in-the-coming-years">What are some timelines for activities which organizations must carry out to migrate to post-quantum cryptography in the coming years?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#is-there-a-document-that-provides-actionable-guidelines-to-incorporate-crqc-readiness-into-existing-risk-management-frameworks">Is there a document that provides actionable guidelines to incorporate CRQC-readiness into existing risk management frameworks?</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#migration-execution">Migration Execution</a><ul class="nav section-nav flex-column">

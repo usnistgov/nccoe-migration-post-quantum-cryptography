@@ -155,6 +155,10 @@
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -354,7 +358,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -370,6 +376,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-tools">Open source tools:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nccoe-collaborator-tools">NCCoE collaborator tools:</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -381,13 +396,27 @@ document.write(`
                   
   <section id="what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">
 <h1>What are some existing tools that can be used for cryptographic inventorying?<a class="headerlink" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying" title="Link to this heading">#</a></h1>
-<p>Here are some publicly available tools and collaborator tools that we work with:</p>
+<p>The following tools are not an exhaustive list, but rather ones that are open source or ones that we have in our lab through our collaborators. Please refer to their websites and repositories to learn more about their capabilities.</p>
+<section id="open-source-tools">
+<h2>Open source tools:<a class="headerlink" href="#open-source-tools" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://docs.github.com/en/code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql">https://docs.github.com/en/code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql</a></p></li>
-<li><p><a class="github reference external" href="https://github.com/anvilsecure/pqcscan">anvilsecure/pqcscan</a></p></li>
-<li><p><a class="github reference external" href="https://github.com/rbsec/sslscan">rbsec/sslscan</a></p></li>
-<li><p><a class="reference external" href="https://crt.sh/">https://crt.sh/</a></p></li>
+<li><p><a class="reference external" href="https://github.com/anvilsecure/pqcscan">pqcscan</a></p></li>
+<li><p><a href="#id1"><span class="problematic" id="id2">`sslscan2 https://github.com/rbsec/sslscan`_</span></a></p></li>
+<li><p><a class="reference external" href="https://crt.sh/">crt.sh</a></p></li>
+<li><p><a class="reference external" href="https://scan.cyberzero.io/">cyberzero PQC Edge Scanner</a></p></li>
 </ul>
+</section>
+<section id="nccoe-collaborator-tools">
+<h2>NCCoE collaborator tools:<a class="headerlink" href="#nccoe-collaborator-tools" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.aqtiveguard.com/">SandboxAQ AQtive Guard</a></p></li>
+<li><p><a class="reference external" href="https://datawh.info/">Data-Warehouse PCert</a></p></li>
+<li><p><a class="reference external" href="https://www.keyfactor.com/products/cryptographic-discovery-inventory/">Keyfactor AgileSec</a></p></li>
+<li><p><a class="reference external" href="https://github.com/cisco/mercury/">Cisco Mercury</a> (also open source)</p></li>
+<li><p><a class="reference external" href="https://tychon.io/cryptographic-inventory/">Tychon Cryptographic Inventory</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql">CodeQL</a> (also open source)</p></li>
+</ul>
+</section>
 </section>
 
 
@@ -407,6 +436,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-tools">Open source tools:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nccoe-collaborator-tools">NCCoE collaborator tools:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
