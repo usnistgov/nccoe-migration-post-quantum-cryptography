@@ -8,7 +8,7 @@ Open source tools:
 
 *   `pqcscan <https://github.com/anvilsecure/pqcscan>`_
 
-*   `sslscan2 https://github.com/rbsec/sslscan`_
+*   `sslscan2 <https://github.com/rbsec/sslscan>`_
 
 *   `crt.sh <https://crt.sh/>`_
 
