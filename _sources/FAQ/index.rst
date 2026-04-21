@@ -8,17 +8,19 @@ Frequently Asked Questions about Post-Quantum Cryptography
    :glob:
    :hidden:
 
-This Frequently Asked Questions \(FAQ\) resource is designed to offer answers to questions about the need to secure electronic information with post-quantum cryptography.
+The NIST National Cybersecurity Center of Excellence, NIST’s Applied Cybersecurity Lab, has established a Migration to Post-Quantum Cryptography (PQC) project that in collaboration with industry and government organization demonstrates practices that are focused on supporting the use of NIST PQC standards.  The project has two workstreams from which demonstrations will be developed.  The Cryptographic Visibility and Risk Management orkstream focuses on the use of cryptographic inventories to plan for migration to PQC while the Interoperability and Benchmarking workstream aims to support the technology providers, public-key cryptography providers, who put the PQC algorithms into their products and services.
+
+The FAQ page places the questions binned into six key migration activity phases for migration or transition to the use of PQC to protect against the threat of a cryptanalytically relevant quantum computer (CRQC).
+
+This Frequently Asked Questions (FAQ) resource is designed to offer answers to questions being asked by the consumers of the technologies that leverage public-key cryptography who are being asked to take steps to become CRQC-ready by using technologies that use PQC algorithms. 
+
 This FAQ is not an exhaustive list and will be updated periodically.
 
-If you have a question that is not answered within this FAQ, please fill out `this form <https://forms.gle/2mQEe97LrG3P4vAN6>`_.
+Pleace contribute to the FAQ by using `this form <https://forms.gle/2mQEe97LrG3P4vAN6>`_ to submit additional questions, answers, and suggestions.
 
 If you have anything to further discuss, please contact us at `<applied-crypto-pqc@nist.gov>`_.
 
-**Last Updated:** March 2026
-
-The following questions have been broken up into key migration steps. Some additional information for each step was outlined well by G7 in their `Coordinated Roadmap for the Transition to Post-quantum Cryptography <https://home.treasury.gov/system/files/136/G7-CEG-Quantum-Roadmap.pdf>`_.
-Some of these questions and answers may fit into multiple of these steps, but are placed into their best-fit for ease of navigation.
+**Last Updated:** April 21, 2026
 
 -------------------------------
 Awareness and Preparation
