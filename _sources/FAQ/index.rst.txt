@@ -45,6 +45,8 @@ Discovery and Inventory
 
 .. include:: /FAQ/mandates.rst
 .. include:: /FAQ/whattools.rst
+.. include:: /FAQ/cbom.rst
+
 -------------------------------
 Risk Assessment and Planning
 -------------------------------
