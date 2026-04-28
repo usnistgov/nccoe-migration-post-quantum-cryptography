@@ -8,19 +8,23 @@ Frequently Asked Questions about Post-Quantum Cryptography
    :glob:
    :hidden:
 
-The NIST National Cybersecurity Center of Excellence, NIST’s Applied Cybersecurity Lab, has established a Migration to Post-Quantum Cryptography (PQC) project that in collaboration with industry and government organization demonstrates practices that are focused on supporting the use of NIST PQC standards.  The project has two workstreams from which demonstrations will be developed.  The Cryptographic Visibility and Risk Management orkstream focuses on the use of cryptographic inventories to plan for migration to PQC while the Interoperability and Benchmarking workstream aims to support the technology providers, public-key cryptography providers, who put the PQC algorithms into their products and services.
+The NIST National Cybersecurity Center of Excellence, NIST’s Applied Cybersecurity Lab, has established a Migration to Post-Quantum Cryptography (PQC) project that is focused on supporting the use of NIST PQC standards.  We’re working with industry and government stakeholders on two workstreams, and will develop demonstrations in each:  
 
-The FAQ page places the questions binned into six key migration activity phases for migration or transition to the use of PQC to protect against the threat of a cryptanalytically relevant quantum computer (CRQC).
+1.	**Cryptographic Visibility and Risk Management**, focused on building and maintaining a comprehensive cryptographic inventory to guide PQC migration. 
 
-This Frequently Asked Questions (FAQ) resource is designed to offer answers to questions being asked by the consumers of the technologies that leverage public-key cryptography who are being asked to take steps to become CRQC-ready by using technologies that use PQC algorithms. 
+2.	**Interoperability and Benchmarking**, supporting the technology and public-key cryptography providers who embed PQC algorithms into their products and services. 
 
-This FAQ is not an exhaustive list and will be updated periodically.
+We’ve grouped the most common questions into six key phases of the PQC migration journey, guiding you through the transition needed to protect against the threat of a cryptanalytically relevant quantum computer (CRQC). 
+
+**Who should use this?** Anyone who uses public key cryptography has been asked to take steps to become CRQC-ready by adopting technologies that use PQC algorithms.  
+
+This FAQ is not an exhaustive list and will be updated periodically.   
 
 Pleace contribute to the FAQ by using `this form <https://forms.gle/2mQEe97LrG3P4vAN6>`_ to submit additional questions, answers, and suggestions.
 
 If you have anything to further discuss, please contact us at `<applied-crypto-pqc@nist.gov>`_.
 
-**Last Updated:** April 21, 2026
+**Last Updated:** April 28, 2026
 
 -------------------------------
 Awareness and Preparation
