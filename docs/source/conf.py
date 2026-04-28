@@ -9,6 +9,7 @@
 import os
 import sys
 
+sys.path.append(os.path.abspath("_themes"))
 
 # -- Project information -----------------------------------------------------
 
@@ -17,31 +18,9 @@ copyright = 'NIST'
 author = 'NIST'
 
 
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-
-exclude_patterns = ['_site', 'Thumbs.db', '.DS_Store']
-
-extensions = [
-    "myst_parser",
-    "sphinxcontrib.jquery",
-    "sphinx_copybutton",
-    "sphinx_design",
-    "sphinx_togglebutton",
-    "sphinx.ext.autosectionlabel",
-    "sphinx_reredirects",
-]
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
-
-# The suffix(es) of source filenames.
-source_suffix = {
-    ".rst": "restructuredtext",
-    ".txt": "restructuredtext",
-    ".md": "markdown",
-}
 
 # The master toctree document.
 master_doc = "FAQ/index"
@@ -50,44 +29,81 @@ redirects = {
         "index": "FAQ/index.html"
 }
 
-# The name of the Pygments (syntax highlighting) style to use.
-pygments_style = "sphinx"
 
-add_module_names = False
+extensions = [
+    'sphinxcontrib.rsvgconverter',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx_design',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'nccoe_rtd_theme',
+    "sphinxcontrib.mermaid",
+    "sphinx_datatables",
+    "sphinx_reredirects",
+]
 
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+# Optionally include the spelling extension only if it's installed
+try:
+    import sphinxcontrib.spelling
+except Exception:
+    pass
+else:
+    extensions.append("sphinxcontrib.spelling")
 
-on_rtd = os.environ.get("READTHEDOCS") == "True"
-html_theme = 'sphinx_book_theme'
+templates_path = ['_templates']
+source_suffix = '.rst'
+gettext_compact = False
+exclude_patterns = ['build', 'Thumbs.db', '.DS_Store', '.git']
+
+suppress_warnings = ['image.nonlocal_uri']
+pygments_style = 'default'
+
+
+
+
+html_logo = "_static/img/nccoe-logo.svg"
+html_show_sourcelink = False
+html_favicon = "_static/img/favicon.ico"
+
+html_theme = "nccoe_rtd_theme"
+html_theme_path = [os.path.abspath("_themes")]
 html_static_path = ['_static']
-html_favicon = 'images/favicon.svg'
-html_title = 'Migration to Post-Quantum Cryptography Project Publications'
-
-html_css_files = [
-    "content.css",
-    "breadcrumbs.css"
-]
-html_js_files = [
-    "jquery.visible.js",
-    "jquery.leaveNotice-nist.js",
-    "applyLeaveNotice.js",
-    "smoothNavScroll.js",
-]
-
 html_theme_options = {
-    "repository_branch": "main",
-    "use_repository_button": False,
-    "home_page_in_toc": True,
-    "path_to_docs": "docs/source",
-    "home_page_in_toc": True,
-    "icon_links": [
-        {
-            "name": "Main Project Page",
-            "url": "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms",
-            "icon": "_static/MainProjectLogo.png",
-            "type": "local",
-        },
-    ],
-    "navbar_start": ["header.html"]
+    'logo_only': False,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'white',
+    'flyout_display': 'hidden',
+    'version_selector': False,
+    'language_selector': False,
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False,
+    'project_page': 'https://nccoe.nist.gov/projects'
 }
+html_css_files = [
+    "custom.css"
+]
+
+html_js_files = [
+    "main.js"
+]
+
+numfig = True
+
+redirects = {
+     "<source>": "<target>"
+}
+
+rst_epilog = """
+.. |repo_base| replace:: https://gitlab.nist.gov/<group>/<repo>/-/blob/main
+.. |config_base| replace:: config
+"""
+
+spelling_word_list_filename = ["_themes/nccoe_rtd_theme/dictionaries/spelling_wordlist.txt"] # you can add more wordlist files here
