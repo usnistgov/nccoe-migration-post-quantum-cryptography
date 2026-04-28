@@ -85,7 +85,7 @@ html_theme_options = {
     'navigation_depth': 4,
     'includehidden': True,
     'titles_only': False,
-    'project_page': 'https://nccoe.nist.gov/projects'
+    'project_page': 'https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc'
 }
 html_css_files = [
     "custom.css"
