@@ -20,7 +20,7 @@ We’ve grouped the most common questions into six key phases of the PQC migrati
 
 This FAQ is not an exhaustive list and will be updated periodically.   
 
-Pleace contribute to the FAQ by using `this form <https://forms.gle/2mQEe97LrG3P4vAN6>`_ to submit additional questions, answers, and suggestions.
+Please contribute to the FAQ by using `this form <https://forms.gle/2mQEe97LrG3P4vAN6>`_ to submit additional questions, answers, and suggestions.
 
 If you have anything to further discuss, please contact us at `<applied-crypto-pqc@nist.gov>`_.
 
