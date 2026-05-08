@@ -1,0 +1,45 @@
+html {
+    font-size: 200px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.rst-content h1 {
+    font-size: 240%;
+}
+
+.rst-content h2 {
+    font-size: 190%;
+}
+
+.rst-content h3 {
+    font-size: 150%;
+}
+
+.rst-content h4 {
+    font-size: 130%;
+}
+
+.rst-content h5 {
+    font-size: 115%;
+}
+
+.rst-content h6 {
+    font-size: 105%;
+}
+
+.wy-menu-vertical a {
+    font-size: 100%;
+}
+
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+    font-size: 95%;
+}
+
+.wy-side-nav-search .project-title {
+    font-size: 160%;
+}
