@@ -1,0 +1,69 @@
+include:
+  - project: 'nccoe-static-sites/nccoe-rtd-theme'
+    ref: 'main'
+    file: '/ci/templates/sphinx_tests.yml'
+
+variables:
+  # Base URL used by the included Sphinx CI template to fetch helper scripts.
+  SCRIPTS_URL_BASE: "https://gitlab.mitre.org/nccoe-static-sites/nccoe-rtd-theme/-/raw/main"
+
+  # Versioning controls
+  ENABLE_VERSIONING: "true"
+  VERSIONING_REFS: "example,main"
+  GIT_DEPTH: "0"
+
+stages:
+  - build-sphinx
+  - test
+  - deploy
+
+build_sphinx_app:
+  image: python:latest
+  stage: build-sphinx
+  script:
+    - pip install -r requirements.txt
+    - git fetch origin --tags
+    - |
+      if [ "$ENABLE_VERSIONING" = "true" ]; then
+        echo "Fetching refs for versioned build..."
+
+        OLD_IFS=$IFS
+        IFS=,
+        set -- $VERSIONING_REFS
+        IFS=$OLD_IFS
+
+        for ref in "$@"; do
+          ref=$(printf '%s' "$ref" | xargs)
+          if git show-ref --verify --quiet "refs/remotes/origin/$ref"; then
+            echo "Creating local branch for $ref from origin/$ref"
+            git branch -f "$ref" "origin/$ref"
+          else
+            echo "Ref $ref is not a remote branch (possibly a tag)"
+          fi
+        done
+
+        sphinx-versioned \
+          --local-conf source/conf.py \
+          --output public/nccoe-migration-post-quantum-cryptography \
+          --floating-badge \
+          --branch "$VERSIONING_REFS"
+      else
+        make html BUILDDIR=public/nccoe-migration-post-quantum-cryptography
+      fi
+  artifacts:
+    paths:
+      - public/nccoe-migration-post-quantum-cryptography/
+    expire_in: 1 hour
+  tags:
+    - pages-no-cui
+
+pages:
+  image: busybox:latest
+  stage: deploy
+  script:
+    - echo "Deploying GitLab Pages..."
+  artifacts:
+    paths:
+      - public
+  tags:
+    - pages-no-cui

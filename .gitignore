@@ -1,0 +1,7 @@
+.DS_Store
+._*
+public/
+venv
+build/
+.venv
+source/_themes/nccoe_rtd_theme/__pycache__
