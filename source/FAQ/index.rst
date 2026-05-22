@@ -37,6 +37,16 @@ Awareness and Preparation
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/whatintresources.rst
 .. include:: /FAQ/whatsectorresources.rst
+.. include:: /FAQ/denialofmigration.rst
+.. include:: /FAQ/environmentreact.rst
+.. include:: /FAQ/freeonline.rst
+.. include:: /FAQ/impactofcrqc.rst
+.. include:: /FAQ/harvestnow.rst
+.. include:: /FAQ/performanceprice.rst
+.. include:: /FAQ/customermodel.rst
+.. include:: /FAQ/methodologies.rst
+.. include:: /FAQ/multiyearupgrade.rst
+.. include:: /FAQ/listsofsupport.rst
 
 -------------------------------
 Discovery and Inventory
@@ -45,6 +55,11 @@ Discovery and Inventory
 .. include:: /FAQ/mandates.rst
 .. include:: /FAQ/whattools.rst
 .. include:: /FAQ/cbom.rst
+.. include:: /FAQ/usecodeql.rst
+.. include:: /FAQ/freeutilities.rst
+.. include:: /FAQ/discovercipher.rst
+.. include:: /FAQ/whatiscryptoinventory.rst
+.. include:: /FAQ/toolstostart.rst
 
 -------------------------------
 Risk Assessment and Planning
@@ -53,6 +68,11 @@ Risk Assessment and Planning
 .. include:: /FAQ/whenstart.rst
 .. include:: /FAQ/whattimeline.rst
 .. include:: /FAQ/actionabledocuments.rst
+.. include:: /FAQ/faqopenssh.rst
+.. include:: /FAQ/freescanner.rst
+.. include:: /FAQ/readinesssurveys.rst
+.. include:: /FAQ/industrynewsletters.rst
+.. include:: /FAQ/changedtarget.rst
 
 -------------------------------
 Migration Execution
@@ -60,12 +80,24 @@ Migration Execution
 
 .. include:: /FAQ/whatguidance.rst
 .. include:: /FAQ/whatnccoepub.rst
+.. include:: /FAQ/whatishsm.rst
+.. include:: /FAQ/checkbrowser.rst
+.. include:: /FAQ/allinone.rst
+.. include:: /FAQ/crqcreadylibraries.rst
+.. include:: /FAQ/adviceforuse.rst
+.. include:: /FAQ/osdesigners.rst
+.. include:: /FAQ/examplesofrollout.rst
 
 -------------------------------
 Migration Testing
 -------------------------------
 
-There are currently no frequently asked questions for this category. If you have a question that aligns with Migration Testing, please fill out `this form <https://forms.gle/2mQEe97LrG3P4vAN6>`_ and let us know. We appreciate your contribution.
+.. include:: /FAQ/spiqeworkshop.rst
+.. include:: /FAQ/httpssecurecerts.rst
+.. include:: /FAQ/benchmarkinternet.rst
+.. include:: /FAQ/experimentation.rst
+.. include:: /FAQ/benchmarkarch.rst
+.. include:: /FAQ/federalreadiness.rst
 
 -------------------------------
 Validation and Monitoring
