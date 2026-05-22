@@ -1,0 +1,1160 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJSMY46M5C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RJSMY46M5C');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frequently Asked Questions about Post-Quantum Cryptography &mdash; Migration to Post-Quantum Cryptography  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9ad34a6a" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-2.3.0/datatables.min.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=1e8e429d" />
+
+  <link rel="stylesheet" href="../_static/css/datatables.min.css">
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="https://cdn.datatables.net/v/dt/dt-2.3.0/datatables.min.js"></script>
+      <script src="../_static/activate_datatables.js"></script>
+      <script src="../_static/main.js?v=6f23e640"></script>
+
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/d3.min.js"></script>
+    <script src="../_static/js/mermaid.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        mermaid.initialize({startOnLoad: true, securityLevel: 'loose'});
+      });
+    </script>
+    <script src="../_static/js/datatables.min.js"></script>
+    <script src="../_static/js/main.js"></script>
+    <link rel="stylesheet" href="../_static/css/leaveNotice.css">
+    <script src="../_static/js/jquery.leaveNotice-nist.js"></script>
+    <script src="../_static/js/applyLeaveNotice.js"
+            data-site-name="Migration to Post-Quantum Cryptography"></script>
+
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (!document.querySelector('meta[name="comments"][content="on"]')) return;
+
+      var base = "../_static/";
+
+      var css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = base + 'css/annotator.min.css';
+      document.head.appendChild(css);
+
+      function loadCommentCapture() {
+        var c = document.createElement('script');
+        c.src = base + 'js/comment-capture.js';
+        c.setAttribute('data-email', "feedback@example.com");
+        c.setAttribute('data-site-name', "Migration to Post-Quantum Cryptography");
+        c.setAttribute('data-subject', "[Doc review] Migration to Post-Quantum Cryptography — {N} comments");
+        c.setAttribute('data-static-base', base);
+        c.setAttribute('data-export-html', "true");
+        c.setAttribute('data-export-csv', "true");
+        document.body.appendChild(c);
+      }
+
+      if (window.Annotator) {
+        loadCommentCapture();
+        return;
+      }
+
+      var a = document.createElement('script');
+      a.src = base + 'js/annotator-full.min.js';
+      a.onload = loadCommentCapture;
+      document.body.appendChild(a);
+    });
+    </script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+  
+    <header class="nist-header" id="nist-header" role="banner">
+    
+        <a href="https://www.nist.gov/" title="National Institute of Standards and Technology"
+            class="nist-header__logo-link" rel="home">
+            <svg aria-hidden="true" class="nist-header__logo-icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                width="24" height="32" viewBox="0 0 24 32">
+                <path
+                    d="M20.911 5.375l-9.482 9.482 9.482 9.482c0.446 0.446 0.446 1.161 0 1.607l-2.964 2.964c-0.446 0.446-1.161 0.446-1.607 0l-13.25-13.25c-0.446-0.446-0.446-1.161 0-1.607l13.25-13.25c0.446-0.446 1.161-0.446 1.607 0l2.964 2.964c0.446 0.446 0.446 1.161 0 1.607z">
+                </path>
+            </svg>
+            <svg class="nist-header__logo-image" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                viewBox="-237 385.7 109.7 29.3">
+                <title>National Institute of Standards and Technology</title>
+                <g>
+                    <path class="st0" d="M-231,415h-6v-23.1c0,0,0-4.4,4.4-5.8c4-1.3,6.6,1.3,6.6,1.3l19.7,21.3c1,0.6,1.4,0,1.4-0.6v-22h6.1V409
+              c0,1.9-1.6,4.4-4,5.3c-2.4,0.9-4.9,0.9-7.9-1.7l-18.5-20c-0.5-0.5-1.8-0.6-1.8,0.4L-231,415L-231,415z"></path>
+                    <path class="st0" d="M-195,386.1h6.1v20.7c0,2.2,1.9,2.2,3.6,2.2h26.8c1.1,0,2.4-1.3,2.4-2.7c0-1.4-1.3-2.8-2.5-2.8H-176
+              c-3,0.1-9.2-2.7-9.2-8.5c0-7.1,5.9-8.8,8.6-9h49.4v6.1h-12.3V415h-6v-22.9h-30.2c-2.9-0.2-4.9,4.7-0.2,5.4h18.6
+              c2.8,0,7.4,2.4,7.5,8.4c0,6.1-3.6,9-7.5,9H-185c-4.5,0-6.2-1.1-7.8-2.5c-1.5-1.5-1.7-2.3-2.2-5.3L-195,386.1
+              C-194.9,386.1-195,386.1-195,386.1z"></path>
+                </g>
+            </svg>
+        </a>
+    
+    </header>
+  
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+
+          
+          
+          <a class="nccoe-logo"  href="#" aria-label="NIST | National Cybersecurity Center of Excellence (NCCoE)">
+            <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+            <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3.org/2000/svg" xml:space="preserve" enable-background="new 75 0 245 75"
+              viewBox="75 0 245 75" height="82.323px" width="273.268px" y="0px" x="0px" class="nccoe-logo-svg"
+              version="1.1">
+              <style type="text/css">
+                .nccoe-logo-svg .st0 {
+                  fill: #4F8BBE;
+                }
+
+                .nccoe-logo-svg .st1 {
+                  fill: none;
+                }
+
+                .nccoe-logo-svg .st2 {
+                  fill: #818286;
+                }
+
+                .nccoe-logo-svg .st3 {
+                  fill: #D3AF73;
+                }
+
+                .nccoe-logo-svg .st4 {
+                  fill: #E89824;
+                }
+
+                .nccoe-logo-svg .st5 {
+                  fill: #10659C;
+                }
+
+                .nccoe-logo-svg .st6 {
+                  fill: none;
+                  stroke: #000000;
+                  stroke-width: 1.0443;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-miterlimit: 10;
+                }
+              </style>
+              <g>
+                <g>
+                  <path d="M79.1,51.4h-3.4V38.1c0,0,0-2.5,2.5-3.3c2.3-0.7,3.8,0.7,3.8,0.7l11.3,12.3c0.6,0.4,0.8,0,0.8-0.4V34.8h3.5V48
+          			c0,1.1-0.9,2.5-2.3,3.1c-1.3,0.5-2.8,0.5-4.6-1L80.1,38.5c-0.3-0.3-1-0.3-1,0.3V51.4L79.1,51.4z"></path>
+                  <path d="M99.8,34.8h3.5v11.9c0,1.3,1,1.3,2.1,1.3h15.4c0.6,0,1.4-0.8,1.4-1.5c0-0.8-0.7-1.6-1.4-1.6h-10c-1.7,0.1-5.3-1.5-5.3-4.9
+          			c0-4.1,3.4-5,4.9-5.2h28.4v3.5h-7.1v13.1h-3.4V38.3h-17.4c-1.7-0.1-2.8,2.7-0.1,3.1h10.7c1.6,0,4.3,1.4,4.3,4.8
+          			c0,3.5-2.1,5.2-4.3,5.2h-15.8c-2.6,0-3.5-0.6-4.5-1.5c-0.9-0.8-1-1.3-1.3-3.1V34.8L99.8,34.8z"></path>
+                </g>
+              </g>
+              <rect x="158.3" y="42.8" class="st0" width="4.1" height="1"></rect>
+              <rect x="174" y="43" class="st0" width="16.8" height="0.5"></rect>
+              <path class="st1" d="M172.6,34.4c-4.9,0-8.9,4-8.9,8.9c0,4.9,4,8.9,8.9,8.9c2.8,0,5.4-1.3,7-3.4l-4.5-5.1c-0.3,1-1.3,1.8-2.4,1.8
+          	c-1.4,0-2.5-1.1-2.5-2.5s1.1-2.5,2.5-2.5c1.1,0,2,0.7,2.4,1.7l4.3-4.6C177.6,35.6,175.2,34.4,172.6,34.4z"></path>
+              <path class="st1" d="M172.6,29.5c-7.6,0-13.7,6.2-13.7,13.7S165,57,172.6,57c4.1,0,7.8-1.8,10.3-4.7l-1.7-1.9c-2.1,2.5-5.2,4-8.6,4
+          	c-6.2,0-11.3-5.1-11.3-11.3c0-6.2,5.1-11.3,11.3-11.3c3.3,0,6.3,1.4,8.4,3.7l1.6-1.7C180.1,31.2,176.5,29.5,172.6,29.5z">
+              </path>
+              <path class="st1" d="M172.1,25.1c-10,0-18.2,8.2-18.2,18.2c0,10,8.2,18.2,18.2,18.2c5.4,0,10.2-2.3,13.5-6l-2-2.2
+          	c-2.7,3-6.7,5-11.1,5c-8.3,0-15-6.7-15-15s6.7-15,15-15c4.3,0,8.1,1.8,10.8,4.7l2-2.1C182,27.3,177.3,25.1,172.1,25.1z">
+              </path>
+              <path class="st0" d="M172.6,52.1c-4.9,0-8.9-4-8.9-8.9c0-4.9,4-8.9,8.9-8.9c2.7,0,5,1.2,6.7,3l1.7-1.8c-2.1-2.3-5-3.7-8.4-3.7
+          	c-6.2,0-11.3,5.1-11.3,11.3c0,6.2,5.1,11.3,11.3,11.3c3.5,0,6.6-1.6,8.6-4l-1.7-1.9C177.9,50.8,175.4,52.1,172.6,52.1z">
+              </path>
+              <path class="st2"
+                d="M172.6,57c-7.6,0-13.7-6.2-13.7-13.7s6.2-13.7,13.7-13.7c3.9,0,7.5,1.7,10,4.3l0.8-0.9
+          	c-2.7-2.9-6.6-4.7-10.8-4.7c-8.3,0-15,6.7-15,15s6.7,15,15,15c4.4,0,8.4-1.9,11.1-5l-0.8-0.9C180.4,55.2,176.7,57,172.6,57z"></path>
+              <path class="st3" d="M172.1,61.4c-10,0-18.2-8.2-18.2-18.2c0-10,8.2-18.2,18.2-18.2c5.2,0,9.9,2.2,13.2,5.7l0.3-0.4
+          	c-3.4-3.6-8.2-5.8-13.5-5.8c-10.3,0-18.6,8.3-18.6,18.6c0,10.3,8.3,18.6,18.6,18.6c5.5,0,10.4-2.4,13.8-6.1l-0.3-0.4
+          	C182.3,59.1,177.5,61.4,172.1,61.4z"></path>
+              <path class="st4" d="M175,42.4c-0.4-1-1.3-1.7-2.4-1.7c-1.4,0-2.5,1.1-2.5,2.5c0,1.4,1.1,2.5,2.5,2.5c1.1,0,2.1-0.8,2.4-1.8
+          	c0.1-0.2,0.1-0.5,0.1-0.8C175.2,42.9,175.1,42.6,175,42.4z"></path>
+              <g>
+                <path class="st5" d="M190.9,28.8l1.5,0L195,33c0.2,0.4,0.5,1,0.5,1l0,0c0,0,0-0.8,0-1.3l0-3.9l1.5,0l0,7.5l-1.5,0l-2.6-4.1
+          		c-0.2-0.4-0.5-1-0.5-1h0c0,0,0,0.8,0,1.3l0,3.9l-1.5,0L190.9,28.8z"></path>
+                <path class="st5" d="M200.2,28.8l1.6,0l2.7,7.5l-1.6,0l-0.5-1.6l-2.7,0l-0.5,1.6l-1.5,0L200.2,28.8z M200,33.5l2,0l-0.7-2.2
+          		c-0.1-0.4-0.3-1.2-0.3-1.2h0c0,0-0.2,0.8-0.3,1.2L200,33.5z"></path>
+                <path class="st5" d="M203.7,28.8l6,0l0,1.3l-2.3,0l0,6.2l-1.5,0l0-6.2l-2.3,0L203.7,28.8z"></path>
+                <path class="st5" d="M210.5,28.7l1.5,0l0,7.5l-1.5,0L210.5,28.7z"></path>
+                <path class="st5" d="M212.9,32.5c0-2.2,1.4-3.9,3.6-3.9c2.2,0,3.6,1.7,3.6,3.9s-1.4,3.9-3.6,3.9C214.4,36.4,212.9,34.7,212.9,32.5z
+          		 M218.6,32.5c0-1.5-0.7-2.7-2.1-2.7c-1.4,0-2.1,1.2-2.1,2.7c0,1.5,0.7,2.7,2.1,2.6C217.9,35.1,218.6,33.9,218.6,32.5z">
+                </path>
+                <path class="st5" d="M221,28.7l1.5,0l2.5,4.2c0.2,0.4,0.5,1,0.5,1h0c0,0,0-0.8,0-1.3l0-3.9l1.5,0l0,7.5l-1.5,0L223,32
+          		c-0.2-0.4-0.5-1-0.5-1h0c0,0,0,0.8,0,1.3l0,3.9l-1.5,0L221,28.7z"></path>
+                <path class="st5" d="M230.2,28.6l1.6,0l2.7,7.5l-1.6,0l-0.5-1.6l-2.7,0l-0.5,1.6l-1.5,0L230.2,28.6z M230,33.4l2,0l-0.7-2.2
+          		c-0.1-0.4-0.3-1.2-0.3-1.2h0c0,0-0.2,0.8-0.3,1.2L230,33.4z"></path>
+                <path class="st5" d="M235.1,28.6l1.5,0l0,6.2l3.5,0l0,1.3l-5,0L235.1,28.6z"></path>
+                <path class="st5" d="M190.7,43.1c0-2.2,1.4-3.9,3.6-3.9c1.8,0,2.9,1.1,3.1,2.5l-1.5,0c-0.1-0.8-0.7-1.2-1.6-1.2c-1.4,0-2,1.2-2,2.7
+          		c0,1.5,0.8,2.6,2.1,2.6c0.9,0,1.5-0.5,1.6-1.3l1.5,0c0,0.7-0.3,1.3-0.8,1.8c-0.5,0.5-1.2,0.8-2.3,0.8
+          		C192.2,47,190.7,45.4,190.7,43.1z"></path>
+                <path class="st5" d="M199.7,43.9l-2.5-4.6l1.7,0l1.1,2.2c0.2,0.4,0.5,1.1,0.5,1.1h0c0,0,0.3-0.6,0.5-1.1l1.1-2.2l1.6,0l-2.5,4.6
+          		l0,2.9l-1.5,0L199.7,43.9z"></path>
+                <path class="st5" d="M204.4,39.3l3.4,0c0.8,0,1.4,0.2,1.8,0.5c0.4,0.4,0.6,0.8,0.6,1.4c0,0.8-0.5,1.3-1.2,1.5v0
+          		c0.8,0.2,1.4,0.9,1.4,1.9c0,0.7-0.2,1.2-0.7,1.6c-0.4,0.4-1.1,0.6-1.9,0.6l-3.4,0L204.4,39.3z M207.5,42.3c0.7,0,1.1-0.3,1.1-0.9
+          		c0-0.6-0.4-0.9-1.1-0.9l-1.7,0l0,1.8L207.5,42.3z M205.9,45.5l1.8,0c0.7,0,1.2-0.4,1.2-1c0-0.7-0.5-1.1-1.2-1.1l-1.7,0L205.9,45.5z
+          		"></path>
+                <path class="st5" d="M211.2,39.2l5.5,0l0,1.3l-4,0l0,1.7l3.5,0l0,1.2l-3.5,0l0,2l4,0l0,1.3l-5.6,0L211.2,39.2z">
+                </path>
+                <path class="st5" d="M217.7,39.2l3.4,0c1.4,0,2.4,0.8,2.4,2.1c0,0.9-0.4,1.6-1.4,1.8l0,0c0.7,0.2,1.1,0.6,1.2,1.5
+          		c0.1,1.1,0.1,1.9,0.3,2v0.1l-1.5,0c-0.2-0.1-0.2-0.9-0.3-1.7c-0.1-0.8-0.5-1.3-1.5-1.3l-1.2,0l0,3l-1.5,0L217.7,39.2z M219.3,42.5
+          		l1.6,0c0.8,0,1.2-0.4,1.2-1c0-0.6-0.4-1.1-1.2-1.1l-1.7,0L219.3,42.5z"></path>
+                <path class="st5" d="M224.3,44.3l1.5,0c0.1,0.9,0.6,1.3,1.7,1.3c0.8,0,1.5-0.3,1.5-1c0-0.7-0.7-0.9-1.9-1.1
+          		c-1.3-0.3-2.6-0.6-2.6-2.2c0-1.5,1.2-2.3,2.9-2.3c1.7,0,2.8,0.8,2.9,2.3l-1.5,0c-0.1-0.8-0.7-1.1-1.5-1.1c-0.8,0-1.4,0.4-1.4,0.9
+          		c0,0.6,0.5,0.8,1.6,1c1.5,0.3,2.8,0.7,2.8,2.3c0,1.5-1.2,2.4-2.9,2.4C225.5,46.8,224.3,45.9,224.3,44.3z"></path>
+                <path class="st5" d="M231.3,39.1l5.5,0l0,1.3l-4,0l0,1.7l3.5,0l0,1.2l-3.5,0l0,2l4,0l0,1.3l-5.6,0L231.3,39.1z">
+                </path>
+                <path class="st5" d="M237.4,42.9c0-2.2,1.4-3.9,3.6-3.9c1.8,0,2.9,1.1,3.1,2.5l-1.5,0c-0.1-0.8-0.7-1.2-1.6-1.2c-1.4,0-2,1.2-2,2.7
+          		c0,1.5,0.8,2.6,2.1,2.6c0.9,0,1.5-0.5,1.6-1.3l1.5,0c0,0.7-0.3,1.3-0.8,1.8c-0.5,0.5-1.2,0.8-2.3,0.8
+          		C238.9,46.8,237.4,45.1,237.4,42.9z"></path>
+                <path class="st5" d="M244.8,44.2l0-5.1l1.5,0l0,5.1c0,0.8,0.4,1.3,1.4,1.3c1,0,1.4-0.6,1.4-1.3l0-5.1l1.5,0l0,5.1
+          		c0,1.6-1,2.5-2.9,2.6C245.8,46.7,244.8,45.8,244.8,44.2z"></path>
+                <path class="st5" d="M251.7,39l3.4,0c1.4,0,2.4,0.8,2.4,2.1c0,0.9-0.4,1.6-1.4,1.8l0,0c0.7,0.2,1.1,0.6,1.2,1.5
+          		c0.1,1.1,0.1,1.9,0.3,2v0.1l-1.5,0c-0.2-0.1-0.2-0.9-0.3-1.7c-0.1-0.8-0.5-1.3-1.5-1.3l-1.2,0l0,3l-1.5,0L251.7,39z M253.3,42.3
+          		l1.6,0c0.8,0,1.2-0.4,1.2-1c0-0.6-0.4-1.1-1.2-1.1l-1.7,0L253.3,42.3z"></path>
+                <path class="st5" d="M258.6,39l1.5,0l0,7.5l-1.5,0L258.6,39z"></path>
+                <path class="st5" d="M260.9,39l6,0l0,1.3l-2.3,0l0,6.2l-1.5,0l0-6.2l-2.3,0L260.9,39z"></path>
+                <path class="st5" d="M269.8,43.6l-2.5-4.6l1.7,0l1.1,2.2c0.2,0.5,0.5,1.1,0.5,1.1l0,0c0,0,0.3-0.6,0.5-1.1l1.1-2.2l1.6,0l-2.5,4.6
+          		l0,2.9l-1.5,0L269.8,43.6z"></path>
+                <path class="st5" d="M190.9,53.6c0-2.2,1.3-3.9,3.5-3.9c1.8,0,2.8,1,3,2.4l-0.9,0c-0.2-0.9-0.9-1.6-2.1-1.6c-1.6,0-2.6,1.3-2.6,3.1
+          		c0,1.8,1,3.1,2.6,3.1c1.4,0,2.1-1,2.2-2.1l0.9,0c0,0.7-0.4,1.6-0.9,2.1c-0.5,0.5-1.3,0.8-2.2,0.8C192.3,57.5,190.9,55.8,190.9,53.6
+          		z"></path>
+                <path class="st5" d="M198.6,49.8l5.3,0l0,0.8l-4.4,0l0,2.4l4,0l0,0.8l-4,0l0,2.6l4.5,0l0,0.9l-5.4,0L198.6,49.8z">
+                </path>
+                <path class="st5" d="M205.1,49.8l1,0l3.4,5.2c0.3,0.4,0.6,1,0.6,1h0l0-6.2l0.9,0l0,7.5l-1,0l-3.5-5.2c-0.2-0.4-0.6-0.9-0.6-0.9h0
+          		l0,6.2l-0.9,0L205.1,49.8z"></path>
+                <path class="st5" d="M211.9,49.7l5.9,0l0,0.8l-2.5,0l0,6.7l-0.9,0l0-6.7l-2.5,0L211.9,49.7z"></path>
+                <path class="st5" d="M218.8,49.7l5.3,0l0,0.8l-4.4,0l0,2.4l4,0l0,0.8l-4,0l0,2.6l4.5,0l0,0.9l-5.4,0L218.8,49.7z">
+                </path>
+                <path class="st5" d="M225.4,49.7l3.5,0c1.3,0,2.2,0.8,2.2,2c0,0.9-0.4,1.6-1.3,1.9v0c0.8,0.3,1,0.8,1.1,1.9
+          		c0.1,1.2,0.2,1.5,0.4,1.6l0,0l-1,0c-0.2-0.1-0.2-0.4-0.3-1.7c-0.1-1.1-0.5-1.5-1.5-1.5l-2.1,0l0,3.2l-0.9,0L225.4,49.7z
+          		 M226.3,53.2l2.2,0c1,0,1.6-0.5,1.6-1.4c0-0.9-0.4-1.4-1.5-1.4l-2.3,0L226.3,53.2z"></path>
+                <path class="st5" d="M233.6,53.4c0-2.2,1.4-3.9,3.7-3.9s3.7,1.7,3.7,3.9c0,2.2-1.4,3.9-3.7,3.9S233.6,55.6,233.6,53.4z M240,53.3
+          		c0-1.8-1-3.1-2.7-3.1s-2.7,1.3-2.7,3.1s1,3.1,2.7,3.1S240,55.1,240,53.3z"></path>
+                <path class="st5" d="M242.1,49.6l5.1,0l0,0.8l-4.1,0l0,2.3l3.5,0l0,0.8l-3.5,0l0,3.5l-0.9,0L242.1,49.6z"></path>
+                <path class="st5" d="M249.8,49.5l5.3,0l0,0.8l-4.4,0l0,2.4l4,0l0,0.8l-4,0l0,2.6l4.5,0l0,0.9l-5.4,0L249.8,49.5z">
+                </path>
+                <path class="st5"
+                  d="M258.4,53.2l-2.4-3.7l1.1,0l1.9,3h0l1.9-3l1,0l-2.4,3.7L262,57l-1.1,0l-1.9-3.2h0l-2,3.2l-1.1,0L258.4,53.2z">
+                </path>
+                <path class="st5" d="M261.9,53.2c0-2.2,1.3-3.9,3.5-3.9c1.8,0,2.8,1,3,2.4l-0.9,0c-0.2-0.9-0.9-1.6-2.1-1.6c-1.6,0-2.6,1.3-2.6,3.1
+          		c0,1.8,1,3.1,2.6,3.1c1.4,0,2.1-1,2.2-2.1l0.9,0c0,0.7-0.4,1.6-0.9,2.1c-0.5,0.5-1.3,0.8-2.2,0.8C263.3,57.1,261.9,55.5,261.9,53.2
+          		z"></path>
+                <path class="st5" d="M269.6,49.5l5.3,0l0,0.8l-4.4,0l0,2.4l4,0l0,0.8l-4,0l0,2.6l4.5,0l0,0.9l-5.4,0L269.6,49.5z">
+                </path>
+                <path class="st5" d="M276.2,49.4l0.9,0l0,6.6l3.9,0l0,0.9l-4.9,0L276.2,49.4z"></path>
+                <path class="st5" d="M282,49.4l0.9,0l0,6.6l3.9,0l0,0.9l-4.9,0L282,49.4z"></path>
+                <path class="st5" d="M287.8,49.4l5.3,0l0,0.8l-4.4,0l0,2.4l4,0l0,0.8l-4,0l0,2.6l4.5,0l0,0.9l-5.4,0L287.8,49.4z">
+                </path>
+                <path class="st5" d="M294.3,49.3l1,0l3.4,5.2c0.3,0.4,0.6,1,0.6,1h0l0-6.2l0.9,0l0,7.5l-1,0l-3.5-5.2c-0.2-0.4-0.6-0.9-0.6-0.9h0
+          		l0,6.2l-0.9,0L294.3,49.3z"></path>
+                <path class="st5"
+                  d="M301.3,53.1c0-2.2,1.3-3.9,3.5-3.9c1.8,0,2.8,1,3,2.4l-0.9,0c-0.2-0.9-0.9-1.6-2.1-1.6c-1.6,0-2.6,1.3-2.6,3.1
+          		c0,1.8,1,3.1,2.6,3.1c1.4,0,2.1-1,2.2-2.1l0.9,0c0,0.7-0.4,1.6-0.9,2.1c-0.5,0.5-1.3,0.8-2.2,0.8C302.7,57,301.3,55.3,301.3,53.1z">
+                </path>
+                <path class="st5" d="M309,49.3l5.3,0l0,0.8l-4.4,0l0,2.4l4,0l0,0.8l-4,0l0,2.6l4.5,0l0,0.9l-5.4,0L309,49.3z"></path>
+              </g>
+              <polyline class="st6" points="143.9,24.8 143.9,40 148.6,42.7 143.9,45.5 143.9,61.2 "></polyline>
+
+            </svg>
+          </a>
+          <a class="project-title" href="#">
+          Migration to Post-Quantum Cryptography
+          </a>
+
+          <a class="project-page-link" href="https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc">
+            Go to Project Page
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search" aria-label="Search" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Frequently Asked Questions about Post-Quantum Cryptography</a><ul>
+<li><a class="reference internal" href="#awareness-and-preparation">Awareness and Preparation</a><ul>
+<li><a class="reference internal" href="#what-is-post-quantum-cryptography-pqc">What is Post-Quantum Cryptography (PQC)?</a></li>
+<li><a class="reference internal" href="#what-are-some-other-terms-used-to-describe-post-quantum-cryptography">What are some other terms used to describe post-quantum cryptography?</a><ul>
+<li><a class="reference internal" href="#quantum-readiness">“Quantum-Readiness”</a></li>
+<li><a class="reference internal" href="#quantum-resistant">“Quantum-Resistant”</a></li>
+<li><a class="reference internal" href="#quantum-safe">“Quantum-Safe”</a></li>
+<li><a class="reference internal" href="#quantum-secure">“Quantum Secure”</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#when-will-a-cryptanalytically-relevant-quantum-computer-exist">When will a cryptanalytically relevant quantum computer exist?</a></li>
+<li><a class="reference internal" href="#where-can-i-learn-more-about-the-critical-need-to-counter-the-threat-to-public-key-cryptography-from-a-cryptanalytically-relevant-quantum-computer">Where can I learn more about the critical need to counter the threat to public key cryptography from a cryptanalytically relevant quantum computer?</a></li>
+<li><a class="reference internal" href="#what-is-cryptographic-agility">What is cryptographic agility?</a></li>
+<li><a class="reference internal" href="#what-u-s-government-policies-memorandums-and-standards-discuss-migration-to-pqc">What U.S. government policies, memorandums, and standards discuss migration to PQC?</a><ul>
+<li><a class="reference internal" href="#what-are-some-additional-u-s-government-resources">What are some additional U.S. government resources?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#what-are-some-international-resources-perspectives-and-posts-regarding-pqc">What are some international resources, perspectives, and posts regarding PQC?</a><ul>
+<li><a class="reference internal" href="#what-are-some-additional-international-resources">What are some additional international resources?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#what-are-some-sector-specific-pqc-resources">What are some Sector-Specific PQC Resources?</a><ul>
+<li><a class="reference internal" href="#financial-services-sector">Financial Services Sector</a></li>
+<li><a class="reference internal" href="#information-technology-sector">Information Technology Sector</a></li>
+<li><a class="reference internal" href="#telecom">Telecom</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#what-is-meant-by-denial-of-migration">What is meant by “Denial of Migration”?</a></li>
+<li><a class="reference internal" href="#what-can-i-read-as-a-technical-decision-maker-to-help-me-evaluate-how-and-when-my-organization-s-environments-need-to-react-to-the-security-threat-posed-by-the-development-of-quantum-computers">What can I read as a technical decision-maker to help me evaluate how and when my organization’s environments need to react to the security threat posed by the development of quantum computers?</a></li>
+<li><a class="reference internal" href="#is-there-a-free-online-platform-that-walks-you-from-understanding-the-threat-to-deploying-quantum-resistant-cryptography-step-by-step">Is there a free online platform that walks you from understanding the threat to deploying quantum-resistant cryptography step by step?</a></li>
+<li><a class="reference internal" href="#is-there-a-document-that-explains-why-engineers-need-to-be-aware-of-and-understand-post-quantum-cryptography-pqc-detailing-the-impact-of-crqcs-on-existing-systems-and-the-challenges-involved-in-transitioning-to-post-quantum-algorithms">Is there a document that explains why engineers need to be aware of and understand post-quantum cryptography (PQC), detailing the impact of CRQCs on existing systems and the challenges involved in transitioning to post-quantum algorithms?</a></li>
+<li><a class="reference internal" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat">What is the harvest now, decrypt later cybersecurity threat?</a></li>
+<li><a class="reference internal" href="#is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later">Is there any testing that reveals the performance price of migrating to post-quantum cryptography and why measuring it now will save you millions later?</a></li>
+<li><a class="reference internal" href="#has-anyone-defined-what-a-cryptographic-inventory-is-and-outlined-a-practical-customer-led-operating-model-for-managing-cryptographic-posture">Has anyone defined what a cryptographic inventory is, and outlined a practical customer-led operating model for managing cryptographic posture?</a></li>
+<li><a class="reference internal" href="#are-there-methodologies-to-manage-the-complexity-of-pqc-migration-for-various-use-cases">Are there methodologies to manage the complexity of PQC migration for various use cases?</a></li>
+<li><a class="reference internal" href="#has-anyone-framed-the-multi-year-upgrade-to-post-quantum-cryptography-in-the-context-of-regular-cybersecurity-operations-so-that-executive-leaders-can-place-it-within-regular-reviews-and-prioritization-discussions">Has anyone framed the multi-year upgrade to post-quantum cryptography in the context of regular cybersecurity operations so that executive leaders can place it within regular reviews and prioritization discussions?</a></li>
+<li><a class="reference internal" href="#are-there-lists-of-software-applications-libraries-and-hardware-that-include-support-for-post-quantum-cryptography">Are there lists of software applications, libraries, and hardware that include support for post-quantum cryptography?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#discovery-and-inventory">Discovery and Inventory</a><ul>
+<li><a class="reference internal" href="#are-there-mandates-for-action-related-to-crqc-readiness-or-migration-to-pqc">Are there mandates for action related to CRQC-readiness or migration to PQC?</a></li>
+<li><a class="reference internal" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">What are some existing tools that can be used for cryptographic inventorying?</a><ul>
+<li><a class="reference internal" href="#open-source-tools">Open source tools</a></li>
+<li><a class="reference internal" href="#nccoe-collaborator-tools">NCCoE collaborator tools</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#is-there-a-guide-to-cryptography-bill-of-materials-cbom-for-post-quantum-systems-and-applications">Is there a Guide to Cryptography Bill of Materials (CBOM) for Post-Quantum Systems and Applications?</a></li>
+<li><a class="reference internal" href="#can-i-use-codeql-for-code-scanning">Can I use CodeQL for code scanning?</a></li>
+<li><a class="reference internal" href="#are-there-any-free-utilities-to-scan-ssh-and-tls-servers">Are there any free utilities to scan SSH and TLS servers?</a></li>
+<li><a class="reference internal" href="#what-can-i-use-for-free-to-test-ssl-tls-enabled-services-to-discover-supported-cipher-suites">What can I use for free to test SSL/TLS enabled services to discover supported cipher suites?</a></li>
+<li><a class="reference internal" href="#what-is-a-cryptographic-inventory">What is a cryptographic inventory?</a></li>
+<li><a class="reference internal" href="#are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level">Are there tools that serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#risk-assessment-and-planning">Risk Assessment and Planning</a><ul>
+<li><a class="reference internal" href="#where-can-you-start-your-migration-to-pqc">Where can you start your migration to PQC?</a></li>
+<li><a class="reference internal" href="#what-are-some-timelines-for-activities-which-organizations-must-carry-out-to-migrate-to-post-quantum-cryptography-in-the-coming-years">What are some timelines for activities which organizations must carry out to migrate to post-quantum cryptography in the coming years?</a></li>
+<li><a class="reference internal" href="#is-there-a-document-that-provides-actionable-guidelines-to-incorporate-crqc-readiness-into-existing-risk-management-frameworks">Is there a document that provides actionable guidelines to incorporate CRQC-readiness into existing risk management frameworks?</a></li>
+<li><a class="reference internal" href="#what-are-the-faqs-on-openssh-post-quantum-cryptography">What are the FAQs on OpenSSH Post-Quantum Cryptography?</a></li>
+<li><a class="reference internal" href="#is-there-a-free-public-scanner-that-observes-pqc-transition-signals-at-the-public-edge-of-any-domain">Is there a free public scanner that observes PQC transition signals at the public edge of any domain?</a></li>
+<li><a class="reference internal" href="#are-there-any-quantum-readiness-surveys">Are there any quantum readiness surveys?</a></li>
+<li><a class="reference internal" href="#are-there-any-industry-newsletters-focused-on-post-quantum-cryptography">Are there any industry newsletters focused on post-quantum cryptography?</a></li>
+<li><a class="reference internal" href="#who-has-changed-their-target-for-becoming-fully-post-quantum-secure">Who has changed their target for becoming fully post-quantum secure?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#migration-execution">Migration Execution</a><ul>
+<li><a class="reference internal" href="#what-does-nist-guidance-say-about-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes">What does NIST guidance say about transitioning from quantum-vulnerable cryptographic algorithms to post-quantum digital signature algorithms and key-establishment schemes?</a></li>
+<li><a class="reference internal" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks">What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration from the current set of public-key cryptographic algorithms to replacement algorithms that are resistant to quantum computer-based attacks?</a><ul>
+<li><a class="reference internal" href="#what-has-the-nccoe-published-regarding-interoperability-and-performance-testing-of-transport-layer-security">What has the NCCoE published regarding interoperability and performance testing of Transport Layer Security?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#what-is-a-hardware-security-module-hsm">What is a Hardware Security Module (HSM)?</a></li>
+<li><a class="reference internal" href="#is-there-a-place-where-one-can-check-to-see-if-one-s-browser-is-offering-post-quantum-encryption-support">Is there a place where one can check to see if one’s browser is offering post-quantum encryption support?</a></li>
+<li><a class="reference internal" href="#what-is-an-example-of-an-all-in-one-software-web-server-load-balancer-reverse-proxy-content-cache-and-api-gateway">What is an example of an all-in-one software web server, load balancer, reverse proxy, content cache, and API gateway?</a></li>
+<li><a class="reference internal" href="#are-there-examples-of-crqc-ready-cryptographic-libraries">Are there examples of CRQC-ready cryptographic libraries?</a></li>
+<li><a class="reference internal" href="#where-can-i-find-advice-on-the-applicability-of-various-post-quantum-cryptographic-algorithms-for-my-use-case">Where can I find advice on the applicability of various post-quantum cryptographic algorithms for my use case?</a></li>
+<li><a class="reference internal" href="#how-are-operating-system-designers-addressing-the-crqc-threat">How are operating system designers addressing the CRQC threat?</a></li>
+<li><a class="reference internal" href="#what-are-some-examples-of-rolling-out-support-for-post-quantum-cryptography-pqc">What are some examples of rolling out support for post-quantum cryptography (PQC)?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#migration-testing">Migration Testing</a><ul>
+<li><a class="reference internal" href="#is-there-a-workshop-on-secure-protocol-implementations-in-the-quantum-era">Is there a workshop on Secure Protocol Implementations in the Quantum Era?</a></li>
+<li><a class="reference internal" href="#how-are-browser-developers-making-https-certificates-secure-against-a-cryptanalytically-relevant-quantum-computer-crqc">How are browser developers making HTTPS certificates secure against a cryptanalytically relevant quantum computer (CRQC)?</a></li>
+<li><a class="reference internal" href="#what-are-some-benchmarks-that-inform-migrating-the-internet-to-post-quantum-key-agreement">What are some benchmarks that inform migrating the Internet to post-quantum key agreement?</a></li>
+<li><a class="reference internal" href="#what-is-an-example-of-early-experimentation-with-post-quantum-cryptography">What is an example of early experimentation with post-quantum cryptography?</a></li>
+<li><a class="reference internal" href="#is-there-a-benchmarking-framework-designed-to-assess-the-computational-and-networking-performance-of-pqc-schemes-across-various-system-architectures">Is there a benchmarking framework designed to assess the computational and networking performance of PQC schemes across various system architectures?</a></li>
+<li><a class="reference internal" href="#who-in-the-u-s-federal-government-is-driving-federal-quantum-readiness-by-preparing-for-the-use-of-post-quantum-cryptography-pqc-to-protect-identities-credentials-and-access-at-enterprise-scale">Who in the U.S. Federal Government is driving federal quantum readiness by preparing for the use of post-quantum cryptography (PQC) to protect identities, credentials, and access at enterprise scale?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#validation-and-monitoring">Validation and Monitoring</a><ul>
+<li><a class="reference internal" href="#what-are-federal-information-processing-standards-fips">What are Federal Information Processing Standards (FIPS)?</a><ul>
+<li><a class="reference internal" href="#what-are-the-current-fips">What are the current FIPS?</a></li>
+<li><a class="reference internal" href="#what-are-the-federal-information-processing-standards-fips-for-pqc">What are the Federal Information Processing Standards (FIPS) for PQC?</a><ul>
+<li><a class="reference internal" href="#key-encapsulation-mechanism">Key Encapsulation Mechanism</a></li>
+<li><a class="reference internal" href="#digital-signatures">Digital Signatures</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#does-nist-have-validation-testing-of-approved-i-e-fips-approved-and-nist-recommended-cryptographic-algorithms-and-their-individual-components">Does NIST have validation testing of approved (i.e., FIPS-approved and NIST-recommended) cryptographic algorithms and their individual components?</a></li>
+<li><a class="reference internal" href="#does-nist-have-a-security-metric-to-use-in-procuring-equipment-containing-validated-cryptographic-modules">Does NIST have a security metric to use in procuring equipment containing validated cryptographic modules?</a></li>
+<li><a class="reference internal" href="#is-there-a-way-to-use-a-suite-of-automated-tools-that-would-permit-organizations-to-perform-testing-of-their-cryptographic-products-according-to-the-requirements-of-fips-140-3-then-directly-report-the-results-to-nist-using-appropriate-protocols">Is there a way to use a suite of automated tools that would permit organizations to perform testing of their cryptographic products according to the requirements of FIPS 140-3, then directly report the results to NIST using appropriate protocols?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Migration to Post-Quantum Cryptography</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Frequently Asked Questions about Post-Quantum Cryptography</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="frequently-asked-questions-about-post-quantum-cryptography">
+<h1>Frequently Asked Questions about Post-Quantum Cryptography<a class="headerlink" href="#frequently-asked-questions-about-post-quantum-cryptography" title="Link to this heading"></a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This page is supplementary material for the <a class="reference external" href="https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms">NIST Migration to Post-Quantum Cryptography Project</a></p>
+</div>
+<p>The NIST National Cybersecurity Center of Excellence, NIST’s Applied Cybersecurity Lab, has established a Migration to Post-Quantum Cryptography (PQC) project that is focused on supporting the use of NIST PQC standards.  We’re working with industry and government stakeholders on two workstreams, and will develop demonstrations in each:</p>
+<ol class="arabic simple">
+<li><p><strong>Cryptographic Visibility and Risk Management</strong>, focused on building and maintaining a comprehensive cryptographic inventory to guide PQC migration.</p></li>
+<li><p><strong>Interoperability and Benchmarking</strong>, supporting the technology and public-key cryptography providers who embed PQC algorithms into their products and services.</p></li>
+</ol>
+<p>We’ve grouped the most common questions into six key phases of the PQC migration journey, guiding you through the transition needed to protect against the threat of a cryptanalytically relevant quantum computer (CRQC).</p>
+<p><strong>Who should use this?</strong> Anyone who uses public key cryptography has been asked to take steps to become CRQC-ready by adopting technologies that use PQC algorithms.</p>
+<p>This FAQ is not an exhaustive list and will be updated periodically.</p>
+<p>Please contribute to the FAQ by using <a class="reference external" href="https://forms.gle/2mQEe97LrG3P4vAN6">this form</a> to submit additional questions, answers, and suggestions.</p>
+<p>If you have anything to further discuss, please contact us at <a class="reference external" href="mailto:applied-crypto-pqc&#37;&#52;&#48;nist&#46;gov">mailto:applied-crypto-pqc<span>&#64;</span>nist<span>&#46;</span>gov</a>.</p>
+<p><strong>Last Updated:</strong> April 28, 2026</p>
+<section id="awareness-and-preparation">
+<h2>Awareness and Preparation<a class="headerlink" href="#awareness-and-preparation" title="Link to this heading"></a></h2>
+<section id="what-is-post-quantum-cryptography-pqc">
+<h3>What is Post-Quantum Cryptography (PQC)?<a class="headerlink" href="#what-is-post-quantum-cryptography-pqc" title="Link to this heading"></a></h3>
+<p>Post-Quantum Cryptography (PQC) refers to cryptographic methods designed to resist attacks from both classical and quantum computers.
+As quantum computers advance, they could potentially break current encryption methods like RSA and elliptic curve cryptography (ECC), which rely on mathematical problems that are difficult for classical computers to solve.
+The aim of PQC is to develop encryption algorithms that remain secure against these emerging threats while still being compatible with existing systems and networks.</p>
+<p>The National Institute of Standards and Technology (NIST) is leading global efforts to standardize these quantum-resistant algorithms to ensure the security of digital communications in the quantum era.</p>
+<p><strong>Additional Resources:</strong> On NIST’s <a class="reference external" href="https://www.nist.gov/cybersecurity/what-post-quantum-cryptography">What Is Post-Quantum Cryptography?</a> webpage, you can learn more about the following:</p>
+<ul class="simple">
+<li><p>What is quantum computing?</p></li>
+<li><p>Why are quantum computers being developed if they can potentially cause so much harm?</p></li>
+<li><p>How does current cryptography work and how would a quantum computer crack it?</p></li>
+<li><p>Why do we need post-quantum encryption and how will PQC algorithms work?</p></li>
+<li><p>If cryptographically relevant quantum computers don’t exist yet, why is developing post-quantum encryption algorithms important now?</p></li>
+<li><p>What is “harvest now, decrypt later”?</p></li>
+<li><p>How did NIST design and select the algorithms it is standardizing?</p></li>
+<li><p>Why is NIST leading the effort to develop PQC standards?</p></li>
+<li><p>What can we be doing now to get ready for cryptanalytically relevant quantum computers?</p></li>
+</ul>
+</section>
+<section id="what-are-some-other-terms-used-to-describe-post-quantum-cryptography">
+<h3>What are some other terms used to describe post-quantum cryptography?<a class="headerlink" href="#what-are-some-other-terms-used-to-describe-post-quantum-cryptography" title="Link to this heading"></a></h3>
+<p>With the growing attention on quantum computing as an emerging technology, compounding the term “quantum” with “readiness”, “resistant”. “safe”, or “secure” has become another way to convey what is being achieved in this cryptographic migration.</p>
+<section id="quantum-readiness">
+<h4>“Quantum-Readiness”<a class="headerlink" href="#quantum-readiness" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Canadian Forum for Digital Infrastructure Resilience (CFDIR), <a class="reference external" href="https://ised-isde.canada.ca/site/spectrum-management-telecommunications/sites/default/files/documents/Quantum-Readiness%20Best%20Practices%20-%20v04%20-%2010%20July%202024.pdf">Canadian National Quantum-Readiness Best Practices and Guidelines</a></p></li>
+<li><p>Cloud Security Alliance, <a class="reference external" href="https://cloudsecurityalliance.org/blog/2024/07/03/quantum-readiness-importance-a-comprehensive-guide">Quantum Readiness Importance: A Comprehensive Guide</a></p></li>
+<li><p>Deloitte, <a class="reference external" href="https://www.deloitte.com/global/en/services/consulting-risk/perspectives/enterprises-consider-practical-steps-toward-quantum-cyber-readiness.html">Quantum Cyber Readiness</a></p></li>
+<li><p>U.S. Cybersecurity and Infrastructure Security Agency (CISA), <a class="reference external" href="https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF">Quantum-Readiness: Migration to Post-Quantum Cryptography</a></p></li>
+</ul>
+</section>
+<section id="quantum-resistant">
+<h4>“Quantum-Resistant”<a class="headerlink" href="#quantum-resistant" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>NIST, <a class="reference external" href="https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms">NIST Announces First Four Quantum-Resistant Cryptographic Algorithms</a></p></li>
+<li><p>The National Cryptologic Foundation, <a class="reference external" href="https://cryptologicfoundation.org/community/conferences/convene/quantum-march-2024.html">Convening to Act: Quantum Resistant Cryptography (QRC) in Software</a></p></li>
+<li><p>Microsoft, <a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsofts-quantum-resistant-cryptography-is-here/4238780">Microsoft’s quantum-resistant cryptography is here</a></p></li>
+<li><p>SSH, <a class="reference external" href="https://www.ssh.com/blog/ssh-in-the-world-of-post-quantum-cryptography">SSH in the World of Post-Quantum Cryptography (PQC)</a></p></li>
+<li><p>Technology Review, <a class="reference external" href="https://www.technologyreview.com/2022/09/14/1059400/explainer-quantum-resistant-algorithms/">What are quantum-resistant algorithms—and why do we need them?</a></p></li>
+<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/blog/post-quantum-cryptography-pqc-competitive-advantage-for-tech-vendors">Why Post-Quantum Cryptography (PQC) is Now a Competitive Advantage for Tech Vendors</a></p></li>
+</ul>
+</section>
+<section id="quantum-safe">
+<h4>“Quantum-Safe”<a class="headerlink" href="#quantum-safe" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>IBM, <a class="reference external" href="https://www.ibm.com/think/topics/quantum-safe-cryptography">What is quantum-safe cryptography?</a></p></li>
+<li><p>European Telecommunications Standards Institute (ESTI), <a class="reference external" href="https://www.etsi.org/technologies/quantum-safe-cryptography">Quantum-Safe Cryptography (QSC)</a></p></li>
+<li><p>Germany’s Federal Office for Information Security (BSI), <a class="reference external" href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/quantentechnologien-und-post-quanten-kryptografie_node.html">Quantum Technologies and Quantum-Safe Cryptography</a></p></li>
+<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/blog/comparing-pqc-and-classical-algorithms">Comparing PQC and Classical Algorithms</a></p></li>
+</ul>
+</section>
+<section id="quantum-secure">
+<h4>“Quantum Secure”<a class="headerlink" href="#quantum-secure" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>World Economic Forum, <a class="reference external" href="https://www.weforum.org/publications/quantum-readiness-toolkit-building-a-quantum-secure-economy/">Quantum Readiness Toolkit: Building a Quantum-Secure Economy</a></p></li>
+</ul>
+</section>
+</section>
+<section id="when-will-a-cryptanalytically-relevant-quantum-computer-exist">
+<h3>When will a cryptanalytically relevant quantum computer exist?<a class="headerlink" href="#when-will-a-cryptanalytically-relevant-quantum-computer-exist" title="Link to this heading"></a></h3>
+<p>Estimates for the development of a cryptanalytically relevant quantum computer (CRQC) vary widely:</p>
+<ul class="simple">
+<li><p><strong>Near-term</strong>: Some believe that CRQCs may emerge by 2030, driven by rapid advancements.</p></li>
+<li><p><strong>Mid-term</strong>: Many anticipate they could become feasible within 15 to 20 years, requiring significant progress in scaling and error correction.</p></li>
+<li><p><strong>Long-term</strong>: Others believe it may take 30+ years due to the challenges of achieving fault-tolerant quantum systems.</p></li>
+</ul>
+<p>Despite uncertainty in when a CRQC will come into existence, experts agree on the importance of preparing for quantum threats now to secure cryptographic systems for the future.</p>
+<p><strong>Additional Resources:</strong> The following resources provide additional assessments of the state of development of current technologies for the realization of a CRQC:</p>
+<ul class="simple">
+<li><p>Germany’s Federal Office for Information Security (BSI), <a class="reference external" href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/Entwicklungsstand-Quantencomputer/entwicklungsstand-quantencomputer_node.html">The status of quantum computer development</a></p></li>
+<li><p>Global Risk Institute, <a class="reference external" href="https://globalriskinstitute.org/publication/2024-quantum-threat-timeline-report/">Quantum Threat Timeline Report 2024</a></p></li>
+<li><p>EvolutionQ, <a class="reference external" href="https://www.evolutionq.com/post/the-quantum-threat-timeline-why-organizations-must-act-now">The Quantum Threat Timeline: Why Organizations Must Act</a></p></li>
+<li><p>Cloud Security Alliance, <a class="reference external" href="https://cloudsecurityalliance.org/research/working-groups/quantum-safe-security">Quantum-safe Security</a></p></li>
+</ul>
+</section>
+<section id="where-can-i-learn-more-about-the-critical-need-to-counter-the-threat-to-public-key-cryptography-from-a-cryptanalytically-relevant-quantum-computer">
+<h3>Where can I learn more about the critical need to counter the threat to public key cryptography from a cryptanalytically relevant quantum computer?<a class="headerlink" href="#where-can-i-learn-more-about-the-critical-need-to-counter-the-threat-to-public-key-cryptography-from-a-cryptanalytically-relevant-quantum-computer" title="Link to this heading"></a></h3>
+<p>The following industry resources advocate for countering this threat:</p>
+<ul class="simple">
+<li><p>U.S. Cybersecurity and Infrastructure Security Agency (CISA), <a class="reference external" href="https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF">Quantum-Readiness: Migration to Post-Quantum Cryptography</a></p></li>
+<li><p>Cloud Security Alliance, <a class="reference external" href="https://cloudsecurityalliance.org/blog/2024/07/03/quantum-readiness-importance-a-comprehensive-guide">Quantum Readiness Importance: A Comprehensive Guide</a></p></li>
+<li><p>Deloitte, <a class="reference external" href="https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2025/deloitte-cryptographic-resilience-community-profile-april-2025.pdf">Cryptographic Resilience: A Cyber Security Framework (CSF) 2.0 Community Profile</a></p></li>
+<li><p>Center for European Policy Studies (CEPS), <a class="reference external" href="https://www.ceps.eu/we-need-to-urgently-strengthen-the-eus-transition-to-a-quantum-safe-world/">We need to urgently strengthen the EU’s transition to a quantum-safe world</a></p></li>
+<li><p>Palo Alto Networks, <a class="reference external" href="https://www.paloaltonetworks.com/cyberpedia/quantum-readiness">Quantum Readiness: What It Means and How to Achieve It</a></p></li>
+<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/blog/cisa-takes-a-major-step-toward-post-quantum-readiness-safelogic">CISA Takes a Major Step Toward Post-Quantum Readiness</a></p></li>
+</ul>
+</section>
+<section id="what-is-cryptographic-agility">
+<h3>What is cryptographic agility?<a class="headerlink" href="#what-is-cryptographic-agility" title="Link to this heading"></a></h3>
+<p>Migration to PQC brings a new focus on developing capabilities to replace crypto assets without disruption. The following are some crypto agility papers:</p>
+<ul class="simple">
+<li><p>DigiCert, <a class="reference external" href="https://www.digicert.com/faq/vulnerability-management/what-is-crypto-agility">What is crypto-agility?</a></p></li>
+<li><p>Financial Services Information Sharing and Analysis Center (FS-ISAC), <a class="reference external" href="https://www.fsisac.com/pqc-crypto-agility">Post Quantum Cryptography (PQC) Building Cryptographic Agility in the Financial Sector</a></p></li>
+<li><p>IBM, <a class="reference external" href="https://www.ibm.com/quantum/blog/crypto-agility">Crypto-agility and quantum-safe readiness</a></p></li>
+<li><p>InfoSec Global, <a class="reference external" href="https://cdn.prod.website-files.com/612fec6a451c71c9308f4b69/614b712e53ce8f7fad0c3c4a_ISG_AgilityUseCases_Whitepaper-FINAL.pdf">Cryptographic Agility in Practice</a></p></li>
+<li><p>NIST, <a class="reference external" href="https://csrc.nist.gov/pubs/cswp/39/considerations-for-achieving-cryptographic-agility/final">NIST Cybersecurity White Paper (CSWP 39), Considerations for Achieving Crypto Agility: Strategies and Practices (Final)</a> discusses approaches to achieve crypto agility while maintaining interoperability.</p></li>
+<li><p>PostQuantum, <a class="reference external" href="https://postquantum.com/post-quantum/introduction-crypto-agility/">Introduction to Crypto-Agility</a></p></li>
+<li><p>Alliance for Telecommunications Industry Solutions (ATIS), <a class="reference external" href="https://atis.org/resources/strategic-framework-for-crypto-agility-and-quantum-risk-assessment/">Strategic Framework for Crypto Agility and Quantum Risk Assessment</a></p></li>
+</ul>
+</section>
+<section id="what-u-s-government-policies-memorandums-and-standards-discuss-migration-to-pqc">
+<h3>What U.S. government policies, memorandums, and standards discuss migration to PQC?<a class="headerlink" href="#what-u-s-government-policies-memorandums-and-standards-discuss-migration-to-pqc" title="Link to this heading"></a></h3>
+<p>The U.S. government’s approach to migrating to PQC is designed to safeguard national security and critical infrastructure against future quantum threats.</p>
+<p>The following bullets offer a timeline that illustrates the directives and resources which were established for use by federal agencies:</p>
+<ul class="simple">
+<li><p>January 2022, <a class="reference external" href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2022/01/19/memorandum-on-improving-the-cybersecurity-of-national-security-department-of-defense-and-intelligence-community-systems/">National Security Memorandum-8 (NSM-8)</a></p>
+<ul>
+<li><p>NSM-8 provides guidance for National Security System (NSS) and related assets that outlines updating the Commercial National Security Algorithm (CNSA) to include quantum-resistant protocols, additional protections for data, migration efforts, and reporting requirements.</p></li>
+</ul>
+</li>
+<li><p>May 2022, <a class="reference external" href="https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/05/04/national-security-memorandum-on-promoting-united-states-leadership-in-quantum-computing-while-mitigating-risks-to-vulnerable-cryptographic-systems/">National Security Memorandum-10 (NSM-10)</a></p>
+<ul>
+<li><p>NSM-10 provides guidance for non-NSS and related assets which outlines the creation of cryptographic migration efforts with NIST NCCoE, the Federal Civilian Executive Branch (FCEB) annual cryptographic inventory of High Value Assets and High Impact Systems reported to CISA, migration efforts and reporting away from Cryptanalytically Relevant Quantum Computer (CRQC) vulnerable cryptography.</p></li>
+</ul>
+</li>
+<li><p>September 2022, <a class="reference external" href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3148990/nsa-releases-future-quantum-resistant-qr-algorithm-requirements-for-national-se/">Announcing the Commercial National Security Algorithm Suite 2.0 (CNSA 2.0)</a></p>
+<ul>
+<li><p>Release of CNSA 2.0 provides guidance for quantum-resistant algorithms (QRAs), timelines, and additional guidance sources for NSS and related assets. FAQ page was updated Dec 2024.</p></li>
+</ul>
+</li>
+<li><p>November 2022, <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/11/M-23-02-M-Memo-on-Migrating-to-Post-Quantum-Cryptography.pdf">Office of Management and Budget M-23-02</a></p>
+<ul>
+<li><p>M-23-02 provides direction for agencies to comply with NSM-10 and further defines what systems/assets and associated information to include in inventories. NIST will establish a mechanism to enable the exchange of PQC testing information and best practices. That mechanism is the <a class="reference external" href="https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms">NCCoE Migration to PQC project</a>.</p></li>
+</ul>
+</li>
+<li><p>December 2022, <a class="reference external" href="https://www.congress.gov/117/plaws/publ260/PLAW-117publ260.pdf">Quantum Computing Cybersecurity Preparedness Act 6 U.S.C. § 1526</a></p>
+<ul>
+<li><p>The Quantum Computer Cybersecurity Preparedness Act reaffirms NSM-10 and M-23-02. It includes requirements for inventory of cryptographic systems, migration to PQC, and reporting in alignment with prior PQC memorandums.</p></li>
+</ul>
+</li>
+<li><p>August 2024, <a class="reference external" href="https://csrc.nist.gov/news/2024/postquantum-cryptography-fips-approved">The Secretary of Commerce approved three Federal Information Processing Standards (FIPS) for post-quantum cryptography</a></p>
+<ul>
+<li><p><a class="reference external" href="https://csrc.nist.gov/pubs/fips/203/final">FIPS 203: ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism Standard)</a></p></li>
+<li><p><a class="reference external" href="https://csrc.nist.gov/pubs/fips/204/final">FIPS 204: ML-DSA (Module-Lattice-Based Digital Signature Standard)</a></p></li>
+<li><p><a class="reference external" href="https://csrc.nist.gov/pubs/fips/205/final">FIPS 205: SLH-DSA (Stateless Hash-Based Digital Signature Standard)</a></p></li>
+</ul>
+</li>
+<li><p>October 2024, <a class="reference external" href="https://csrc.nist.gov/News/2024/pqc-digital-signature-second-round-announcement">NIST Announces 14 Candidates to Advance to the Second Round of the Additional Digital Signatures for the Post-Quantum Cryptography Standardization Process</a></p></li>
+<li><p>November 2024, <a class="reference external" href="https://csrc.nist.gov/news/2024/draft-nist-ir-8547-is-available-for-comment">Transition to Post-Quantum Cryptography Standards | Draft NIST IR 8547 is Available for Comment</a></p></li>
+<li><p>December 2024, <em>Updated</em> <a class="reference external" href="https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/1/CSI_CNSA_2.0_FAQ_.PDF">The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ</a></p></li>
+<li><p>March 2025, <a class="reference external" href="https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption">NIST Selects HQC as Fifth Algorithm for Post-Quantum Encryption</a></p></li>
+</ul>
+<section id="what-are-some-additional-u-s-government-resources">
+<h4>What are some additional U.S. government resources?<a class="headerlink" href="#what-are-some-additional-u-s-government-resources" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Cybersecurity and Infrastructure Security Agency (CISA), <a class="reference external" href="https://www.cisa.gov/quantum">Post-Quantum Cryptography Initiative</a></p></li>
+<li><p>Department of Homeland Security (DHS), <a class="reference external" href="https://www.dhs.gov/quantum">Post-Quantum Cryptography</a></p></li>
+<li><p>Homeland Security Operational Analysis Center (HSOAC), <a class="reference external" href="https://www.rand.org/pubs/research_reports/RRA1367-6.html">Preparing for Post-Quantum Critical Infrastructure: Assessments of Quantum Computing Vulnerabilities of National Critical Functions</a></p></li>
+<li><p>FedRAMP, <a class="reference external" href="https://www.fedramp.gov/rev5/fips/">Policy for Cryptographic Module Selection and Use</a></p></li>
+<li><p>General Services Administration (GSA), <a class="reference external" href="https://www.fedramp.gov/rev5/fips/">Post Quantum Cryptography Buyer’s Guide</a></p></li>
+</ul>
+</section>
+</section>
+<section id="what-are-some-international-resources-perspectives-and-posts-regarding-pqc">
+<h3>What are some international resources, perspectives, and posts regarding PQC?<a class="headerlink" href="#what-are-some-international-resources-perspectives-and-posts-regarding-pqc" title="Link to this heading"></a></h3>
+<p>The following documents represent a timeline view of international perspectives regarding considerations for the transition to PQC.</p>
+<ul class="simple">
+<li><p>July 2020, European Telecommunications Standards Institute (ETSI), <a class="reference external" href="https://www.etsi.org/deliver/etsi_tr/103600_103699/103619/01.01.01_60/tr_103619v010101p.pdf">TR 103 619 - V1.1.1 - CYBER; Migration strategies and recommendations to Quantum Safe schemes</a></p></li>
+<li><p>May 2021, European Union Agency for Cybersecurity (ENISA), <a class="reference external" href="https://www.enisa.europa.eu/publications/post-quantum-cryptography-current-state-and-quantum-mitigation">Post-Quantum Cryptography: Current state and quantum mitigation</a></p></li>
+<li><p>April 2021, The International Telecommunication Union (ITU), <a class="reference external" href="https://www.itu.int/rec/T-REC-X.1811-202104-I">X.1811: Security guidelines for applying quantum-safe algorithms in IMT-2020 systems</a></p></li>
+<li><p>October 2022, ENISA, <a class="reference external" href="https://www.enisa.europa.eu/publications/post-quantum-cryptography-integration-study">Post-Quantum Cryptography - Integration study</a></p></li>
+<li><p>October 2022, ENISA, <a class="reference external" href="https://www.enisa.europa.eu/news/enisa-news/post-quantum-cryptography-anticipating-threats-and-preparing-the-future">Post-Quantum Cryptography: Anticipating Threats and Preparing the Future</a></p></li>
+<li><p>February 2023, Global Systems for Mobile communications Association (GSMA), <a class="reference external" href="https://www.gsma.com/newsroom/wp-content/uploads/PQ.1-Post-Quantum-Telco-Network-Impact-Assessment-Whitepaper-Version1.0.pdf">Post Quantum Telco Network Impact Assessment Whitepaper, Version 1.0</a></p></li>
+<li><p>March 2023, Financial Services Information Sharing and Analysis Center (FS-ISAC), <a class="reference external" href="https://www.fsisac.com/hubfs/Knowledge/PQC/PreparingForAPostQuantumWorldByManagingCryptographicRisk.pdf">Preparing for a Post-Quantum World by Managing Cryptographic Risk</a></p></li>
+<li><p>March 2023, The Netherland’s General Intelligence and Security Service (AIVD), Centrum Wiskunde &amp; Informatica (CWI), and TNO, an independent not-for-profit research organisation, <a class="reference external" href="https://publications.tno.nl/publication/34641918/oicFLj/attema-2023-pqc.pdf">The PQC Migration Handbook</a></p></li>
+<li><p>May 2023, ETSI, <a class="reference external" href="https://www.etsi.org/deliver/etsi_tr/103900_103999/103949/01.01.01_60/tr_103949v010101p.pdf">TR 103 949 - V1.1.1 - Quantum-Safe Cryptography (QSC) Migration; ITS and C-ITS migration study</a></p></li>
+<li><p>August 2023, International Organization for Standardization/International Electrotechnical Commission (ISO/IEC), <a class="reference external" href="https://www.iso.org/standard/77097.html">ISO/IEC 23837-1:2023 - Information security — Security requirements, test and evaluation methods for quantum key distribution — Part 1: Requirements</a></p></li>
+<li><p>September 2023, GSMA, <a class="reference external" href="https://www.gsma.com/get-involved/working-groups/wp-content/uploads/2023/09/Guidelines-for-Quantum-Risk-Management-for-Telco-v1.0.pdf">Guidelines for Quantum Risk Management for Telco, Version 1.0</a></p></li>
+<li><p>March 2024, Internet Engineering Task Force (IETF), <a class="reference external" href="https://datatracker.ietf.org/doc/draft-reddy-uta-pqc-app/">Post-Quantum Cryptography Recommendations for TLS-based Applications</a></p></li>
+<li><p>August 2024, The United Kingdom’s National Cyber Security Centre (NCSC), <a class="reference external" href="https://www.ncsc.gov.uk/whitepaper/next-steps-preparing-for-post-quantum-cryptography">Next steps in preparing for post-quantum cryptography</a></p></li>
+<li><p>October 2024, Germany’s Federal Office for Information Security (BSI), <a class="reference external" href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Crypto/PQC-joint-statement.pdf?__blob=publicationFile&amp;v=3">Securing Tomorrow, Today: Transitioning to Post-Quantum Cryptography</a></p></li>
+<li><p>October 2024, ETSI, <a class="reference external" href="https://www.etsi.org/deliver/etsi_tr/104000_104099/104016/01.01.01_60/tr_104016v010101p.pdf">CYBER; Quantum-Safe Cryptography (QSC); A Repeatable Framework for Quantum-Safe Migrations</a></p></li>
+<li><p>March 2025, ETSI, <a class="reference external" href="https://www.etsi.org/newsroom/press-releases/2513-etsi-launches-new-standard-for-quantum-safe-hybrid-key-exchanges-to-secure-future-post-quantum-encryption">ETSI launches new standard for Quantum-Safe Hybrid Key Exchanges to secure future post-quantum encryption</a></p></li>
+<li><p>June 2025, European Union, Network and Information Systems Cooperation Group, <a class="reference external" href="https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography">A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography - Part 1, Version: 1.1, EU PQC Workstream</a></p></li>
+<li><p>June 2025, Canadian Centre for Cyber Security, <a class="reference external" href="https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001">Roadmap for the migration to post-quantum cryptography for the Govenrment of Canda (ITSM.40.001)</a></p></li>
+<li><p>September 2025, Australian Signals Directorate (ASD), <a class="reference external" href="https://www.cyber.gov.au/business-government/secure-design/planning-for-post-quantum-cryptography">Planning for post-quantum cryptography</a></p></li>
+</ul>
+<section id="what-are-some-additional-international-resources">
+<h4>What are some additional international resources?<a class="headerlink" href="#what-are-some-additional-international-resources" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>GSMA, <a class="reference external" href="https://www.gsma.com/newsroom/post-quantum-government-initiatives-by-country-and-region/">Post Quantum Government Initiatives by Country and Region</a> provides a summary of the existing government and region PQC guidelines (last updated March 2025).</p></li>
+</ul>
+</section>
+</section>
+<section id="what-are-some-sector-specific-pqc-resources">
+<h3>What are some Sector-Specific PQC Resources?<a class="headerlink" href="#what-are-some-sector-specific-pqc-resources" title="Link to this heading"></a></h3>
+<section id="financial-services-sector">
+<h4>Financial Services Sector<a class="headerlink" href="#financial-services-sector" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Financial Services Information Sharing and Analysis Center (FS-ISAC), <a class="reference external" href="https://www.fsisac.com/knowledge/pqc">Post Quantum Cryptography Resources</a></p></li>
+<li><p>X9, <a class="reference external" href="https://x9.org/x9-launches-effort-to-create-post-quantum-cryptography-assessment-guidelines-participants-sought/">Effort to Create Post-Quantum Cryptography Assessment Guidelines</a></p></li>
+<li><p>Bank for International Settlements (BIS), <a class="reference external" href="https://www.bis.org/publ/bppdf/bispap158.pdf">Quantum-readiness for the financial system: a roadmap</a></p></li>
+<li><p>Mastercard, <a class="reference external" href="https://www.mastercard.com/us/en/news-and-trends/Insights/2025/post-quantum-cryptography-white-paper.html">Migration to post-quantum cryptography white paper</a></p></li>
+</ul>
+</section>
+<section id="information-technology-sector">
+<h4>Information Technology Sector<a class="headerlink" href="#information-technology-sector" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Microsoft, <a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsofts-quantum-resistant-cryptography-is-here/4238780">Microsoft’s Quantum-resistant cryptography is here</a></p>
+<ul>
+<li><p><a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-comes-to-windows-insiders-and-linux/4413803">Post-Quantum Cryptography Comes to Windows Insiders and Linux</a></p></li>
+</ul>
+</li>
+<li><p>Google, <a class="reference external" href="https://cloud.google.com/blog/products/identity-security/announcing-quantum-safe-digital-signatures-in-cloud-kms">Announcing quantum-safe digital signatures in Cloud KMS</a></p></li>
+<li><p>Cloudflare, <a class="reference external" href="https://www.cloudflare.com/press-releases/2025/cloudflare-advances-industrys-first-cloud-native-quantum-safe-zero-trust/">Cloudflare Advances Industry’s First Cloud-Native Quantum-Safe Zero Trust Solution</a></p>
+<ul>
+<li><p><a class="reference external" href="https://blog.cloudflare.com/post-quantum-warp/">Securing today for the quantum future: WARP client now supports post-quantum cryptography</a></p></li>
+</ul>
+</li>
+<li><p>Bouncy Castle, <a class="reference external" href="https://downloads.bouncycastle.org/csharp/docs/PQC-Almanac.pdf">A PQC Almanac</a></p></li>
+<li><p>IBM and InfoSec Global, <a class="reference external" href="https://www.ibm.com/new/announcements/ibm-consulting-and-infosec-global-collaborate-on-visibility-control-of-cryptographic-assets">IBM Consulting and InfoSec Global collaborate on visibility and control of cryptographic assets</a></p></li>
+</ul>
+</section>
+<section id="telecom">
+<h4>Telecom<a class="headerlink" href="#telecom" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Global Systems for Mobile communications Association (GSMA), <a class="reference external" href="https://www.gsma.com/newsroom/gsma_resources/pq-03-post-quantum-cryptography-guidelines-for-telecom-use-cases/">PQ.03 Post Quantum Cryptography – Guidelines for Telecom Use Cases v2.0</a></p></li>
+<li><p>Alliance for Telecommunications Industry Solutions (ATIS), <a class="reference external" href="https://cdn.atis.org/atis.org/2025/02/25152429/Preparing-5G-for-the-Quantum-Era-WP-V9.pdf">Preparing 5G for the Quantum Era: An Analysis of 3GPP Architecture and the Transition to Quantum-Resistant Cryptography</a></p></li>
+<li><p>Communications Sector Coordinating Council (CSCC), <a class="reference external" href="https://comms-scc.org/2023/07/31/the-engineer-who-cried-quantum/">Committee Impact Report on Post Quantum Cryptography</a></p></li>
+</ul>
+</section>
+</section>
+<section id="what-is-meant-by-denial-of-migration">
+<h3>What is meant by “Denial of Migration”?<a class="headerlink" href="#what-is-meant-by-denial-of-migration" title="Link to this heading"></a></h3>
+<p>Michael Osborne, CTO of IBM Quantum Safe, suggests that post-quantum cryptography (PQC) migration is being quietly sabotaged by a series of self-inflicted strategic wounds.</p>
+<p>See Michael Osborne’s <a class="reference external" href="https://www.linkedin.com/pulse/denial-pqc-migration-attacks-michael-osborne-d2vde/?trackingId=c5qncCQwtquq7RcLQ6J2lw%3D%3D">Denial of PQC Migration Attacks</a> article.</p>
+</section>
+<section id="what-can-i-read-as-a-technical-decision-maker-to-help-me-evaluate-how-and-when-my-organization-s-environments-need-to-react-to-the-security-threat-posed-by-the-development-of-quantum-computers">
+<h3>What can I read as a technical decision-maker to help me evaluate how and when my organization’s environments need to react to the security threat posed by the development of quantum computers?<a class="headerlink" href="#what-can-i-read-as-a-technical-decision-maker-to-help-me-evaluate-how-and-when-my-organization-s-environments-need-to-react-to-the-security-threat-posed-by-the-development-of-quantum-computers" title="Link to this heading"></a></h3>
+<p>See SSH’s <a class="reference external" href="https://www.ssh.com/academy/cryptography/what-is-quantum-safe-cryptography">What Is Quantum-Safe Cryptography?</a> article.</p>
+</section>
+<section id="is-there-a-free-online-platform-that-walks-you-from-understanding-the-threat-to-deploying-quantum-resistant-cryptography-step-by-step">
+<h3>Is there a free online platform that walks you from understanding the threat to deploying quantum-resistant cryptography step by step?<a class="headerlink" href="#is-there-a-free-online-platform-that-walks-you-from-understanding-the-threat-to-deploying-quantum-resistant-cryptography-step-by-step" title="Link to this heading"></a></h3>
+<p>Yes. See the <a class="reference external" href="https://www.pqctoday.com/">PQC Today</a> platform.</p>
+</section>
+<section id="is-there-a-document-that-explains-why-engineers-need-to-be-aware-of-and-understand-post-quantum-cryptography-pqc-detailing-the-impact-of-crqcs-on-existing-systems-and-the-challenges-involved-in-transitioning-to-post-quantum-algorithms">
+<h3>Is there a document that explains why engineers need to be aware of and understand post-quantum cryptography (PQC), detailing the impact of CRQCs on existing systems and the challenges involved in transitioning to post-quantum algorithms?<a class="headerlink" href="#is-there-a-document-that-explains-why-engineers-need-to-be-aware-of-and-understand-post-quantum-cryptography-pqc-detailing-the-impact-of-crqcs-on-existing-systems-and-the-challenges-involved-in-transitioning-to-post-quantum-algorithms" title="Link to this heading"></a></h3>
+<p>Yes. The Internet Engineering Task Force (IETF) has a draft document on this topic.</p>
+<p>See the IETF Datatracker’s <a class="reference external" href="https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-engineers/">Post-Quantum Cryptography for Engineers</a> draft.</p>
+</section>
+<section id="what-is-the-harvest-now-decrypt-later-cybersecurity-threat">
+<h3>What is the harvest now, decrypt later cybersecurity threat?<a class="headerlink" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat" title="Link to this heading"></a></h3>
+<p>See Palo Alto Networks’ <a class="reference external" href="https://www.paloaltonetworks.com/cyberpedia/harvest-now-decrypt-later-hndl">Harvest Now, Decrypt Later (HNDL)</a> article.</p>
+</section>
+<section id="is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later">
+<h3>Is there any testing that reveals the performance price of migrating to post-quantum cryptography and why measuring it now will save you millions later?<a class="headerlink" href="#is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later" title="Link to this heading"></a></h3>
+<p>Yes. See VIAVI Solutions’ <a class="reference external" href="https://comms.viavisolutions.com/pqc-white-paper-vs13177#:~:text=The%20Hidden%20Cost%20of%20Quantum,operational%20impact%20of%20PQC%20adoption">The Hidden Cost of Quantum-Safe Encryption</a> white paper.</p>
+</section>
+<section id="has-anyone-defined-what-a-cryptographic-inventory-is-and-outlined-a-practical-customer-led-operating-model-for-managing-cryptographic-posture">
+<h3>Has anyone defined what a cryptographic inventory is, and outlined a practical customer-led operating model for managing cryptographic posture?<a class="headerlink" href="#has-anyone-defined-what-a-cryptographic-inventory-is-and-outlined-a-practical-customer-led-operating-model-for-managing-cryptographic-posture" title="Link to this heading"></a></h3>
+<p>Yes. Microsoft has defined cryptographic inventory concepts and outlined a practical customer-led operating model for managing cryptographic posture.</p>
+<p>See Microsoft’s <a class="reference external" href="https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/">Building Your Cryptographic Inventory: A Customer Strategy for Cryptographic Posture Management</a> blog post.</p>
+</section>
+<section id="are-there-methodologies-to-manage-the-complexity-of-pqc-migration-for-various-use-cases">
+<h3>Are there methodologies to manage the complexity of PQC migration for various use cases?<a class="headerlink" href="#are-there-methodologies-to-manage-the-complexity-of-pqc-migration-for-various-use-cases" title="Link to this heading"></a></h3>
+<p>Yes. Meta has published a framework, lessons, and takeaways for managing the complexity of post-quantum cryptography (PQC) migration across various use cases.</p>
+<p>See Meta Engineering’s <a class="reference external" href="https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/">Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways</a> article.</p>
+</section>
+<section id="has-anyone-framed-the-multi-year-upgrade-to-post-quantum-cryptography-in-the-context-of-regular-cybersecurity-operations-so-that-executive-leaders-can-place-it-within-regular-reviews-and-prioritization-discussions">
+<h3>Has anyone framed the multi-year upgrade to post-quantum cryptography in the context of regular cybersecurity operations so that executive leaders can place it within regular reviews and prioritization discussions?<a class="headerlink" href="#has-anyone-framed-the-multi-year-upgrade-to-post-quantum-cryptography-in-the-context-of-regular-cybersecurity-operations-so-that-executive-leaders-can-place-it-within-regular-reviews-and-prioritization-discussions" title="Link to this heading"></a></h3>
+<p>Yes. Deloitte has framed cryptographic resilience, including the multi-year upgrade to post-quantum cryptography, in the context of regular cybersecurity operations, executive reviews, and prioritization discussions. Meta has also published a framework, lessons, and takeaways for managing post-quantum cryptography (PQC) migration across complex organizational use cases.</p>
+<p>See Deloitte’s <a class="reference external" href="https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2025/deloitte-cryptographic-resilience-community-profile-april-2025.pdf">Cryptographic Resilience Community Profile</a> and Meta Engineering’s <a class="reference external" href="https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/">Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways</a> article.</p>
+</section>
+<section id="are-there-lists-of-software-applications-libraries-and-hardware-that-include-support-for-post-quantum-cryptography">
+<h3>Are there lists of software applications, libraries, and hardware that include support for post-quantum cryptography?<a class="headerlink" href="#are-there-lists-of-software-applications-libraries-and-hardware-that-include-support-for-post-quantum-cryptography" title="Link to this heading"></a></h3>
+<p>Yes. There are several resources that list or categorize software applications, libraries, hardware, and product areas that include or may include support for post-quantum cryptography (PQC).</p>
+<ul class="simple">
+<li><p>The PKI Consortium maintains a <a class="reference external" href="https://pkic.org/wg/pqc/pqccm/">Post-Quantum Cryptography Capable Components Matrix</a>.</p></li>
+<li><p>The enterprise infrastructure stack shown on <a class="reference external" href="https://www.pqctoday.com/migrate">PQC Today’s Migration Path</a> webpage lists products for each level in the stack.</p></li>
+<li><p>CISA’s <a class="reference external" href="https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards">Product Categories and Technologies That Use Post-Quantum Cryptography Standards</a> resource identifies categories where PQC products can be found.</p></li>
+</ul>
+</section>
+</section>
+<section id="discovery-and-inventory">
+<h2>Discovery and Inventory<a class="headerlink" href="#discovery-and-inventory" title="Link to this heading"></a></h2>
+<section id="are-there-mandates-for-action-related-to-crqc-readiness-or-migration-to-pqc">
+<h3>Are there mandates for action related to CRQC-readiness or migration to PQC?<a class="headerlink" href="#are-there-mandates-for-action-related-to-crqc-readiness-or-migration-to-pqc" title="Link to this heading"></a></h3>
+<p>The US Government has a mandate for federal agencies about the migration to PQC in <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/11/M-23-02-M-Memo-on-Migrating-to-Post-Quantum-Cryptography.pdf">Office of Management and Budget M-23-02</a>.</p>
+</section>
+<section id="what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">
+<h3>What are some existing tools that can be used for cryptographic inventorying?<a class="headerlink" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying" title="Link to this heading"></a></h3>
+<p>The following tools are not an exhaustive list, but rather ones that are open source or ones that we have in our lab through our collaborators. Please refer to their websites and repositories to learn more about their capabilities.</p>
+<section id="open-source-tools">
+<h4>Open source tools<a class="headerlink" href="#open-source-tools" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/anvilsecure/pqcscan">pqcscan</a> for scanning SSH and TLS servers</p></li>
+<li><p><a class="reference external" href="https://github.com/rbsec/sslscan">sslscan2</a> to test SSL/TLS enabled services to discover supported cipher suites</p></li>
+<li><p><a class="reference external" href="https://crt.sh/">crt.sh</a> to find SSL/TLS certificates issued for specific domains or organizations</p></li>
+<li><p><a class="reference external" href="https://scan.cyberzero.io/">cyberzero PQC Edge Scanner</a> to scan for PQC transition signals at the public edge of any domain</p></li>
+</ul>
+</section>
+<section id="nccoe-collaborator-tools">
+<h4>NCCoE collaborator tools<a class="headerlink" href="#nccoe-collaborator-tools" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.aqtiveguard.com/">SandboxAQ AQtive Guard</a></p></li>
+<li><p><a class="reference external" href="https://datawh.info/">Data-Warehouse PCert</a></p></li>
+<li><p><a class="reference external" href="https://www.keyfactor.com/products/cryptographic-discovery-inventory/">Keyfactor AgileSec</a></p></li>
+<li><p><a class="reference external" href="https://github.com/cisco/mercury/">Cisco Mercury</a> (also open source)</p></li>
+<li><p><a class="reference external" href="https://tychon.io/cryptographic-inventory/">Tychon Cryptographic Inventory</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql">CodeQL</a> (also open source)</p></li>
+</ul>
+</section>
+</section>
+<section id="is-there-a-guide-to-cryptography-bill-of-materials-cbom-for-post-quantum-systems-and-applications">
+<h3>Is there a Guide to Cryptography Bill of Materials (CBOM) for Post-Quantum Systems and Applications?<a class="headerlink" href="#is-there-a-guide-to-cryptography-bill-of-materials-cbom-for-post-quantum-systems-and-applications" title="Link to this heading"></a></h3>
+<p>See CycloneDX’s <a class="reference external" href="https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-CBOM-en.pdf">Authoritative Guide to CBOM</a>.</p>
+</section>
+<section id="can-i-use-codeql-for-code-scanning">
+<h3>Can I use CodeQL for code scanning?<a class="headerlink" href="#can-i-use-codeql-for-code-scanning" title="Link to this heading"></a></h3>
+<p>See GitHub’s <a class="reference external" href="https://github.blog/security/vulnerability-research/addressing-post-quantum-cryptography-with-codeql/">Addressing Post-Quantum Cryptography with CodeQL</a> blog post.</p>
+</section>
+<section id="are-there-any-free-utilities-to-scan-ssh-and-tls-servers">
+<h3>Are there any free utilities to scan SSH and TLS servers?<a class="headerlink" href="#are-there-any-free-utilities-to-scan-ssh-and-tls-servers" title="Link to this heading"></a></h3>
+<p>See Anvil Secure’s <a class="reference external" href="https://github.com/anvilsecure/pqcscan">pqcscan</a> utility.</p>
+</section>
+<section id="what-can-i-use-for-free-to-test-ssl-tls-enabled-services-to-discover-supported-cipher-suites">
+<h3>What can I use for free to test SSL/TLS enabled services to discover supported cipher suites?<a class="headerlink" href="#what-can-i-use-for-free-to-test-ssl-tls-enabled-services-to-discover-supported-cipher-suites" title="Link to this heading"></a></h3>
+<p>See rbsec’s <a class="reference external" href="https://github.com/rbsec/sslscan">sslscan</a> utility.</p>
+</section>
+<section id="what-is-a-cryptographic-inventory">
+<h3>What is a cryptographic inventory?<a class="headerlink" href="#what-is-a-cryptographic-inventory" title="Link to this heading"></a></h3>
+<p>A cryptographic inventory is a descriptive record of the cryptography used across an organization’s systems, applications, services, devices, and data flows. It helps an organization identify where and how cryptography is being used so that cryptographic risks can be managed, policies can be applied consistently, and systems can be prepared for migration to post-quantum cryptography (PQC).</p>
+<p>A cryptographic inventory may include information about:</p>
+<ul class="simple">
+<li><p>Cryptographic algorithms in use, such as RSA, elliptic curve cryptography (ECC), AES, SHA-2, or post-quantum algorithms</p></li>
+<li><p>Cryptographic protocols and services, such as TLS, SSH, VPNs, code signing, email encryption, and certificate-based authentication</p></li>
+<li><p>Cryptographic keys, including key type, owner, associated algorithm, application, expiration date, and lifecycle status, without including the key material itself</p></li>
+<li><p>Certificates and certificate chains</p></li>
+<li><p>Systems, applications, or components that depend on cryptography</p></li>
+<li><p>Data protected by cryptography, especially sensitive or long-lived data that may be vulnerable to “harvest now, decrypt later” threats</p></li>
+</ul>
+<p>Related terms include <strong>cryptographic algorithm inventory</strong>, which focuses specifically on the algorithms in use, and <strong>cryptographic assets</strong>, which may include algorithms, keys, certificates, protocols, libraries, hardware security modules (HSMs), and other components that provide or depend on cryptographic protection.</p>
+<p>Maintaining a cryptographic inventory is an important step in quantum readiness because organizations cannot effectively prioritize or migrate cryptography that they have not identified.</p>
+</section>
+<section id="are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level">
+<h3>Are there tools that serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level?<a class="headerlink" href="#are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level" title="Link to this heading"></a></h3>
+<p>Yes. The PQC Coalition provides a PQC Inventory Workbook that can serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level.</p>
+<p>See the PQC Coalition’s <a class="reference external" href="https://pqcc.org/pqc-inventory-workbook/">PQC Inventory Workbook</a>.</p>
+</section>
+</section>
+<section id="risk-assessment-and-planning">
+<h2>Risk Assessment and Planning<a class="headerlink" href="#risk-assessment-and-planning" title="Link to this heading"></a></h2>
+<section id="where-can-you-start-your-migration-to-pqc">
+<h3>Where can you start your migration to PQC?<a class="headerlink" href="#where-can-you-start-your-migration-to-pqc" title="Link to this heading"></a></h3>
+<p>A good place to start your migration to PQC is to perform cryptographic asset discovery and inventory on your systems.
+Knowing the extent, location, and use of the current cryptography that you have employed will allow you to understand what needs to be migrated.</p>
+<p><strong>Additional Resources:</strong> Some example publications go into further detail on how to perform migration:</p>
+<ul class="simple">
+<li><p>The Netherland’s General Intelligence and Security Service (AIVD), Centrum Wiskunde &amp; Informatica (CWI), and TNO, an independent not-for-profit research organisation, <a class="reference external" href="https://publications.tno.nl/publication/34643386/fXcPVHsX/TNO-2024-pqc-en.pdf,">The PQC Migration Handbook: Guidelines for Migrating to Post-Quantum Cryptography, Revised and Extended Second Edition, December 2024</a></p></li>
+<li><p>Canadian Forum for Digital Infrastructure Resilience (CFDIR), <a class="reference external" href="https://ised-isde.canada.ca/site/spectrum-management-telecommunications/sites/default/files/documents/Quantum-Readiness%20Best%20Practices%20-%20v04%20-%2010%20July%202024.pdf">Chapter Three of Canadian National Quantum-Readiness: Best Practices and Guidelines, version 04, July 2024</a></p></li>
+<li><p>European Telecommunications Standards Institute (ETSI),  <a class="reference external" href="https://www.etsi.org/deliver/etsi_tr/104000_104099/104016/01.01.01_60/tr_104016v010101p.pdf">TR 104 016 V1.1.1 – CYBER; Quantum-Safe Cryptography (QSC); A Repeatable Framework for Quantum-Safe Migrations</a></p></li>
+<li><p>MITRE’s Post-Quantum Cryptography Coalition (PQCC), <a class="reference external" href="https://pqcc.org/post-quantum-cryptography-migration-roadmap/">Post-Quantum Cryptography (PQC) Migration Roadmap</a></p>
+<ul>
+<li><p><a class="reference external" href="https://pqcc.org/pqc-inventory-workbook/">PQC Inventory Workbook</a></p></li>
+</ul>
+</li>
+<li><p>Public Key Infrastructure Consortium (PKIC), <a class="reference external" href="https://pkic.org/pqccm">PQC Capabilities Matrix (PQCCM)</a></p></li>
+</ul>
+</section>
+<section id="what-are-some-timelines-for-activities-which-organizations-must-carry-out-to-migrate-to-post-quantum-cryptography-in-the-coming-years">
+<h3>What are some timelines for activities which organizations must carry out to migrate to post-quantum cryptography in the coming years?<a class="headerlink" href="#what-are-some-timelines-for-activities-which-organizations-must-carry-out-to-migrate-to-post-quantum-cryptography-in-the-coming-years" title="Link to this heading"></a></h3>
+<p>The following resources give information related to timelines and milestones for migrating to PQC:</p>
+<ul class="simple">
+<li><p>NIST, <a class="reference external" href="https://csrc.nist.gov/pubs/ir/8547/ipd">IR 8547 (Initial Public Draft) Transition to Post-Quantum Cryptography Standards</a></p></li>
+<li><p>NSA, <a class="reference external" href="https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF">The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ</a></p></li>
+<li><p>The United Kingdom’s National Cyber Security Center, <a class="reference external" href="https://www.ncsc.gov.uk/guidance/pqc-migration-timelines">Timelines for migration to post-quantum cryptography</a></p></li>
+<li><p>Canadian Centre for Cyber Security, <a class="reference external" href="https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001">Roadmap for the migration to post-quantum cryptography for the Govenrment of Canda (ITSM.40.001)</a></p></li>
+</ul>
+</section>
+<section id="is-there-a-document-that-provides-actionable-guidelines-to-incorporate-crqc-readiness-into-existing-risk-management-frameworks">
+<h3>Is there a document that provides actionable guidelines to incorporate CRQC-readiness into existing risk management frameworks?<a class="headerlink" href="#is-there-a-document-that-provides-actionable-guidelines-to-incorporate-crqc-readiness-into-existing-risk-management-frameworks" title="Link to this heading"></a></h3>
+<p>Here are some documents that discuss actionable guidelines:</p>
+<ul class="simple">
+<li><p>Europol, <a class="reference external" href="https://www.europol.europa.eu/cms/sites/default/files/documents/Post-quantum-cryptography-report.pdf">Prioritising Post-Quantum Cryptography Migration Activities in Financial Services</a></p></li>
+<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/resources/checklists/continuous-pqc-remediation">Continuous PQC Remediation Checklist</a></p></li>
+</ul>
+</section>
+<section id="what-are-the-faqs-on-openssh-post-quantum-cryptography">
+<h3>What are the FAQs on OpenSSH Post-Quantum Cryptography?<a class="headerlink" href="#what-are-the-faqs-on-openssh-post-quantum-cryptography" title="Link to this heading"></a></h3>
+<p>See FAQ on OpenSSH’s <a class="reference external" href="https://www.openssh.org/pq.html">Post-Quantum Cryptography</a> webpage.</p>
+</section>
+<section id="is-there-a-free-public-scanner-that-observes-pqc-transition-signals-at-the-public-edge-of-any-domain">
+<h3>Is there a free public scanner that observes PQC transition signals at the public edge of any domain?<a class="headerlink" href="#is-there-a-free-public-scanner-that-observes-pqc-transition-signals-at-the-public-edge-of-any-domain" title="Link to this heading"></a></h3>
+<p>Yes. See CyberZero’s <a class="reference external" href="https://scan.cyberzero.io">PQC Public Scanner</a>.</p>
+</section>
+<section id="are-there-any-quantum-readiness-surveys">
+<h3>Are there any quantum readiness surveys?<a class="headerlink" href="#are-there-any-quantum-readiness-surveys" title="Link to this heading"></a></h3>
+<p>Yes. See Citi’s <a class="reference external" href="https://www.citibank.com/tts/surveys/2025/2362659-quantum-readiness/form.jsp">Quantum Readiness Survey</a>.</p>
+<p>Note that using this survey provides information to Citi. It is shared here as a model that organizations may wish to adapt for use with their own suppliers.</p>
+</section>
+<section id="are-there-any-industry-newsletters-focused-on-post-quantum-cryptography">
+<h3>Are there any industry newsletters focused on post-quantum cryptography?<a class="headerlink" href="#are-there-any-industry-newsletters-focused-on-post-quantum-cryptography" title="Link to this heading"></a></h3>
+<p>Yes. PQShield has a newsletter sign-up at the bottom of its <a class="reference external" href="https://pqshield.com/post-quantum-cryptography-companies/">Post-Quantum Cryptography Companies</a> webpage.</p>
+</section>
+<section id="who-has-changed-their-target-for-becoming-fully-post-quantum-secure">
+<h3>Who has changed their target for becoming fully post-quantum secure?<a class="headerlink" href="#who-has-changed-their-target-for-becoming-fully-post-quantum-secure" title="Link to this heading"></a></h3>
+<p>Cloudflare and Google have changed their timelines or targets for becoming fully post-quantum secure.</p>
+<p>See Cloudflare’s <a class="reference external" href="https://blog.cloudflare.com/post-quantum-roadmap/">Post-Quantum Roadmap</a> blog post and Google’s <a class="reference external" href="https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/">Cryptography Migration Timeline</a> blog post.</p>
+</section>
+</section>
+<section id="migration-execution">
+<h2>Migration Execution<a class="headerlink" href="#migration-execution" title="Link to this heading"></a></h2>
+<section id="what-does-nist-guidance-say-about-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes">
+<h3>What does NIST guidance say about transitioning from quantum-vulnerable cryptographic algorithms to post-quantum digital signature algorithms and key-establishment schemes?<a class="headerlink" href="#what-does-nist-guidance-say-about-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes" title="Link to this heading"></a></h3>
+<p><a class="reference external" href="https://doi.org/10.6028/NIST.IR.8547.ipd">NIST IR 8547 (Initial Public Draft) Transition to Post-Quantum Cryptography Standards</a>
+identifies existing quantum-vulnerable cryptographic standards and the current quantum-resistant standards that will be used in the migration.
+This report should inform the efforts and timelines of federal agencies, industry, and standards organizations for migrating information technology products, services, and infrastructure to PQC.
+Comments received on this draft will be used to revise this transition plan and feed into other algorithm-specific and application-specific guidance for the transition to PQC.</p>
+<p>The following questions are addressed in NIST IR 8547:</p>
+<ul class="simple">
+<li><p>Where are the quantum-vulnerable algorithms in NIST’s existing cryptographic standards as well as the post-quantum algorithm standards that have been recently published?</p>
+<ul>
+<li><p>See section 2 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are some migration considerations and use cases?</p>
+<ul>
+<li><p>See section 3 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What is the transition plan for quantum-vulnerable algorithms?</p>
+<ul>
+<li><p>See Section 4.1 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are the post-quantum security categories?</p>
+<ul>
+<li><p>See Table 1 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are the quantum-vulnerable digital signature algorithms?</p>
+<ul>
+<li><p>See Table 2 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are the post-quantum digital signature algorithms?</p>
+<ul>
+<li><p>See Table 3 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are the quantum-vulnerable key-establishment schemes?</p>
+<ul>
+<li><p>See Table 4 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are the post-quantum key-establishment schemes?</p>
+<ul>
+<li><p>See Table 5 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are security strength bit minimums for AES (FIPS 197)?</p>
+<ul>
+<li><p>See Table 6 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+<li><p>What are the collision security strength, collision security categories, preimage security strength, and preimage security categories for hash functions and eXtendable-Output Functions (XOFs)?</p>
+<ul>
+<li><p>See Table 7 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks">
+<h3>What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration from the current set of public-key cryptographic algorithms to replacement algorithms that are resistant to quantum computer-based attacks?<a class="headerlink" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks" title="Link to this heading"></a></h3>
+<section id="what-has-the-nccoe-published-regarding-interoperability-and-performance-testing-of-transport-layer-security">
+<h4>What has the NCCoE published regarding interoperability and performance testing of Transport Layer Security?<a class="headerlink" href="#what-has-the-nccoe-published-regarding-interoperability-and-performance-testing-of-transport-layer-security" title="Link to this heading"></a></h4>
+<p>The Transport Layer Security (TLS) protocol is arguably the most deployed online security protocol, so it is critical to make sure it supports post-quantum protection.
+Moreover, its wide use makes it a prime target for harvest-now-decrypt-later attacks.
+It is therefore no surprise that TLS has been one of the first protocols on which PQC was prototyped.</p>
+<p>See Section 6 “Transport Layer Security” in the <a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf">Preliminary Draft NIST SPECIAL PUBLICATION 1800-38C Migration to Post-Quantum Cryptography Quantum Readiness: Testing Draft Standards</a> to see interoperability and performance results performed before December 2023 using the draft PQC KEM standards.</p>
+</section>
+</section>
+<section id="what-is-a-hardware-security-module-hsm">
+<h3>What is a Hardware Security Module (HSM)?<a class="headerlink" href="#what-is-a-hardware-security-module-hsm" title="Link to this heading"></a></h3>
+<p>A Hardware Security Module (HSM) is a purpose-built physical security device designed to:</p>
+<ul class="simple">
+<li><p>Generate cryptographic keys securely</p></li>
+<li><p>Protect those keys throughout their entire lifecycle</p></li>
+<li><p>Perform sensitive cryptographic operations inside secure hardware</p></li>
+</ul>
+<p>See Crypto4A’s <a class="reference external" href="https://crypto4a.com/resources/newsroom/2026-02-09-what-is-a-hardware-security-module?utm_source=LinkedIn&amp;utm_medium=social&amp;utm_campaign=linkedin_leads_blog_HSM">What Is a Hardware Security Module?</a> article.</p>
+</section>
+<section id="is-there-a-place-where-one-can-check-to-see-if-one-s-browser-is-offering-post-quantum-encryption-support">
+<h3>Is there a place where one can check to see if one’s browser is offering post-quantum encryption support?<a class="headerlink" href="#is-there-a-place-where-one-can-check-to-see-if-one-s-browser-is-offering-post-quantum-encryption-support" title="Link to this heading"></a></h3>
+<p>See Cloudflare Radar’s <a class="reference external" href="https://radar.cloudflare.com/post-quantum">Post-Quantum Encryption</a> webpage.</p>
+</section>
+<section id="what-is-an-example-of-an-all-in-one-software-web-server-load-balancer-reverse-proxy-content-cache-and-api-gateway">
+<h3>What is an example of an all-in-one software web server, load balancer, reverse proxy, content cache, and API gateway?<a class="headerlink" href="#what-is-an-example-of-an-all-in-one-software-web-server-load-balancer-reverse-proxy-content-cache-and-api-gateway" title="Link to this heading"></a></h3>
+<p>F5 NGINX Plus is an example of an all-in-one software web server, load balancer, reverse proxy, content cache, and API gateway.</p>
+<p>See F5’s <a class="reference external" href="https://community.f5.com/kb/technicalarticles/f5-nginx-plus-r33-release-now-available/336403">NGINX Plus R33 Release Now Available</a> article.</p>
+</section>
+<section id="are-there-examples-of-crqc-ready-cryptographic-libraries">
+<h3>Are there examples of CRQC-ready cryptographic libraries?<a class="headerlink" href="#are-there-examples-of-crqc-ready-cryptographic-libraries" title="Link to this heading"></a></h3>
+<p>Yes. See IDEMIA’s <a class="reference external" href="https://www.idemia.com/quantum-ready-cryptographic-libraries">Quantum-Ready Cryptographic Libraries</a> webpage.</p>
+</section>
+<section id="where-can-i-find-advice-on-the-applicability-of-various-post-quantum-cryptographic-algorithms-for-my-use-case">
+<h3>Where can I find advice on the applicability of various post-quantum cryptographic algorithms for my use case?<a class="headerlink" href="#where-can-i-find-advice-on-the-applicability-of-various-post-quantum-cryptographic-algorithms-for-my-use-case" title="Link to this heading"></a></h3>
+<p>See TNO’s <a class="reference external" href="https://tno.github.io/PQChoiceAssistant/">PQChoiceAssistant</a>.</p>
+</section>
+<section id="how-are-operating-system-designers-addressing-the-crqc-threat">
+<h3>How are operating system designers addressing the CRQC threat?<a class="headerlink" href="#how-are-operating-system-designers-addressing-the-crqc-threat" title="Link to this heading"></a></h3>
+<p>Operating system designers are addressing the cryptanalytically relevant quantum computer (CRQC) threat by implementing post-quantum cryptography (PQC) in operating systems and related security protocols.</p>
+<p>See Google’s <a class="reference external" href="https://security.googleblog.com/2026/03/post-quantum-cryptography-in-android.html">Security for the Quantum Era: Implementing Post-Quantum Cryptography in Android</a> blog post.</p>
+</section>
+<section id="what-are-some-examples-of-rolling-out-support-for-post-quantum-cryptography-pqc">
+<h3>What are some examples of rolling out support for post-quantum cryptography (PQC)?<a class="headerlink" href="#what-are-some-examples-of-rolling-out-support-for-post-quantum-cryptography-pqc" title="Link to this heading"></a></h3>
+<p>Examples of organizations rolling out support for post-quantum cryptography (PQC) include:</p>
+<ul class="simple">
+<li><p>Akamai rolled out support for PQC in Ghost to Origin (G2O) connections using Transport Layer Security (TLS) version 1.3.</p></li>
+<li><p>Cloudflare has published updates on its ongoing PQC deployment work.</p></li>
+<li><p>Google Cloud has described how it is helping customers prepare for a quantum-safe future.</p></li>
+<li><p>Microsoft has made post-quantum cryptography APIs generally available on Microsoft platforms.</p></li>
+<li><p>OpenSSL 3.5 includes support relevant to post-quantum cryptography adoption.</p></li>
+</ul>
+<p>See Akamai’s <a class="reference external" href="https://www.akamai.com/blog/security/post-quantum-cryptography-implementation-considerations-tls#:~:text=On%20June%2030%2C%202025%2C%20Akamai,post%2Dquantum%20traditional%20hybrid%20scheme">Post-Quantum Cryptography Implementation Considerations for TLS</a> article, Cloudflare’s <a class="reference external" href="https://blog.cloudflare.com/pq-2025/">Post-Quantum 2025</a> blog post, Google Cloud’s <a class="reference external" href="https://cloud.google.com/blog/products/identity-security/how-were-helping-customers-prepare-for-a-quantum-safe-future">How We’re Helping Customers Prepare for a Quantum-Safe Future</a> blog post, Microsoft’s <a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-apis-now-generally-available-on-microsoft-platforms/4469093">Post-Quantum Cryptography APIs Now Generally Available on Microsoft Platforms</a> blog post, and OpenSSL’s <a class="reference external" href="https://openssl-library.org/post/2025-04-08-openssl-35-final-release/">OpenSSL 3.5 Final Release</a> announcement.</p>
+</section>
+</section>
+<section id="migration-testing">
+<h2>Migration Testing<a class="headerlink" href="#migration-testing" title="Link to this heading"></a></h2>
+<section id="is-there-a-workshop-on-secure-protocol-implementations-in-the-quantum-era">
+<h3>Is there a workshop on Secure Protocol Implementations in the Quantum Era?<a class="headerlink" href="#is-there-a-workshop-on-secure-protocol-implementations-in-the-quantum-era" title="Link to this heading"></a></h3>
+<p>See the <a class="reference external" href="https://spiqe.cool/cfp/">Secure Protocol Implementations in the Quantum Era (SPIQE)</a> workshop webpage.</p>
+</section>
+<section id="how-are-browser-developers-making-https-certificates-secure-against-a-cryptanalytically-relevant-quantum-computer-crqc">
+<h3>How are browser developers making HTTPS certificates secure against a cryptanalytically relevant quantum computer (CRQC)?<a class="headerlink" href="#how-are-browser-developers-making-https-certificates-secure-against-a-cryptanalytically-relevant-quantum-computer-crqc" title="Link to this heading"></a></h3>
+<p>Chrome, in collaboration with other partners, is developing an evolution of HTTPS certificates based on Merkle Tree Certificates (MTCs). This work is currently in development in the PLANTS working group.</p>
+<p>See Google’s <a class="reference external" href="https://security.googleblog.com/2026/02/cultivating-robust-and-efficient.html">Cultivating Robust and Efficient Post-Quantum TLS Certificates</a> blog post.</p>
+</section>
+<section id="what-are-some-benchmarks-that-inform-migrating-the-internet-to-post-quantum-key-agreement">
+<h3>What are some benchmarks that inform migrating the Internet to post-quantum key agreement?<a class="headerlink" href="#what-are-some-benchmarks-that-inform-migrating-the-internet-to-post-quantum-key-agreement" title="Link to this heading"></a></h3>
+<p>See Cloudflare’s <a class="reference external" href="https://blog.cloudflare.com/pq-2024/#ml-kem-versus-x25519">Post-Quantum 2024</a> blog post.</p>
+</section>
+<section id="what-is-an-example-of-early-experimentation-with-post-quantum-cryptography">
+<h3>What is an example of early experimentation with post-quantum cryptography?<a class="headerlink" href="#what-is-an-example-of-early-experimentation-with-post-quantum-cryptography" title="Link to this heading"></a></h3>
+<p>Google’s 2016 experiment with post-quantum cryptography is an example of early experimentation with post-quantum cryptography.</p>
+<p>See Google’s <a class="reference external" href="https://security.googleblog.com/2016/07/experimenting-with-post-quantum.html">Experimenting with Post-Quantum Cryptography</a> blog post.</p>
+</section>
+<section id="is-there-a-benchmarking-framework-designed-to-assess-the-computational-and-networking-performance-of-pqc-schemes-across-various-system-architectures">
+<h3>Is there a benchmarking framework designed to assess the computational and networking performance of PQC schemes across various system architectures?<a class="headerlink" href="#is-there-a-benchmarking-framework-designed-to-assess-the-computational-and-networking-performance-of-pqc-schemes-across-various-system-architectures" title="Link to this heading"></a></h3>
+<p>Yes. See the IEEE article <a class="reference external" href="https://ieeexplore.ieee.org/document/11410195#full-text-section">A Benchmarking Framework for Post-Quantum Cryptography</a>.</p>
+</section>
+<section id="who-in-the-u-s-federal-government-is-driving-federal-quantum-readiness-by-preparing-for-the-use-of-post-quantum-cryptography-pqc-to-protect-identities-credentials-and-access-at-enterprise-scale">
+<h3>Who in the U.S. Federal Government is driving federal quantum readiness by preparing for the use of post-quantum cryptography (PQC) to protect identities, credentials, and access at enterprise scale?<a class="headerlink" href="#who-in-the-u-s-federal-government-is-driving-federal-quantum-readiness-by-preparing-for-the-use-of-post-quantum-cryptography-pqc-to-protect-identities-credentials-and-access-at-enterprise-scale" title="Link to this heading"></a></h3>
+<p>The Federal Identity, Credential, and Access Management (FICAM) program is helping to lead federal efforts to prepare for post-quantum cryptography (PQC) to protect identities, credentials, and access at enterprise scale.</p>
+<p>See FICAM’s <a class="reference external" href="https://www.idmanagement.gov/pqc/">Post-Quantum Cryptography (PQC)</a> webpage.</p>
+</section>
+</section>
+<section id="validation-and-monitoring">
+<h2>Validation and Monitoring<a class="headerlink" href="#validation-and-monitoring" title="Link to this heading"></a></h2>
+<section id="what-are-federal-information-processing-standards-fips">
+<h3>What are Federal Information Processing Standards (FIPS)?<a class="headerlink" href="#what-are-federal-information-processing-standards-fips" title="Link to this heading"></a></h3>
+<p>FIPS are standards for federal computer systems that are developed by (NIST) and approved by the Secretary of Commerce in accordance with the Information Technology Management Reform Act of 1996 and Computer Security Act of 1987.
+These standards are developed when there are no acceptable industry standards or solutions for a particular government requirement.
+Although FIPS are developed for use by the Federal Government, many in the private sector voluntarily use these standards.</p>
+<section id="what-are-the-current-fips">
+<h4>What are the current FIPS?<a class="headerlink" href="#what-are-the-current-fips" title="Link to this heading"></a></h4>
+<p>The list of current FIPS—those that have been published, plus draft FIPS posted for comment—can be found on NIST’s <a class="reference external" href="https://csrc.nist.gov/publications/fips">Computer Security Resource Center (CSRC)</a>.</p>
+</section>
+<section id="what-are-the-federal-information-processing-standards-fips-for-pqc">
+<h4>What are the Federal Information Processing Standards (FIPS) for PQC?<a class="headerlink" href="#what-are-the-federal-information-processing-standards-fips-for-pqc" title="Link to this heading"></a></h4>
+<p><strong>There are currently three finalized Federal Information Processing Standards (FIPS) for Post-Quantum Cryptography:</strong></p>
+<ul class="simple">
+<li><p><strong>FIPS 203:</strong> <a class="reference external" href="https://csrc.nist.gov/pubs/fips/203/final">Module-Lattice-Based Key-Encapsulation Mechanism Standard</a></p></li>
+<li><p><strong>FIPS 204:</strong> <a class="reference external" href="https://csrc.nist.gov/pubs/fips/204/final">Module-Lattice-Based Digital Signature Standard</a></p></li>
+<li><p><strong>FIPS 205:</strong> <a class="reference external" href="https://csrc.nist.gov/pubs/fips/205/final">Stateless Hash-Based Digital Signature Standard</a></p></li>
+</ul>
+<p>These standards specify key establishment and digital signature schemes that are designed to resist future attacks by quantum computers, which threaten the security of current standards.
+The three algorithms specified in these standards are each derived from different submissions to the <a class="reference external" href="https://csrc.nist.gov/Projects/post-quantum-cryptography">NIST Post-Quantum Cryptography Standardization Project</a>.</p>
+<section id="key-encapsulation-mechanism">
+<h5>Key Encapsulation Mechanism<a class="headerlink" href="#key-encapsulation-mechanism" title="Link to this heading"></a></h5>
+<p>FIPS 203 specifies a cryptographic scheme called the Module-Lattice-Based Key-Encapsulation Mechanism Standard, which is derived from the CRYSTALS-KYBER submission.
+A key encapsulation mechanism (KEM) is a particular type of key establishment scheme that can be used to establish a shared secret key between two parties communicating over a public channel.</p>
+<p>Current NIST-approved key establishment schemes are specified in NIST Special Publications (SP):  <a class="reference external" href="https://csrc.nist.gov/pubs/sp/800/56/a/r3/final">SP 800-56A, Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm-Based Cryptography</a>, and <a class="reference external" href="https://csrc.nist.gov/pubs/sp/800/56/b/r2/final">SP 800-56B, Recommendation for Pair-Wise Key-Establishment Schemes Using Integer Factorization Cryptography</a>.</p>
+<p>NIST has also chosen Hamming Quasi-Cyclic (HQC) to be standardized.
+NIST will develop a standard based on HQC to augment its key-establishment portfolio.</p>
+</section>
+<section id="digital-signatures">
+<h5>Digital Signatures<a class="headerlink" href="#digital-signatures" title="Link to this heading"></a></h5>
+<p>FIPS 204 and 205 each specify digital signature schemes, which are used to detect unauthorized modifications to data and to authenticate the identity of the signatory.
+FIPS 204 specifies the Module-Lattice-Based Digital Signature Standard, which is derived from the CRYSTALS-Dilithium submission.
+FIPS 205 specifies the Stateless Hash-Based Digital Signature Standard, which is derived from the SPHINCS+ submission.</p>
+<p>Current NIST-approved digital signature schemes are specified in <a class="reference external" href="https://csrc.nist.gov/pubs/fips/186-5/final">FIPS 186-5, Digital Signature Standard</a>, and <a class="reference external" href="https://csrc.nist.gov/pubs/sp/800/208/final">SP 800-208, Recommendation for Stateful Hash-Based Signature Schemes</a>.</p>
+<p>NIST is also developing a FIPS that specifies a digital signature algorithm derived from FALCON as an additional alternative to these standards.</p>
+</section>
+</section>
+<section id="does-nist-have-validation-testing-of-approved-i-e-fips-approved-and-nist-recommended-cryptographic-algorithms-and-their-individual-components">
+<h4>Does NIST have validation testing of approved (i.e., FIPS-approved and NIST-recommended) cryptographic algorithms and their individual components?<a class="headerlink" href="#does-nist-have-validation-testing-of-approved-i-e-fips-approved-and-nist-recommended-cryptographic-algorithms-and-their-individual-components" title="Link to this heading"></a></h4>
+<p>NIST’s <a class="reference external" href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program">Cryptographic Algorithm Validation Program (CAVP)</a> offers two Automated Cryptographic Validation Test Systems (ACVTS) for interested users to test cryptographic algorithm implementations.
+A Demo ACVTS server is available at no cost to interested parties. More information on accessing the ACVTS can be found the CAVP page on <a class="reference external" href="https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/how-to-access-acvts">Accessing the ACVTS</a>.</p>
+<p>The Production ACVTS server is only available to National Voluntary Laboratory Accreditation Program (NVLAP) accredited testing laboratories, and is the only way to create algorithm validation certificates listed on the <a class="reference external" href="https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/validation-search">Algorithm Validation Search Page</a>.
+The CAVP, through ACVTS, will generate test vectors to match the capabilities of a given implementation under test. The CAVP is not responsible for running those test vectors through the implementation.</p>
+<p>Example: <a class="reference external" href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/validation-search?searchMode=validation&amp;productType=-1&amp;algorithm=179&amp;ipp=25">CAVP List of Validated PQC Algorithms</a></p>
+</section>
+<section id="does-nist-have-a-security-metric-to-use-in-procuring-equipment-containing-validated-cryptographic-modules">
+<h4>Does NIST have a security metric to use in procuring equipment containing validated cryptographic modules?<a class="headerlink" href="#does-nist-have-a-security-metric-to-use-in-procuring-equipment-containing-validated-cryptographic-modules" title="Link to this heading"></a></h4>
+<p>NIST’s <a class="reference external" href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">Cryptographic Module Validation Program (CMVP)</a> aims to promote the use of validated cryptographic modules and provide Federal agencies with a security metric to use in procuring equipment containing validated cryptographic modules.</p>
+</section>
+<section id="is-there-a-way-to-use-a-suite-of-automated-tools-that-would-permit-organizations-to-perform-testing-of-their-cryptographic-products-according-to-the-requirements-of-fips-140-3-then-directly-report-the-results-to-nist-using-appropriate-protocols">
+<h4>Is there a way to use a suite of automated tools that would permit organizations to perform testing of their cryptographic products according to the requirements of FIPS 140-3, then directly report the results to NIST using appropriate protocols?<a class="headerlink" href="#is-there-a-way-to-use-a-suite-of-automated-tools-that-would-permit-organizations-to-perform-testing-of-their-cryptographic-products-according-to-the-requirements-of-fips-140-3-then-directly-report-the-results-to-nist-using-appropriate-protocols" title="Link to this heading"></a></h4>
+<p>NIST’s NCCoE has an <a class="reference external" href="https://pages.nist.gov/ACMVPDocs/overview.html">Automation of the NIST Cryptographic Module Validation Project</a>.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <div class="page-footer">
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p></p>
+  </div>
+</div>
+        </div>
+      </div>
+      <footer class="nist-footer">
+  <div class="nist-footer__inner">
+    <div class="nist-footer__menu" role="navigation">
+      <ul>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy-policy">Site Privacy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/accessibility">Accessibility</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/privacy">Privacy Program</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/oism/copyrights">Copyrights</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/vulnerability-disclosure-policy">Vulnerability Disclosure</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/no-fear-act-policy">No Fear Act Policy</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/foia">FOIA</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.nist.gov/environmental-policy-statement">Environmental Policy</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/summary-report-scientific-integrity">Scientific Integrity</a>
+        </li>
+        <li class="nist-footer__menu-item ">
+          <a href="https://www.nist.gov/nist-information-quality-standards">Information Quality Standards</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.commerce.gov/">Commerce.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.science.gov/">Science.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://www.usa.gov/">USA.gov</a>
+        </li>
+        <li class="nist-footer__menu-item">
+          <a href="https://vote.gov/">Vote.gov</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="nist-footer__logo">
+    <a href="https://www.nist.gov/" title="National Institute of Standards and Technology" class="nist-footer__logo-link" rel="home">
+      <img src="https://pages.nist.gov/nist-header-footer/images/nist_logo_brand_white.svg" alt="National Institute of Standards and Technology logo">
+    </a>
+  </div>
+</footer>
+    </section>
+  </div>
+  <script>
+    (function () {
+      document.addEventListener(
+        "click",
+        function (e) {
+          const current = e.target.closest(".rst-current-version");
+          if (!current) return;
+
+          const versions = document.querySelector(".rst-versions");
+          if (!versions) return;
+
+          versions.classList.toggle("shift-up");
+        },
+        true // capture: works even if something stops propagation later
+      );
+    })();
+  </script>
+  
+  <script>
+      // expose collapse_navigation theme option to runtime JS so theme scripts can
+      // decide whether to expand first-level toctree entries automatically.
+      window.themeCollapseNavigation = false;
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+    <!-- Old DAP UA tag -->
+    <script async type="text/javascript" id="_fed_an_ua_tag"
+        src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NIST&subagency=github&pua=UA-66610693-1&yt=true&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c">
+    </script> 
+
+</body>
+</html>

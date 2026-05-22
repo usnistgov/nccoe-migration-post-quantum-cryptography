@@ -1,0 +1,47 @@
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.rst-content h1 {
+  font-size: 280%;
+  font-weight: bold
+}
+
+.rst-content h2 {
+  font-size: 220%;
+}
+
+.rst-content h3 {
+  font-size: 180%;
+}
+
+.rst-content h4 {
+  font-size: 150%;
+}
+
+.rst-content h5 {
+  font-size: 125%;
+}
+
+.rst-content h6 {
+  font-size: 105%;
+}
+
+.wy-menu-vertical a {
+  font-size: 100%;
+}
+
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+  font-size: 95%;
+}
+
+.wy-side-nav-search .project-title {
+  font-size: 160%;
+}
+
+
+.wy-menu-vertical a {
+  font-size: 105%;
+}
