@@ -42,6 +42,14 @@ The following bullets offer a timeline that illustrates the directives and resou
 
 *	March 2025, `NIST Selects HQC as Fifth Algorithm for Post-Quantum Encryption <https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption>`_ 
 
+*   June 2026, `Securing the Nation Against Advanced Cryptographic Attacks \(EO-14412\) <https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/>`_
+
+    *   EO-14412 mandates an accelerated, government-wide migration to PQC for federal systems, establishing binding deadlines for high-value assets and directing the Federal Acquisition Regulatory Council to require contractor compliance with NIST PQC standards.
+
+*   June 2026, `Ushering in the Next Frontier of Quantum Innovation \(EO-14413\) <https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/>`_ 
+
+    *   EO-14413 establishes a national effort to develop a science-enabling quantum computer, directs the update of the National Quantum Strategy, and mandates the creation of domestic quantum workforce development institutes, advanced quantum sensing/networking plans, and strategies to strengthen domestic quantum supply chains.
+
 
 What are some additional U.S. government resources?
 +++++++++++++++++++++++++++++++++++++++++++++++++++
