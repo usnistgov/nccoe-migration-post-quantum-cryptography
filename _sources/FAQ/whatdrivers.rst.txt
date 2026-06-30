@@ -8,7 +8,7 @@ The following industry resources advocate for countering this threat:
 
 *   Cloud Security Alliance, `Quantum Readiness Importance: A Comprehensive Guide <https://cloudsecurityalliance.org/blog/2024/07/03/quantum-readiness-importance-a-comprehensive-guide>`_
 
-*   Deloitte, `Cryptographic Resilience: A Cyber Security Framework \(CSF\) 2.0 Community Profile <https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2025/deloitte-cryptographic-resilience-community-profile-april-2025.pdf>`_
+*   Deloitte, `Cryptographic Resilience: A Cyber Security Framework \(CSF\) 2.0 Community Profile <https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2026/deloitte-cryptographic-resilience-community.pdf>`_
 
 *   Center for European Policy Studies \(CEPS\), `We need to urgently strengthen the EU's transition to a quantum-safe world <https://www.ceps.eu/we-need-to-urgently-strengthen-the-eus-transition-to-a-quantum-safe-world/>`_
 
