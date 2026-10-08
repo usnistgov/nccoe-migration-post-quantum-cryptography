@@ -8,3 +8,5 @@ There are a few resources from different organizations that can help you underst
 *   CycloneDX, `Authoritative Guide to CBOM <https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-CBOM-en.pdf>`_.
 
 *   QuSecure, `Cryptographic bill of Materials (CBOM): Continuous Cryptographic Visibility for Crypto-Agility and Post-Quantum Readiness <https://www.qusecure.com/cryptographic-bill-of-materials-cbom/>`_.
+
+*   DuoKey, `Quantum Readiness Score <https://duokey.com/qrs>`_.
