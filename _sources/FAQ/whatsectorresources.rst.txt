@@ -12,6 +12,7 @@ Financial Services Sector
 
 *   Mastercard, `Migration to post-quantum cryptography white paper <https://www.mastercard.com/us/en/news-and-trends/Insights/2025/post-quantum-cryptography-white-paper.html>`_
 
+*   QuSecure, `Banco Sabadell case study < https://www.qusecure.com/wp-content/uploads/2026/05/QuSecure-Banco-Sabadell-Case-Study.pdf>`_
 
 Information Technology Sector
 ++++++++++++++++++++++++++++++++++
