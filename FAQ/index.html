@@ -331,6 +331,7 @@
 <li><a class="reference internal" href="#is-there-a-free-online-platform-that-walks-you-from-understanding-the-threat-to-deploying-quantum-resistant-cryptography-step-by-step">Is there a free online platform that walks you from understanding the threat to deploying quantum-resistant cryptography step by step?</a></li>
 <li><a class="reference internal" href="#is-there-a-document-that-explains-why-engineers-need-to-be-aware-of-and-understand-post-quantum-cryptography-pqc-detailing-the-impact-of-crqcs-on-existing-systems-and-the-challenges-involved-in-transitioning-to-post-quantum-algorithms">Is there a document that explains why engineers need to be aware of and understand post-quantum cryptography (PQC), detailing the impact of CRQCs on existing systems and the challenges involved in transitioning to post-quantum algorithms?</a></li>
 <li><a class="reference internal" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat">What is the harvest now, decrypt later cybersecurity threat?</a></li>
+<li><a class="reference internal" href="#what-is-cryptographic-debt-and-why-does-it-matter">What is “cryptographic debt” and why does it matter?</a></li>
 <li><a class="reference internal" href="#is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later">Is there any testing that reveals the performance price of migrating to post-quantum cryptography and why measuring it now will save you millions later?</a></li>
 <li><a class="reference internal" href="#has-anyone-defined-what-a-cryptographic-inventory-is-and-outlined-a-practical-customer-led-operating-model-for-managing-cryptographic-posture">Has anyone defined what a cryptographic inventory is, and outlined a practical customer-led operating model for managing cryptographic posture?</a></li>
 <li><a class="reference internal" href="#are-there-methodologies-to-manage-the-complexity-of-pqc-migration-for-various-use-cases">Are there methodologies to manage the complexity of PQC migration for various use cases?</a></li>
@@ -446,7 +447,7 @@
 <p>This FAQ is not an exhaustive list and will be updated periodically.</p>
 <p>Please contribute to the FAQ by using <a class="reference external" href="https://forms.gle/2mQEe97LrG3P4vAN6">this form</a> to submit additional questions, answers, and suggestions.</p>
 <p>If you have anything to further discuss, please contact us at <a class="reference external" href="mailto:applied-crypto-pqc&#37;&#52;&#48;nist&#46;gov">mailto:applied-crypto-pqc<span>&#64;</span>nist<span>&#46;</span>gov</a>.</p>
-<p><strong>Last Updated:</strong> June 30, 2026</p>
+<p><strong>Last Updated:</strong> October, 2026</p>
 <section id="awareness-and-preparation">
 <h2>Awareness and Preparation<a class="headerlink" href="#awareness-and-preparation" title="Link to this heading"></a></h2>
 <section id="what-is-post-quantum-cryptography-pqc">
@@ -702,6 +703,13 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <section id="what-is-the-harvest-now-decrypt-later-cybersecurity-threat">
 <h3>What is the harvest now, decrypt later cybersecurity threat?<a class="headerlink" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat" title="Link to this heading"></a></h3>
 <p>See Palo Alto Networks’ <a class="reference external" href="https://www.paloaltonetworks.com/cyberpedia/harvest-now-decrypt-later-hndl">Harvest Now, Decrypt Later (HNDL)</a> article.</p>
+</section>
+<section id="what-is-cryptographic-debt-and-why-does-it-matter">
+<h3>What is “cryptographic debt” and why does it matter?<a class="headerlink" href="#what-is-cryptographic-debt-and-why-does-it-matter" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Cryptographic debt is the accumulated risk that builds up when cryptography is deployed without a centralized strategy, scattered across dozens of applications and never inventoried.</dt><dd><p>The result is that deprecated or insecure algorithms can lurk in systems for years undetected. See QuSecure’s <a class="reference external" href="https://www.qusecure.com/tackling-todays-unrealized-cryptographic-debt-challenge/">Tackling Today’s Unrealized Cryptographic Debt Challenge</a> and the <a class="reference external" href="https://www.qusecure.com/resources/orchestrated-crypto-agility/">Orchestrated Crypto-Agility Whitepaper</a></p>
+</dd>
+</dl>
 </section>
 <section id="is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later">
 <h3>Is there any testing that reveals the performance price of migrating to post-quantum cryptography and why measuring it now will save you millions later?<a class="headerlink" href="#is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later" title="Link to this heading"></a></h3>
