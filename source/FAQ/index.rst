@@ -23,7 +23,7 @@ Please contribute to the FAQ by using `this form <https://forms.gle/2mQEe97LrG3P
 
 If you have anything to further discuss, please contact us at `<applied-crypto-pqc@nist.gov>`_.
 
-**Last Updated:** June 30, 2026
+**Last Updated:** October, 2026
 
 -------------------------------
 Awareness and Preparation
@@ -42,6 +42,7 @@ Awareness and Preparation
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
 .. include:: /FAQ/harvestnow.rst
+.. include:: /FAQ/debt.rst
 .. include:: /FAQ/performanceprice.rst
 .. include:: /FAQ/customermodel.rst
 .. include:: /FAQ/methodologies.rst
