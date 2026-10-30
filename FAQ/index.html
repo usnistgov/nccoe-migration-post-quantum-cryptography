@@ -751,8 +751,15 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <li><p>Systems, applications, or components that depend on cryptography</p></li>
 <li><p>Data protected by cryptography, especially sensitive or long-lived data that may be vulnerable to “harvest now, decrypt later” threats</p></li>
 </ul>
+<ul class="simple">
+<li><p>Implementation and software details: Specific cryptographic libraries and versions (e.g., OpenSSL 3.0), module validation statuses (e.g., FIPS 140-3), and Cryptographic Bills of Materials (CBOM) for third-party software dependencies.</p></li>
+<li><p>Cryptographic parameters: Key lengths, operational modes (e.g., CBC vs. GCM), elliptic curves, and classical/quantum security bit strengths.</p></li>
+<li><p>Hardware roots of trust: Hardware security modules (HSMs), TPMs, smart cards, and secure enclaves hosting keys or offloading operations.</p></li>
+<li><p>Cryptographic agility assessment: Degree of algorithmic hardcoding, configurability, and ability to accommodate larger PQC key, ciphertext, and signature sizes.</p></li>
+<li><p>Hosting and vendor boundaries: Cloud KMS services, SaaS dependencies, and third-party data exchange channels.</p></li>
+</ul>
 <p>Related terms include <strong>cryptographic algorithm inventory</strong>, which focuses specifically on the algorithms in use, and <strong>cryptographic assets</strong>, which may include algorithms, keys, certificates, protocols, libraries, hardware security modules (HSMs), and other components that provide or depend on cryptographic protection.</p>
-<p>Maintaining a cryptographic inventory is an important step in quantum readiness because organizations cannot effectively prioritize or migrate cryptography that they have not identified.</p>
+<p>Maintaining a cryptographic inventory is an important step in quantum readiness because organizations cannot effectively prioritize or migrate cryptography that they have not identified .</p>
 </section>
 <section id="are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level">
 <h3>Are there tools that serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level?<a class="headerlink" href="#are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level" title="Link to this heading"></a></h3>

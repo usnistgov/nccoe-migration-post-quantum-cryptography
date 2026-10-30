@@ -1,7 +1,6 @@
 What is a cryptographic inventory?
 **********************************
 
-
 A cryptographic inventory is a descriptive record of the cryptography used across an organization's systems, applications, services, devices, and data flows. It helps an organization identify where and how cryptography is being used so that cryptographic risks can be managed, policies can be applied consistently, and systems can be prepared for migration to post-quantum cryptography \(PQC\).
 
 A cryptographic inventory may include information about:
@@ -12,7 +11,12 @@ A cryptographic inventory may include information about:
 ⁃ Certificates and certificate chains
 ⁃ Systems, applications, or components that depend on cryptography
 ⁃ Data protected by cryptography, especially sensitive or long-lived data that may be vulnerable to “harvest now, decrypt later” threats
+- Implementation and software details: Specific cryptographic libraries and versions (e.g., OpenSSL 3.0), module validation statuses (e.g., FIPS 140-3), and Cryptographic Bills of Materials (CBOM) for third-party software dependencies.
+- Cryptographic parameters: Key lengths, operational modes (e.g., CBC vs. GCM), elliptic curves, and classical/quantum security bit strengths.
+- Hardware roots of trust: Hardware security modules (HSMs), TPMs, smart cards, and secure enclaves hosting keys or offloading operations.
+- Cryptographic agility assessment: Degree of algorithmic hardcoding, configurability, and ability to accommodate larger PQC key, ciphertext, and signature sizes.
+- Hosting and vendor boundaries: Cloud KMS services, SaaS dependencies, and third-party data exchange channels.
 
 Related terms include **cryptographic algorithm inventory**, which focuses specifically on the algorithms in use, and **cryptographic assets**, which may include algorithms, keys, certificates, protocols, libraries, hardware security modules \(HSMs\), and other components that provide or depend on cryptographic protection.
 
-Maintaining a cryptographic inventory is an important step in quantum readiness because organizations cannot effectively prioritize or migrate cryptography that they have not identified.
+Maintaining a cryptographic inventory is an important step in quantum readiness because organizations cannot effectively prioritize or migrate cryptography that they have not identified .
