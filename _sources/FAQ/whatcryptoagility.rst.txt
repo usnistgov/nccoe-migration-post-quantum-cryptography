@@ -3,7 +3,7 @@ What is cryptographic agility?
 
 *   NIST, `NIST Cybersecurity White Paper \(CSWP 39\), Considerations for Achieving Crypto Agility: Strategies and Practices \(Final\) <https://csrc.nist.gov/pubs/cswp/39/considerations-for-achieving-cryptographic-agility/final>`_ 
 
-*   IETF, 'Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - RFC 7696 also known as BCP 201 <https://datatracker.ietf.org/doc/rfc7696/.'_
+*   IETF, `Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - RFC 7696 also known as BCP 201 <https://datatracker.ietf.org/doc/rfc7696/.`_
 
 What is cryptographic agility readiness?
 ****************************************
