@@ -15,7 +15,7 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>What are Federal Information Processing Standards (FIPS)? &mdash; Migration to Post-Quantum Cryptography  documentation</title>
+  <title>Which Federal Information Processing Standards (FIPS) are the ones for PQC? &mdash; Migration to Post-Quantum Cryptography  documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9ad34a6a" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -299,16 +299,9 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">What are Federal Information Processing Standards (FIPS)?</a><ul>
-<li><a class="reference internal" href="#what-are-the-current-fips">What are the current FIPS?</a></li>
-<li><a class="reference internal" href="#what-are-the-federal-information-processing-standards-fips-for-pqc">What are the Federal Information Processing Standards (FIPS) for PQC?</a><ul>
-<li><a class="reference internal" href="#key-encapsulation-mechanism">Key Encapsulation Mechanism</a></li>
-<li><a class="reference internal" href="#digital-signatures">Digital Signatures</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#does-nist-have-validation-testing-of-approved-i-e-fips-approved-and-nist-recommended-cryptographic-algorithms-and-their-individual-components">Does NIST have validation testing of approved (i.e., FIPS-approved and NIST-recommended) cryptographic algorithms and their individual components?</a></li>
+<li><a class="reference internal" href="#">Which Federal Information Processing Standards (FIPS) are the ones for PQC?</a><ul>
+<li><a class="reference internal" href="#does-nist-have-validation-testing-of-approved-cryptographic-algorithms-and-their-individual-components">Does NIST have validation testing of approved cryptographic algorithms and their individual components?</a></li>
 <li><a class="reference internal" href="#does-nist-have-a-security-metric-to-use-in-procuring-equipment-containing-validated-cryptographic-modules">Does NIST have a security metric to use in procuring equipment containing validated cryptographic modules?</a></li>
-<li><a class="reference internal" href="#is-there-a-way-to-use-a-suite-of-automated-tools-that-would-permit-organizations-to-perform-testing-of-their-cryptographic-products-according-to-the-requirements-of-fips-140-3-then-directly-report-the-results-to-nist-using-appropriate-protocols">Is there a way to use a suite of automated tools that would permit organizations to perform testing of their cryptographic products according to the requirements of FIPS 140-3, then directly report the results to NIST using appropriate protocols?</a></li>
 </ul>
 </li>
 </ul>
@@ -327,7 +320,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">What are Federal Information Processing Standards (FIPS)?</li>
+      <li class="breadcrumb-item active">Which Federal Information Processing Standards (FIPS) are the ones for PQC?</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -336,44 +329,18 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="what-are-federal-information-processing-standards-fips">
-<h1>What are Federal Information Processing Standards (FIPS)?<a class="headerlink" href="#what-are-federal-information-processing-standards-fips" title="Link to this heading"></a></h1>
-<p>FIPS are standards for federal computer systems that are developed by (NIST) and approved by the Secretary of Commerce in accordance with the Information Technology Management Reform Act of 1996 and Computer Security Act of 1987.
-These standards are developed when there are no acceptable industry standards or solutions for a particular government requirement.
-Although FIPS are developed for use by the Federal Government, many in the private sector voluntarily use these standards.</p>
-<section id="what-are-the-current-fips">
-<h2>What are the current FIPS?<a class="headerlink" href="#what-are-the-current-fips" title="Link to this heading"></a></h2>
-<p>The list of current FIPS—those that have been published, plus draft FIPS posted for comment—can be found on NIST’s <a class="reference external" href="https://csrc.nist.gov/publications/fips">Computer Security Resource Center (CSRC)</a>.</p>
-</section>
-<section id="what-are-the-federal-information-processing-standards-fips-for-pqc">
-<h2>What are the Federal Information Processing Standards (FIPS) for PQC?<a class="headerlink" href="#what-are-the-federal-information-processing-standards-fips-for-pqc" title="Link to this heading"></a></h2>
-<p><strong>There are currently three finalized Federal Information Processing Standards (FIPS) for Post-Quantum Cryptography:</strong></p>
+  <section id="which-federal-information-processing-standards-fips-are-the-ones-for-pqc">
+<h1>Which Federal Information Processing Standards (FIPS) are the ones for PQC?<a class="headerlink" href="#which-federal-information-processing-standards-fips-are-the-ones-for-pqc" title="Link to this heading"></a></h1>
+<p><strong>There are three Federal Information Processing Standards (FIPS) for Post-Quantum Cryptography:</strong></p>
 <ul class="simple">
 <li><p><strong>FIPS 203:</strong> <a class="reference external" href="https://csrc.nist.gov/pubs/fips/203/final">Module-Lattice-Based Key-Encapsulation Mechanism Standard</a></p></li>
 <li><p><strong>FIPS 204:</strong> <a class="reference external" href="https://csrc.nist.gov/pubs/fips/204/final">Module-Lattice-Based Digital Signature Standard</a></p></li>
 <li><p><strong>FIPS 205:</strong> <a class="reference external" href="https://csrc.nist.gov/pubs/fips/205/final">Stateless Hash-Based Digital Signature Standard</a></p></li>
 </ul>
 <p>These standards specify key establishment and digital signature schemes that are designed to resist future attacks by quantum computers, which threaten the security of current standards.
-The three algorithms specified in these standards are each derived from different submissions to the <a class="reference external" href="https://csrc.nist.gov/Projects/post-quantum-cryptography">NIST Post-Quantum Cryptography Standardization Project</a>.</p>
-<section id="key-encapsulation-mechanism">
-<h3>Key Encapsulation Mechanism<a class="headerlink" href="#key-encapsulation-mechanism" title="Link to this heading"></a></h3>
-<p>FIPS 203 specifies a cryptographic scheme called the Module-Lattice-Based Key-Encapsulation Mechanism Standard, which is derived from the CRYSTALS-KYBER submission.
-A key encapsulation mechanism (KEM) is a particular type of key establishment scheme that can be used to establish a shared secret key between two parties communicating over a public channel.</p>
-<p>Current NIST-approved key establishment schemes are specified in NIST Special Publications (SP):  <a class="reference external" href="https://csrc.nist.gov/pubs/sp/800/56/a/r3/final">SP 800-56A, Recommendation for Pair-Wise Key-Establishment Schemes Using Discrete Logarithm-Based Cryptography</a>, and <a class="reference external" href="https://csrc.nist.gov/pubs/sp/800/56/b/r2/final">SP 800-56B, Recommendation for Pair-Wise Key-Establishment Schemes Using Integer Factorization Cryptography</a>.</p>
-<p>NIST has also chosen Hamming Quasi-Cyclic (HQC) to be standardized.
-NIST will develop a standard based on HQC to augment its key-establishment portfolio.</p>
-</section>
-<section id="digital-signatures">
-<h3>Digital Signatures<a class="headerlink" href="#digital-signatures" title="Link to this heading"></a></h3>
-<p>FIPS 204 and 205 each specify digital signature schemes, which are used to detect unauthorized modifications to data and to authenticate the identity of the signatory.
-FIPS 204 specifies the Module-Lattice-Based Digital Signature Standard, which is derived from the CRYSTALS-Dilithium submission.
-FIPS 205 specifies the Stateless Hash-Based Digital Signature Standard, which is derived from the SPHINCS+ submission.</p>
-<p>Current NIST-approved digital signature schemes are specified in <a class="reference external" href="https://csrc.nist.gov/pubs/fips/186-5/final">FIPS 186-5, Digital Signature Standard</a>, and <a class="reference external" href="https://csrc.nist.gov/pubs/sp/800/208/final">SP 800-208, Recommendation for Stateful Hash-Based Signature Schemes</a>.</p>
-<p>NIST is also developing a FIPS that specifies a digital signature algorithm derived from FALCON as an additional alternative to these standards.</p>
-</section>
-</section>
-<section id="does-nist-have-validation-testing-of-approved-i-e-fips-approved-and-nist-recommended-cryptographic-algorithms-and-their-individual-components">
-<h2>Does NIST have validation testing of approved (i.e., FIPS-approved and NIST-recommended) cryptographic algorithms and their individual components?<a class="headerlink" href="#does-nist-have-validation-testing-of-approved-i-e-fips-approved-and-nist-recommended-cryptographic-algorithms-and-their-individual-components" title="Link to this heading"></a></h2>
+The three algorithms specified in these standards are each derived from different submissions to the <a class="reference external" href="https://csrc.nist.gov/Projects/post-quantum-cryptography">NIST Post-Quantum Cryptography Standardization Project</a>.  This page offers opportunities to learn about quantum-resistent Key Encapsulation Mechanism algorithms and Digital Signature algorithms</p>
+<section id="does-nist-have-validation-testing-of-approved-cryptographic-algorithms-and-their-individual-components">
+<h2>Does NIST have validation testing of approved cryptographic algorithms and their individual components?<a class="headerlink" href="#does-nist-have-validation-testing-of-approved-cryptographic-algorithms-and-their-individual-components" title="Link to this heading"></a></h2>
 <p>NIST’s <a class="reference external" href="https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program">Cryptographic Algorithm Validation Program (CAVP)</a> offers two Automated Cryptographic Validation Test Systems (ACVTS) for interested users to test cryptographic algorithm implementations.
 A Demo ACVTS server is available at no cost to interested parties. More information on accessing the ACVTS can be found the CAVP page on <a class="reference external" href="https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/how-to-access-acvts">Accessing the ACVTS</a>.</p>
 <p>The Production ACVTS server is only available to National Voluntary Laboratory Accreditation Program (NVLAP) accredited testing laboratories, and is the only way to create algorithm validation certificates listed on the <a class="reference external" href="https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/validation-search">Algorithm Validation Search Page</a>.
@@ -382,11 +349,7 @@ The CAVP, through ACVTS, will generate test vectors to match the capabilities of
 </section>
 <section id="does-nist-have-a-security-metric-to-use-in-procuring-equipment-containing-validated-cryptographic-modules">
 <h2>Does NIST have a security metric to use in procuring equipment containing validated cryptographic modules?<a class="headerlink" href="#does-nist-have-a-security-metric-to-use-in-procuring-equipment-containing-validated-cryptographic-modules" title="Link to this heading"></a></h2>
-<p>NIST’s <a class="reference external" href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">Cryptographic Module Validation Program (CMVP)</a> aims to promote the use of validated cryptographic modules and provide Federal agencies with a security metric to use in procuring equipment containing validated cryptographic modules.</p>
-</section>
-<section id="is-there-a-way-to-use-a-suite-of-automated-tools-that-would-permit-organizations-to-perform-testing-of-their-cryptographic-products-according-to-the-requirements-of-fips-140-3-then-directly-report-the-results-to-nist-using-appropriate-protocols">
-<h2>Is there a way to use a suite of automated tools that would permit organizations to perform testing of their cryptographic products according to the requirements of FIPS 140-3, then directly report the results to NIST using appropriate protocols?<a class="headerlink" href="#is-there-a-way-to-use-a-suite-of-automated-tools-that-would-permit-organizations-to-perform-testing-of-their-cryptographic-products-according-to-the-requirements-of-fips-140-3-then-directly-report-the-results-to-nist-using-appropriate-protocols" title="Link to this heading"></a></h2>
-<p>NIST’s NCCoE has an <a class="reference external" href="https://pages.nist.gov/ACMVPDocs/overview.html">Automation of the NIST Cryptographic Module Validation Project</a>.</p>
+<p>NIST’s <a class="reference external" href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">Cryptographic Module Validation Program (CMVP)</a> promotes the use of validated cryptographic modules and provide Federal agencies with a security metric to use in procuring equipment containing validated cryptographic modules.</p>
 </section>
 </section>
 
