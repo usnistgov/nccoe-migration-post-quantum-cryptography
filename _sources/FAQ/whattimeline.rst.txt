@@ -1,10 +1,10 @@
 
-What are some timelines for activities which organizations must carry out to migrate to post-quantum cryptography in the coming years?
-**************************************************************************************************************************************
+Who has published timelines for milestones and deadlines for migration to post-quantum cryptography?
+****************************************************************************************************
 
 The following resources give information related to timelines and milestones for migrating to PQC:
 
-*   NIST, `IR 8547 (Initial Public Draft) Transition to Post-Quantum Cryptography Standards <https://csrc.nist.gov/pubs/ir/8547/ipd>`_ 
+*   NIST, `IR 8547 (Initial Public Draft) Transition to Post-Quantum Cryptography Standards <https://csrc.nist.gov/pubs/ir/8547/final>`_ 
 
 *   NSA, `The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ <https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF>`_ 
 
