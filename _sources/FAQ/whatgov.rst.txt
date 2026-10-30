@@ -27,4 +27,4 @@ The following bullets offer a timeline that illustrates the directives and resou
 
 *   June 2026, `Office of Management and Budget Memorandum M-26-15 <https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf>`_
 
-*   October 2026, `Commercial National Security Algorithm Suite 2.0 \(CNSA 2.0\) FAQ Updated <https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF>`_
+*   October 2026, `Commercial National Security Algorithm Suite 2.0 \(CNSA 2.0\) FAQ Updated <https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF>`_g
