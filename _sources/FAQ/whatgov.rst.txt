@@ -21,6 +21,8 @@ The following bullets offer a timeline that illustrates the directives and resou
 
 *   January 2026, `CISA publishes Product Categories for Technologies That Use Post-Quantum Cryptography Standards <https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards>`_ 
 
+*   April 2026, `Department of War - Post Quantum Cryptography Strategy <https://dodcio.defense.gov/Portals/0/Documents/Library/DoW-PQC-Strategy.pdf>`_ 
+
 *   May 2026, `NIST Advances 9 Candidates to Advance to the 3rd Round of the Additional Digital Signatures for the Post-Quantum Cryptography Standardization Process <https://csrc.nist.gov/News/2026/nist-advances-9-candidates-to-the-3rd-round-of-pqc>`_ 
 
 *   June 2026, `Securing the Nation Against Advanced Cryptographic Attacks \(EO-14412\) <https://www.federalregister.gov/documents/2026/06/25/2026-12909/securing-the-nation-against-advanced-cryptographic-attacks/>`_
@@ -28,3 +30,9 @@ The following bullets offer a timeline that illustrates the directives and resou
 *   June 2026, `Office of Management and Budget Memorandum M-26-15 <https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf>`_
 
 *   October 2026, `Commercial National Security Algorithm Suite 2.0 \(CNSA 2.0\) FAQ Updated <https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF>`_
+
+*   October 2026, `Department of War - Memorandum Execute Post Quantum Migration <https://dodcio.defense.gov/Portals/0/Documents/Library/DoW-Execute-PQ-Migration.pdf>`_ 
+
+*   October 2026, `Department of War - Post Quantum Cryptography (PQC) Implementation Plan <https://dodcio.defense.gov/Portals/0/Documents/Library/DoW-PQC-Implementation.pdf>`_ 
+
+
