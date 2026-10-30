@@ -1,11 +1,11 @@
-What is a Hardware Security Module \(HSM\)?
-*******************************************
+Do Hardware Security Module \(HSM\) products incorporate PQC quantum resistant cryptographic algorithms?
+********************************************************************************************************
 
+A Hardware Security Module \(HSM\) is a purpose-built physical security device designed to generate cryptographic keys securely, protect those keys throughout their entire lifecycle, and perform sensitive cryptographic operations inside secure hardware
 
-A Hardware Security Module \(HSM\) is a purpose-built physical security device designed to:
-
-⁃ Generate cryptographic keys securely
-⁃ Protect those keys throughout their entire lifecycle
-⁃ Perform sensitive cryptographic operations inside secure hardware
-
-See Crypto4A's `What Is a Hardware Security Module? <https://crypto4a.com/resources/newsroom/2026-02-09-what-is-a-hardware-security-module?utm_source=LinkedIn&utm_medium=social&utm_campaign=linkedin_leads_blog_HSM>`_ article.
+Examples
+* `Crypto4A <https://crypto4a.com/products/blade-modules/qx-hsm>`_
+* `Entrust <https://www.entrust.com/products/hsm/nshield-as-a-service/on-demand-cryptography>`_
+* `Fortanix <https://www.fortanix.com/blog/quantum-safe-encryption-with-hsm-preparing-for-the-future>`_
+* `Thales <https://cpl.thalesgroup.com/blog/encryption/luna-hsm-pqc-quantum-safe-encryption?>`_
+* `Utimaco <https://utimaco.com/data-protection/gp-hsm/application-package/quantum-protect>`_
