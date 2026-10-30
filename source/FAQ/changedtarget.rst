@@ -1,6 +1,5 @@
-Who has changed their target for becoming fully post-quantum secure?
-********************************************************************
-
+Which vendors have changed their target for becoming fully post-quantum secure?
+*******************************************************************************
 
 In 2026 Cloudflare, Google, and Micorosoft have changed their timelines or targets for becoming fully post-quantum secure.
 
