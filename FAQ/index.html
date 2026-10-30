@@ -313,10 +313,7 @@
 <li><a class="reference internal" href="#where-can-i-learn-more-about-the-critical-need-to-counter-the-threat-to-public-key-cryptography-from-a-cryptanalytically-relevant-quantum-computer">Where can I learn more about the critical need to counter the threat to public key cryptography from a cryptanalytically relevant quantum computer?</a></li>
 <li><a class="reference internal" href="#what-is-cryptographic-agility">What is cryptographic agility?</a></li>
 <li><a class="reference internal" href="#what-is-cryptographic-agility-readiness">What is cryptographic agility readiness?</a></li>
-<li><a class="reference internal" href="#what-u-s-government-policies-memorandums-and-standards-discuss-migration-to-pqc">What U.S. government policies, memorandums, and standards discuss migration to PQC?</a><ul>
-<li><a class="reference internal" href="#what-are-some-additional-u-s-government-resources">What are some additional U.S. government resources?</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#what-u-s-government-policies-memorandums-and-standards-discuss-migration-to-pqc">What U.S. government policies, memorandums, and standards discuss migration to PQC?</a></li>
 <li><a class="reference internal" href="#what-are-some-international-resources-perspectives-and-posts-regarding-pqc">What are some international resources, perspectives, and posts regarding PQC?</a><ul>
 <li><a class="reference internal" href="#what-are-some-additional-international-resources">What are some additional international resources?</a></li>
 </ul>
@@ -367,7 +364,7 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#migration-execution">Migration Execution</a><ul>
-<li><a class="reference internal" href="#what-does-nist-guidance-say-about-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes">What does NIST guidance say about transitioning from quantum-vulnerable cryptographic algorithms to post-quantum digital signature algorithms and key-establishment schemes?</a></li>
+<li><a class="reference internal" href="#what-is-nists-approach-to-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes">What is NIST’s approach to transitioning from quantum-vulnerable cryptographic algorithms to post-quantum digital signature algorithms and key-establishment schemes?</a></li>
 <li><a class="reference internal" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks">What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration from the current set of public-key cryptographic algorithms to replacement algorithms that are resistant to quantum computer-based attacks?</a><ul>
 <li><a class="reference internal" href="#what-has-the-nccoe-published-regarding-interoperability-and-performance-testing-of-transport-layer-security">What has the NCCoE published regarding interoperability and performance testing of Transport Layer Security?</a></li>
 </ul>
@@ -565,63 +562,19 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <p>The U.S. government’s approach to migrating to PQC is designed to safeguard national security and critical infrastructure against future quantum threats.</p>
 <p>The following bullets offer a timeline that illustrates the directives and resources which were established for use by federal agencies:</p>
 <ul class="simple">
-<li><p>January 2022, <a class="reference external" href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2022/01/19/memorandum-on-improving-the-cybersecurity-of-national-security-department-of-defense-and-intelligence-community-systems/">National Security Memorandum-8 (NSM-8)</a></p>
-<ul>
-<li><p>NSM-8 provides guidance for National Security System (NSS) and related assets that outlines updating the Commercial National Security Algorithm (CNSA) to include quantum-resistant protocols, additional protections for data, migration efforts, and reporting requirements.</p></li>
-</ul>
-</li>
-<li><p>May 2022, <a class="reference external" href="https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/05/04/national-security-memorandum-on-promoting-united-states-leadership-in-quantum-computing-while-mitigating-risks-to-vulnerable-cryptographic-systems/">National Security Memorandum-10 (NSM-10)</a></p>
-<ul>
-<li><p>NSM-10 provides guidance for non-NSS and related assets which outlines the creation of cryptographic migration efforts with NIST NCCoE, the Federal Civilian Executive Branch (FCEB) annual cryptographic inventory of High Value Assets and High Impact Systems reported to CISA, migration efforts and reporting away from Cryptanalytically Relevant Quantum Computer (CRQC) vulnerable cryptography.</p></li>
-</ul>
-</li>
-<li><p>September 2022, <a class="reference external" href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3148990/nsa-releases-future-quantum-resistant-qr-algorithm-requirements-for-national-se/">Announcing the Commercial National Security Algorithm Suite 2.0 (CNSA 2.0)</a></p>
-<ul>
-<li><p>Release of CNSA 2.0 provides guidance for quantum-resistant algorithms (QRAs), timelines, and additional guidance sources for NSS and related assets. FAQ page was updated Dec 2024.</p></li>
-</ul>
-</li>
-<li><p>November 2022, <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/11/M-23-02-M-Memo-on-Migrating-to-Post-Quantum-Cryptography.pdf">Office of Management and Budget M-23-02</a></p>
-<ul>
-<li><p>M-23-02 provides direction for agencies to comply with NSM-10 and further defines what systems/assets and associated information to include in inventories. NIST will establish a mechanism to enable the exchange of PQC testing information and best practices. That mechanism is the <a class="reference external" href="https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms">NCCoE Migration to PQC project</a>.</p></li>
-</ul>
-</li>
-<li><p>December 2022, <a class="reference external" href="https://www.congress.gov/117/plaws/publ260/PLAW-117publ260.pdf">Quantum Computing Cybersecurity Preparedness Act 6 U.S.C. § 1526</a></p>
-<ul>
-<li><p>The Quantum Computer Cybersecurity Preparedness Act reaffirms NSM-10 and M-23-02. It includes requirements for inventory of cryptographic systems, migration to PQC, and reporting in alignment with prior PQC memorandums.</p></li>
-</ul>
-</li>
-<li><p>August 2024, <a class="reference external" href="https://csrc.nist.gov/news/2024/postquantum-cryptography-fips-approved">The Secretary of Commerce approved three Federal Information Processing Standards (FIPS) for post-quantum cryptography</a></p>
-<ul>
-<li><p><a class="reference external" href="https://csrc.nist.gov/pubs/fips/203/final">FIPS 203: ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism Standard)</a></p></li>
-<li><p><a class="reference external" href="https://csrc.nist.gov/pubs/fips/204/final">FIPS 204: ML-DSA (Module-Lattice-Based Digital Signature Standard)</a></p></li>
-<li><p><a class="reference external" href="https://csrc.nist.gov/pubs/fips/205/final">FIPS 205: SLH-DSA (Stateless Hash-Based Digital Signature Standard)</a></p></li>
-</ul>
-</li>
-<li><p>October 2024, <a class="reference external" href="https://csrc.nist.gov/News/2024/pqc-digital-signature-second-round-announcement">NIST Announces 14 Candidates to Advance to the Second Round of the Additional Digital Signatures for the Post-Quantum Cryptography Standardization Process</a></p></li>
-<li><p>November 2024, <a class="reference external" href="https://csrc.nist.gov/news/2024/draft-nist-ir-8547-is-available-for-comment">Transition to Post-Quantum Cryptography Standards | Draft NIST IR 8547 is Available for Comment</a></p></li>
-<li><p>December 2024, <em>Updated</em> <a class="reference external" href="https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/1/CSI_CNSA_2.0_FAQ_.PDF">The Commercial National Security Algorithm Suite 2.0 and Quantum Computing FAQ</a></p></li>
+<li><p>January 2022, <a class="reference external" href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2022/01/19/memorandum-on-improving-the-cybersecurity-of-national-security-department-of-defense-and-intelligence-community-systems/">National Security Memorandum-8 (NSM-8)</a></p></li>
+<li><p>May 2022, <a class="reference external" href="https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/05/04/national-security-memorandum-on-promoting-united-states-leadership-in-quantum-computing-while-mitigating-risks-to-vulnerable-cryptographic-systems/">National Security Memorandum-10 (NSM-10)</a></p></li>
+<li><p>September 2022, <a class="reference external" href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/3148990/nsa-releases-future-quantum-resistant-qr-algorithm-requirements-for-national-se/">Announcing the Commercial National Security Algorithm Suite 2.0 (CNSA 2.0)</a></p></li>
+<li><p>November 2022, <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2022/11/M-23-02-M-Memo-on-Migrating-to-Post-Quantum-Cryptography.pdf">Office of Management and Budget Memorandum M-23-02</a></p></li>
+<li><p>December 2022, <a class="reference external" href="https://www.congress.gov/117/plaws/publ260/PLAW-117publ260.pdf">Quantum Computing Cybersecurity Preparedness Act 6 U.S.C. § 1526</a></p></li>
+<li><p>August 2024, <a class="reference external" href="https://csrc.nist.gov/News/2024/postquantum-cryptography-fips-approved">The Secretary of Commerce approved three Federal Information Processing Standards (FIPS) for post-quantum cryptography</a></p></li>
 <li><p>March 2025, <a class="reference external" href="https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption">NIST Selects HQC as Fifth Algorithm for Post-Quantum Encryption</a></p></li>
-<li><p>June 2026, <a class="reference external" href="https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/">Securing the Nation Against Advanced Cryptographic Attacks (EO-14412)</a></p>
-<ul>
-<li><p>EO-14412 mandates an accelerated, government-wide migration to PQC for federal systems, establishing binding deadlines for high-value assets and directing the Federal Acquisition Regulatory Council to require contractor compliance with NIST PQC standards.</p></li>
+<li><p>May 2026, <a class="reference external" href="https://csrc.nist.gov/News/2026/nist-advances-9-candidates-to-the-3rd-round-of-pqc">NIST Advances 9 Candidates to Advance to the 3rd Round of the Additional Digital Signatures for the Post-Quantum Cryptography Standardization Process</a></p></li>
+<li><p>January 2026, <a class="reference external" href="https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards">CISA publishes Product Categories for Technologies That Use Post-Quantum Cryptography Standards</a></p></li>
+<li><p>June 2026, <a class="reference external" href="https://www.federalregister.gov/documents/2026/06/25/2026-12909/securing-the-nation-against-advanced-cryptographic-attacks/">Securing the Nation Against Advanced Cryptographic Attacks (EO-14412)</a></p></li>
+<li><p>June 2026, <a class="reference external" href="https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf">Office of Management and Budget Memorandum M-26-15</a></p></li>
+<li><p>October 2026, <a class="reference external" href="https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF">Commercial National Security Algorithm Suite 2.0 (CNSA 2.0) FAQ Updated</a></p></li>
 </ul>
-</li>
-<li><p>June 2026, <a class="reference external" href="https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/">Ushering in the Next Frontier of Quantum Innovation (EO-14413)</a></p>
-<ul>
-<li><p>EO-14413 establishes a national effort to develop a science-enabling quantum computer, directs the update of the National Quantum Strategy, and mandates the creation of domestic quantum workforce development institutes, advanced quantum sensing/networking plans, and strategies to strengthen domestic quantum supply chains.</p></li>
-</ul>
-</li>
-</ul>
-<section id="what-are-some-additional-u-s-government-resources">
-<h4>What are some additional U.S. government resources?<a class="headerlink" href="#what-are-some-additional-u-s-government-resources" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Cybersecurity and Infrastructure Security Agency (CISA), <a class="reference external" href="https://www.cisa.gov/quantum">Post-Quantum Cryptography Initiative</a></p></li>
-<li><p>Department of Homeland Security (DHS), <a class="reference external" href="https://www.dhs.gov/quantum">Post-Quantum Cryptography</a></p></li>
-<li><p>Homeland Security Operational Analysis Center (HSOAC), <a class="reference external" href="https://www.rand.org/pubs/research_reports/RRA1367-6.html">Preparing for Post-Quantum Critical Infrastructure: Assessments of Quantum Computing Vulnerabilities of National Critical Functions</a></p></li>
-<li><p>FedRAMP, <a class="reference external" href="https://www.fedramp.gov/rev5/fips/">Policy for Cryptographic Module Selection and Use</a></p></li>
-<li><p>General Services Administration (GSA), <a class="reference external" href="https://www.fedramp.gov/rev5/fips/">Post Quantum Cryptography Buyer’s Guide</a></p></li>
-</ul>
-</section>
 </section>
 <section id="what-are-some-international-resources-perspectives-and-posts-regarding-pqc">
 <h3>What are some international resources, perspectives, and posts regarding PQC?<a class="headerlink" href="#what-are-some-international-resources-perspectives-and-posts-regarding-pqc" title="Link to this heading"></a></h3>
@@ -663,7 +616,7 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <li><p>X9, <a class="reference external" href="https://x9.org/x9-launches-effort-to-create-post-quantum-cryptography-assessment-guidelines-participants-sought/">Effort to Create Post-Quantum Cryptography Assessment Guidelines</a></p></li>
 <li><p>Bank for International Settlements (BIS), <a class="reference external" href="https://www.bis.org/publ/bppdf/bispap158.pdf">Quantum-readiness for the financial system: a roadmap</a></p></li>
 <li><p>Mastercard, <a class="reference external" href="https://www.mastercard.com/us/en/news-and-trends/Insights/2025/post-quantum-cryptography-white-paper.html">Migration to post-quantum cryptography white paper</a></p></li>
-<li><p>QuSecure, <a href="#id22"><span class="problematic" id="id23">`Banco Sabadell case study &lt; https://www.qusecure.com/wp-content/uploads/2026/05/QuSecure-Banco-Sabadell-Case-Study.pdf&gt;`_</span></a></p></li>
+<li><p>QuSecure, <a href="#id10"><span class="problematic" id="id11">`Banco Sabadell case study &lt; https://www.qusecure.com/wp-content/uploads/2026/05/QuSecure-Banco-Sabadell-Case-Study.pdf&gt;`_</span></a></p></li>
 </ul>
 </section>
 <section id="information-technology-sector">
@@ -887,65 +840,10 @@ Knowing the extent, location, and use of the current cryptography that you have 
 </section>
 <section id="migration-execution">
 <h2>Migration Execution<a class="headerlink" href="#migration-execution" title="Link to this heading"></a></h2>
-<section id="what-does-nist-guidance-say-about-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes">
-<h3>What does NIST guidance say about transitioning from quantum-vulnerable cryptographic algorithms to post-quantum digital signature algorithms and key-establishment schemes?<a class="headerlink" href="#what-does-nist-guidance-say-about-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes" title="Link to this heading"></a></h3>
-<p><a class="reference external" href="https://doi.org/10.6028/NIST.IR.8547.ipd">NIST IR 8547 (Initial Public Draft) Transition to Post-Quantum Cryptography Standards</a>
-identifies existing quantum-vulnerable cryptographic standards and the current quantum-resistant standards that will be used in the migration.
-This report should inform the efforts and timelines of federal agencies, industry, and standards organizations for migrating information technology products, services, and infrastructure to PQC.
-Comments received on this draft will be used to revise this transition plan and feed into other algorithm-specific and application-specific guidance for the transition to PQC.</p>
-<p>The following questions are addressed in NIST IR 8547:</p>
-<ul class="simple">
-<li><p>Where are the quantum-vulnerable algorithms in NIST’s existing cryptographic standards as well as the post-quantum algorithm standards that have been recently published?</p>
-<ul>
-<li><p>See section 2 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are some migration considerations and use cases?</p>
-<ul>
-<li><p>See section 3 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What is the transition plan for quantum-vulnerable algorithms?</p>
-<ul>
-<li><p>See Section 4.1 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are the post-quantum security categories?</p>
-<ul>
-<li><p>See Table 1 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are the quantum-vulnerable digital signature algorithms?</p>
-<ul>
-<li><p>See Table 2 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are the post-quantum digital signature algorithms?</p>
-<ul>
-<li><p>See Table 3 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are the quantum-vulnerable key-establishment schemes?</p>
-<ul>
-<li><p>See Table 4 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are the post-quantum key-establishment schemes?</p>
-<ul>
-<li><p>See Table 5 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are security strength bit minimums for AES (FIPS 197)?</p>
-<ul>
-<li><p>See Table 6 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-<li><p>What are the collision security strength, collision security categories, preimage security strength, and preimage security categories for hash functions and eXtendable-Output Functions (XOFs)?</p>
-<ul>
-<li><p>See Table 7 of <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf">NIST IR 8547</a></p></li>
-</ul>
-</li>
-</ul>
+<section id="what-is-nists-approach-to-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes">
+<h3>What is NIST’s approach to transitioning from quantum-vulnerable cryptographic algorithms to post-quantum digital signature algorithms and key-establishment schemes?<a class="headerlink" href="#what-is-nists-approach-to-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes" title="Link to this heading"></a></h3>
+<p><a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf">NIST IR 8547 (FINAL) Transition to Post-Quantum Cryptography Standards</a>
+This report identifies existing quantum-vulnerable cryptographic standards and the quantum-resistant standards to which information technology products and services will need to transition.</p>
 </section>
 <section id="what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks">
 <h3>What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration from the current set of public-key cryptographic algorithms to replacement algorithms that are resistant to quantum computer-based attacks?<a class="headerlink" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks" title="Link to this heading"></a></h3>
