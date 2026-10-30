@@ -1,5 +1,5 @@
-What are some other terms used to describe post-quantum cryptography?
-*********************************************************************
+What are some other ways to describe the need to use post-quantum cryptography in our classical computing systems?
+******************************************************************************************************************
 
 With the growing attention on quantum computing as an emerging technology, compounding the term "quantum" with "readiness", "resistant". "safe", or "secure" has become another way to convey what is being achieved in this cryptographic migration.
 
@@ -17,7 +17,7 @@ With the growing attention on quantum computing as an emerging technology, compo
 "Quantum-Resistant"
 +++++++++++++++++++
 
-*   NIST, `NIST Announces First Four Quantum-Resistant Cryptographic Algorithms <https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms>`_
+*   Quantum-Resistant appears 15 times in `NIST Information Report 8105 Report on Post-Quantum Cryptography <https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8105.pdf>`_
 
 *   The National Cryptologic Foundation, `Convening to Act: Quantum Resistant Cryptography \(QRC\) in Software <https://cryptologicfoundation.org/community/conferences/convene/quantum-march-2024.html>`_ 
 
