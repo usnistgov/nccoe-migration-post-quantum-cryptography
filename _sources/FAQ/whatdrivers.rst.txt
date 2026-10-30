@@ -15,3 +15,6 @@ The following industry resources advocate for countering this threat:
 *   Palo Alto Networks, `Quantum Readiness: What It Means and How to Achieve It <https://www.paloaltonetworks.com/cyberpedia/quantum-readiness>`_
 
 *   SafeLogic, `CISA Takes a Major Step Toward Post-Quantum Readiness <https://www.safelogic.com/blog/cisa-takes-a-major-step-toward-post-quantum-readiness-safelogic>`_
+
+*   SSH, `Quantum-Safe Cryptography And the Quantum Threat <https://www.ssh.com/academy/cryptography/what-is-quantum-safe-cryptography>`_
+
