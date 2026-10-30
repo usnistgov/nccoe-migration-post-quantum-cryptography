@@ -1,8 +1,4 @@
-Is there a document that provides actionable guidelines to incorporate CRQC-readiness into existing risk management frameworks?
-*******************************************************************************************************************************
-
-Here are some documents that discuss actionable guidelines:
-
-*   Europol, `Prioritising Post-Quantum Cryptography Migration Activities in Financial Services <https://www.europol.europa.eu/cms/sites/default/files/documents/Post-quantum-cryptography-report.pdf>`_
+Are there checklists designed to help organizations move from understanding where risk exists to reducing exposure over time, as change happens?
+************************************************************************************************************************************************
 
 *   SafeLogic, `Continuous PQC Remediation Checklist <https://www.safelogic.com/resources/checklists/continuous-pqc-remediation>`_

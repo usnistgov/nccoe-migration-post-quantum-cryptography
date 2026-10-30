@@ -4,6 +4,8 @@ What are some Sector-Specific PQC Resources?
 Financial Services Sector
 +++++++++++++++++++++++++++++
 
+*   Europol, `Prioritising Post-Quantum Cryptography Migration Activities in Financial Services <https://www.europol.europa.eu/cms/sites/default/files/documents/Post-quantum-cryptography-report.pdf>`_
+
 *   Financial Services Information Sharing and Analysis Center \(FS-ISAC\), `Post Quantum Cryptography Resources <https://www.fsisac.com/knowledge/pqc>`_
 
 *	X9, `Effort to Create Post-Quantum Cryptography Assessment Guidelines <https://x9.org/x9-launches-effort-to-create-post-quantum-cryptography-assessment-guidelines-participants-sought/>`_
