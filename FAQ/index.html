@@ -338,7 +338,6 @@
 <li><a class="reference internal" href="#is-there-a-us-mandate-for-action-related-to-crqc-readiness-or-migration-to-pqc">Is there a US mandate for action related to CRQC-readiness or migration to PQC?</a></li>
 <li><a class="reference internal" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">What are some existing tools that can be used for cryptographic inventorying?</a><ul>
 <li><a class="reference internal" href="#open-source-tools">Open source tools</a></li>
-<li><a class="reference internal" href="#nccoe-collaborator-tools">NCCoE collaborator tools</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#what-is-a-cryptography-bill-of-materials-cbom-and-how-do-i-use-it-for-post-quantum-systems-and-applications">What is a Cryptography Bill of Materials (CBOM) and how do I use it for Post-Quantum Systems and Applications?</a></li>
@@ -362,10 +361,7 @@
 </li>
 <li><a class="reference internal" href="#migration-execution">Migration Execution</a><ul>
 <li><a class="reference internal" href="#what-is-nists-approach-to-transitioning-from-quantum-vulnerable-cryptographic-algorithms-to-post-quantum-digital-signature-algorithms-and-key-establishment-schemes">What is NIST’s approach to transitioning from quantum-vulnerable cryptographic algorithms to post-quantum digital signature algorithms and key-establishment schemes?</a></li>
-<li><a class="reference internal" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks">What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration from the current set of public-key cryptographic algorithms to replacement algorithms that are resistant to quantum computer-based attacks?</a><ul>
-<li><a class="reference internal" href="#what-has-the-nccoe-published-regarding-interoperability-and-performance-testing-of-transport-layer-security">What has the NCCoE published regarding interoperability and performance testing of Transport Layer Security?</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-to-pqc">What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?</a></li>
 <li><a class="reference internal" href="#do-hardware-security-module-hsm-products-incorporate-pqc-quantum-resistant-cryptographic-algorithms">Do Hardware Security Module (HSM) products incorporate PQC quantum resistant cryptographic algorithms?</a></li>
 <li><a class="reference internal" href="#how-can-one-check-to-see-if-one-s-browser-is-offering-post-quantum-encryption-support">How can one check to see if one’s browser is offering post-quantum encryption support?</a></li>
 <li><a class="reference internal" href="#what-is-an-example-of-an-all-in-one-software-web-server-load-balancer-reverse-proxy-content-cache-and-api-gateway-that-supports-post-quantum-cryptography">What is an example of an all-in-one software web server, load balancer, reverse proxy, content cache, and API gateway that supports Post-Quantum Cryptography?</a></li>
@@ -519,7 +515,7 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <h3>What is cryptographic agility?<a class="headerlink" href="#what-is-cryptographic-agility" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>NIST, <a class="reference external" href="https://csrc.nist.gov/pubs/cswp/39/considerations-for-achieving-cryptographic-agility/final">NIST Cybersecurity White Paper (CSWP 39), Considerations for Achieving Crypto Agility: Strategies and Practices (Final)</a></p></li>
-<li><p>IETF, <a href="#id10"><span class="problematic" id="id11">`Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - RFC 7696 also known as BCP 201 &lt;https://datatracker.ietf.org/doc/rfc7696/.`_</span></a></p></li>
+<li><p>IETF, <a href="#id11"><span class="problematic" id="id12">`Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - RFC 7696 also known as BCP 201 &lt;https://datatracker.ietf.org/doc/rfc7696/.`_</span></a></p></li>
 </ul>
 </section>
 <section id="what-is-cryptographic-agility-readiness">
@@ -671,7 +667,6 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 </section>
 <section id="what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying">
 <h3>What are some existing tools that can be used for cryptographic inventorying?<a class="headerlink" href="#what-are-some-existing-tools-that-can-be-used-for-cryptographic-inventorying" title="Link to this heading"></a></h3>
-<p>The following tools are not an exhaustive list, but rather ones that are open source or ones that we have in our lab through our collaborators. Please refer to their websites and repositories to learn more about their capabilities.</p>
 <section id="open-source-tools">
 <h4>Open source tools<a class="headerlink" href="#open-source-tools" title="Link to this heading"></a></h4>
 <ul class="simple">
@@ -679,17 +674,12 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <li><p><a class="reference external" href="https://github.com/rbsec/sslscan">sslscan2</a> to test SSL/TLS enabled services to discover supported cipher suites</p></li>
 <li><p><a class="reference external" href="https://crt.sh/">crt.sh</a> to find SSL/TLS certificates issued for specific domains or organizations</p></li>
 <li><p><a class="reference external" href="https://scan.cyberzero.io/">cyberzero PQC Edge Scanner</a> to scan for PQC transition signals at the public edge of any domain</p></li>
-</ul>
-</section>
-<section id="nccoe-collaborator-tools">
-<h4>NCCoE collaborator tools<a class="headerlink" href="#nccoe-collaborator-tools" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.aqtiveguard.com/">SandboxAQ AQtive Guard</a></p></li>
-<li><p><a class="reference external" href="https://datawh.info/">Data-Warehouse PCert</a></p></li>
-<li><p><a class="reference external" href="https://www.keyfactor.com/products/cryptographic-discovery-inventory/">Keyfactor AgileSec</a></p></li>
-<li><p><a class="reference external" href="https://github.com/cisco/mercury/">Cisco Mercury</a> (also open source)</p></li>
-<li><p><a class="reference external" href="https://tychon.io/cryptographic-inventory/">Tychon Cryptographic Inventory</a></p></li>
-<li><p><a class="reference external" href="https://docs.github.com/en/code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql">CodeQL</a> (also open source)</p></li>
+<li><p><a class="reference external" href="https://github.com/cisco/mercury/">Cisco Mercury</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/code-security/concepts/code-scanning/codeql/about-code-scanning-with-codeql">CodeQL</a></p></li>
+<li><p><a class="reference external" href="https://github.com/cbomkit/sonar-cryptography">SonarQube Plugin that detects cryptographic assets in source code and generates CBOM</a></p></li>
+<li><p><a class="reference external" href="https://github.com/cbomkit/cbomkit">A toolset for dealing with Cryptography Bill of Materials (CBOM)</a></p></li>
+<li><p><a class="reference external" href="https://github.com/CipherIQ/cbom-generator">Cryptographic asset discovery and PQC readiness scanner with CycloneDX CBOM output</a></p></li>
+<li><p><a class="reference external" href="https://github.com/CipherIQ/cbom-generator">Cryptographic asset discovery and PQC readiness scanner with CycloneDX CBOM output</a></p></li>
 </ul>
 </section>
 </section>
@@ -806,15 +796,18 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <p><a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2026/NIST.IR.8547.pdf">NIST IR 8547 (FINAL) Transition to Post-Quantum Cryptography Standards</a>
 This report identifies existing quantum-vulnerable cryptographic standards and the quantum-resistant standards to which information technology products and services will need to transition.</p>
 </section>
-<section id="what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks">
-<h3>What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration from the current set of public-key cryptographic algorithms to replacement algorithms that are resistant to quantum computer-based attacks?<a class="headerlink" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-from-the-current-set-of-public-key-cryptographic-algorithms-to-replacement-algorithms-that-are-resistant-to-quantum-computer-based-attacks" title="Link to this heading"></a></h3>
-<section id="what-has-the-nccoe-published-regarding-interoperability-and-performance-testing-of-transport-layer-security">
-<h4>What has the NCCoE published regarding interoperability and performance testing of Transport Layer Security?<a class="headerlink" href="#what-has-the-nccoe-published-regarding-interoperability-and-performance-testing-of-transport-layer-security" title="Link to this heading"></a></h4>
-<p>The Transport Layer Security (TLS) protocol is arguably the most deployed online security protocol, so it is critical to make sure it supports post-quantum protection.
-Moreover, its wide use makes it a prime target for harvest-now-decrypt-later attacks.
-It is therefore no surprise that TLS has been one of the first protocols on which PQC was prototyped.</p>
-<p>See Section 6 “Transport Layer Security” in the <a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf">Preliminary Draft NIST SPECIAL PUBLICATION 1800-38C Migration to Post-Quantum Cryptography Quantum Readiness: Testing Draft Standards</a> to see interoperability and performance results performed before December 2023 using the draft PQC KEM standards.</p>
-</section>
+<section id="what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-to-pqc">
+<h3>What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?<a class="headerlink" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-to-pqc" title="Link to this heading"></a></h3>
+<p>The following preliminary draft were published before 2024 and frame the challenges that the project could accomplish:
+<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf">Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography</a>
+<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf">Quantum Readiness: Cryptographic Discovery</a>
+<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf">Quantum Readiness: Testing Draft Standards</a></p>
+<p>The are no current plans to issue second drafts or final versions of these publications.</p>
+<p>The project team is using NIST Cybersecurity White Papers to share progress.</p>
+<p>The following are two NIST Cybersecurity White Papers published:
+<a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.48.ipd.pdf">NIST CSWP 48, Mappings of Migration to PQC Project Capabilities to Risk Framework</a>
+<a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.39.pdf">NIST CSWP 39, Considerations for Achieving Crypto Agility Strategies and Practices</a></p>
+<p>With regard to CSWP 48, what else can the project map to support your quantum readiness needs?</p>
 </section>
 <section id="do-hardware-security-module-hsm-products-incorporate-pqc-quantum-resistant-cryptographic-algorithms">
 <h3>Do Hardware Security Module (HSM) products incorporate PQC quantum resistant cryptographic algorithms?<a class="headerlink" href="#do-hardware-security-module-hsm-products-incorporate-pqc-quantum-resistant-cryptographic-algorithms" title="Link to this heading"></a></h3>
