@@ -327,7 +327,7 @@
 <li><a class="reference internal" href="#is-there-a-document-that-explains-why-engineers-need-to-be-aware-of-and-understand-post-quantum-cryptography-pqc-detailing-the-impact-of-crqcs-on-existing-systems-and-the-challenges-involved-in-transitioning-to-post-quantum-algorithms">Is there a document that explains why engineers need to be aware of and understand post-quantum cryptography (PQC), detailing the impact of CRQCs on existing systems and the challenges involved in transitioning to post-quantum algorithms?</a></li>
 <li><a class="reference internal" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat">What is the harvest now, decrypt later cybersecurity threat?</a></li>
 <li><a class="reference internal" href="#what-is-cryptographic-debt-and-why-does-it-matter">What is “cryptographic debt” and why does it matter?</a></li>
-<li><a class="reference internal" href="#is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later">Is there any testing that reveals the performance price of migrating to post-quantum cryptography and why measuring it now will save you millions later?</a></li>
+<li><a class="reference internal" href="#are-there-performance-results-posted-for-pqc-algorithms">Are there performance results posted for PQC algorithms?</a></li>
 <li><a class="reference internal" href="#has-anyone-defined-what-a-cryptographic-inventory-is-and-outlined-a-practical-customer-led-operating-model-for-managing-cryptographic-posture">Has anyone defined what a cryptographic inventory is, and outlined a practical customer-led operating model for managing cryptographic posture?</a></li>
 <li><a class="reference internal" href="#are-there-methodologies-to-manage-the-complexity-of-pqc-migration-for-various-use-cases">Are there methodologies to manage the complexity of PQC migration for various use cases?</a></li>
 <li><a class="reference internal" href="#is-there-framed-the-migration-to-pqc-challenge-for-executive-leaders">Is there framed the migration to PQC challenge for executive leaders?</a></li>
@@ -345,7 +345,7 @@
 <li><a class="reference internal" href="#are-there-any-free-utilities-to-scan-ssh-and-tls-servers">Are there any free utilities to scan SSH and TLS servers?</a></li>
 <li><a class="reference internal" href="#what-can-i-use-for-free-to-test-ssl-tls-enabled-services-to-discover-supported-cipher-suites">What can I use for free to test SSL/TLS enabled services to discover supported cipher suites?</a></li>
 <li><a class="reference internal" href="#what-is-a-cryptographic-inventory">What is a cryptographic inventory?</a></li>
-<li><a class="reference internal" href="#are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level">Are there tools that serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level?</a></li>
+<li><a class="reference internal" href="#are-there-tools-for-cryptographic-migration-efforts-at-the-system-or-asset-level">Are there tools for cryptographic migration efforts at the system or asset level?</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#risk-assessment-and-planning">Risk Assessment and Planning</a><ul>
@@ -372,7 +372,7 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#migration-testing">Migration Testing</a><ul>
-<li><a class="reference internal" href="#is-there-a-workshop-on-secure-protocol-implementations-in-the-quantum-era">Is there a workshop on Secure Protocol Implementations in the Quantum Era?</a></li>
+<li><a class="reference internal" href="#was-there-a-2026-workshop-on-secure-protocol-implementations-in-the-quantum-era">Was there a 2026 workshop on Secure Protocol Implementations in the Quantum Era?</a></li>
 <li><a class="reference internal" href="#how-are-browser-developers-making-https-certificates-secure-against-a-cryptanalytically-relevant-quantum-computer-crqc">How are browser developers making HTTPS certificates secure against a cryptanalytically relevant quantum computer (CRQC)?</a></li>
 <li><a class="reference internal" href="#what-are-some-benchmarks-that-inform-migrating-the-internet-to-post-quantum-key-agreement">What are some benchmarks that inform migrating the Internet to post-quantum key agreement?</a></li>
 <li><a class="reference internal" href="#what-is-an-example-of-early-experimentation-with-post-quantum-cryptography">What is an example of early experimentation with post-quantum cryptography?</a></li>
@@ -629,9 +629,11 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <p>Cryptographic debt is the accumulated risk that builds up when cryptography is deployed without a centralized strategy, scattered across dozens of applications and never inventoried. The result is that deprecated or insecure algorithms can lurk in systems for years undetected.</p>
 <p>See QuSecure’s <a class="reference external" href="https://www.qusecure.com/tackling-todays-unrealized-cryptographic-debt-challenge/">Tackling Today’s Unrealized Cryptographic Debt Challenge</a></p>
 </section>
-<section id="is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later">
-<h3>Is there any testing that reveals the performance price of migrating to post-quantum cryptography and why measuring it now will save you millions later?<a class="headerlink" href="#is-there-any-testing-that-reveals-the-performance-price-of-migrating-to-post-quantum-cryptography-and-why-measuring-it-now-will-save-you-millions-later" title="Link to this heading"></a></h3>
-<p>Yes. See VIAVI Solutions’ <a class="reference external" href="https://comms.viavisolutions.com/pqc-white-paper-vs13177#:~:text=The%20Hidden%20Cost%20of%20Quantum,operational%20impact%20of%20PQC%20adoption">The Hidden Cost of Quantum-Safe Encryption</a> white paper.</p>
+<section id="are-there-performance-results-posted-for-pqc-algorithms">
+<h3>Are there performance results posted for PQC algorithms?<a class="headerlink" href="#are-there-performance-results-posted-for-pqc-algorithms" title="Link to this heading"></a></h3>
+<p>Open Quantum Safe,`OQS algorithm performance visualizations &lt;<a class="reference external" href="https://comms.viavisolutions.com/pqc-white-paper-vs13177#:~:text=The%20Hidden%20Cost%20of%20Quantum,operational%20impact%20of%20PQC%20adoption">https://comms.viavisolutions.com/pqc-white-paper-vs13177#:~:text=The%20Hidden%20Cost%20of%20Quantum,operational%20impact%20of%20PQC%20adoption</a>&gt;`_</p>
+<p>Each submitted algorithm such as site such <a class="reference external" href="https://pq-crystals.org/kyber/index.shtml/">Crystals Kyber</a> which was standardized by NIST in FIPS 203 includes a “Performance Overview Section”</p>
+<p>Papers have been submitted to the NIST PQC Standardization Conferences,`(Yet another) Analysis of MLWE’s performance impact on specific TLS Use-cases &lt;<a class="reference external" href="https://csrc.nist.gov/csrc/media/events/2025/sixth-pqc-standardization-conference/(yet%20another)%20analysis%20of%20mlwes%20performance%20impact.pdf">https://csrc.nist.gov/csrc/media/events/2025/sixth-pqc-standardization-conference/(yet%20another)%20analysis%20of%20mlwes%20performance%20impact.pdf</a>&gt;`_</p>
 </section>
 <section id="has-anyone-defined-what-a-cryptographic-inventory-is-and-outlined-a-practical-customer-led-operating-model-for-managing-cryptographic-posture">
 <h3>Has anyone defined what a cryptographic inventory is, and outlined a practical customer-led operating model for managing cryptographic posture?<a class="headerlink" href="#has-anyone-defined-what-a-cryptographic-inventory-is-and-outlined-a-practical-customer-led-operating-model-for-managing-cryptographic-posture" title="Link to this heading"></a></h3>
@@ -730,10 +732,9 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <p>Related terms include <strong>cryptographic algorithm inventory</strong>, which focuses specifically on the algorithms in use, and <strong>cryptographic assets</strong>, which may include algorithms, keys, certificates, protocols, libraries, hardware security modules (HSMs), and other components that provide or depend on cryptographic protection.</p>
 <p>Maintaining a cryptographic inventory is an important step in quantum readiness because organizations cannot effectively prioritize or migrate cryptography that they have not identified .</p>
 </section>
-<section id="are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level">
-<h3>Are there tools that serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level?<a class="headerlink" href="#are-there-tools-that-serve-as-a-starting-point-for-building-a-centralized-inventory-to-track-cryptographic-migration-efforts-at-the-system-or-asset-level" title="Link to this heading"></a></h3>
-<p>Yes. The PQC Coalition provides a PQC Inventory Workbook that can serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level.</p>
-<p>See the PQC Coalition’s <a class="reference external" href="https://pqcc.org/pqc-inventory-workbook/">PQC Inventory Workbook</a>.</p>
+<section id="are-there-tools-for-cryptographic-migration-efforts-at-the-system-or-asset-level">
+<h3>Are there tools for cryptographic migration efforts at the system or asset level?<a class="headerlink" href="#are-there-tools-for-cryptographic-migration-efforts-at-the-system-or-asset-level" title="Link to this heading"></a></h3>
+<p>The PQC Coalition provides a <a class="reference external" href="https://pqcc.org/pqc-inventory-workbook/">PQC Inventory Workbook</a> that can serve as a starting point for building a centralized inventory to track cryptographic migration efforts at the system or asset level.</p>
 </section>
 </section>
 <section id="risk-assessment-and-planning">
@@ -779,8 +780,7 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 </section>
 <section id="are-there-any-quantum-readiness-surveys">
 <h3>Are there any quantum readiness surveys?<a class="headerlink" href="#are-there-any-quantum-readiness-surveys" title="Link to this heading"></a></h3>
-<p>Yes. See Citi’s <a class="reference external" href="https://www.citibank.com/tts/surveys/2025/2362659-quantum-readiness/form.jsp">Quantum Readiness Survey</a>.</p>
-<p>Note that using this survey provides information to Citi. It is shared here as a model that organizations may wish to adapt for use with their own suppliers.</p>
+<p>Australian Government, <a class="reference external" href="https://www.cyber.gov.au/publication/post-quantum-questions-to-ask-your-vendors">Post-quantum questions to ask your vendors</a>.</p>
 </section>
 <section id="are-there-any-industry-newsletters-focused-on-post-quantum-cryptography">
 <h3>Are there any industry newsletters focused on post-quantum cryptography?<a class="headerlink" href="#are-there-any-industry-newsletters-focused-on-post-quantum-cryptography" title="Link to this heading"></a></h3>
@@ -859,9 +859,9 @@ This report identifies existing quantum-vulnerable cryptographic standards and t
 </section>
 <section id="migration-testing">
 <h2>Migration Testing<a class="headerlink" href="#migration-testing" title="Link to this heading"></a></h2>
-<section id="is-there-a-workshop-on-secure-protocol-implementations-in-the-quantum-era">
-<h3>Is there a workshop on Secure Protocol Implementations in the Quantum Era?<a class="headerlink" href="#is-there-a-workshop-on-secure-protocol-implementations-in-the-quantum-era" title="Link to this heading"></a></h3>
-<p>See the <a class="reference external" href="https://spiqe.cool/cfp/">Secure Protocol Implementations in the Quantum Era (SPIQE)</a> workshop webpage.</p>
+<section id="was-there-a-2026-workshop-on-secure-protocol-implementations-in-the-quantum-era">
+<h3>Was there a 2026 workshop on Secure Protocol Implementations in the Quantum Era?<a class="headerlink" href="#was-there-a-2026-workshop-on-secure-protocol-implementations-in-the-quantum-era" title="Link to this heading"></a></h3>
+<p>The <cite>Secure Protocol Implementations in the Quantum Era (SPIQE) workshop &lt;https://spiqe.cool/&gt;</cite> took place on Friday, July 10, 2026, as a post-conference workshop at Euro S&amp;P 2026 in Lisbon, Portugal.</p>
 </section>
 <section id="how-are-browser-developers-making-https-certificates-secure-against-a-cryptanalytically-relevant-quantum-computer-crqc">
 <h3>How are browser developers making HTTPS certificates secure against a cryptanalytically relevant quantum computer (CRQC)?<a class="headerlink" href="#how-are-browser-developers-making-https-certificates-secure-against-a-cryptanalytically-relevant-quantum-computer-crqc" title="Link to this heading"></a></h3>
