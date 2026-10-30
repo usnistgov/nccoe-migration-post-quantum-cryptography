@@ -1,7 +1,6 @@
-Has anyone framed the multi-year upgrade to post-quantum cryptography in the context of regular cybersecurity operations so that executive leaders can place it within regular reviews and prioritization discussions?
-**************************************************************************************************************************************************************************************************************************
+Is there framed the migration to PQC challenge for executive leaders?
+*********************************************************************
 
-
-Yes. Deloitte has framed cryptographic resilience, including the multi-year upgrade to post-quantum cryptography, in the context of regular cybersecurity operations, executive reviews, and prioritization discussions. Meta has also published a framework, lessons, and takeaways for managing post-quantum cryptography \(PQC\) migration across complex organizational use cases.
+Deloitte has framed cryptographic resilience, including the multi-year upgrade to post-quantum cryptography, in the context of regular cybersecurity operations, executive reviews, and prioritization discussions. Meta has also published a framework, lessons, and takeaways for managing post-quantum cryptography \(PQC\) migration across complex organizational use cases.
 
 See Deloitte's `Cryptographic Resilience Community Profile <https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2026/deloitte-cryptographic-resilience-community.pdf>`_ and Meta Engineering's `Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways <https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/>`_ article.
