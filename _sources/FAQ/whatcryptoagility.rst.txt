@@ -14,7 +14,7 @@ The following are some crypto agility readiness papers for organizations or sect
 
 *   IBM, `Crypto-agility and quantum-safe readiness <https://www.ibm.com/quantum/blog/crypto-agility>`_
 
-*   ISACA, 'Post-Quantum Readiness Starts with Crypto-Agility, Not Panic ,https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/post-quantum-readiness-starts-with-crypto-agility-not-panic.'_
+*   ISACA, 'Post-Quantum Readiness Starts with Crypto-Agility\,\ Not Panic <https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/post-quantum-readiness-starts-with-crypto-agility-not-panic/>'_
 
 *   Keyfactor, "How to Assess Your Organization’s Cryptographic Agility Readiness <https://www.keyfactor.com/blog/how-to-assess-your-organizations-cryptographic-agility-readiness/>'_
 
