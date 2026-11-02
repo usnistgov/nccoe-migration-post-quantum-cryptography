@@ -39,7 +39,6 @@ Awareness and Preparation
 .. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/whatintresources.rst
 .. include:: /FAQ/whatsectorresources.rst
-.. include:: /FAQ/environmentreact.rst
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
 .. include:: /FAQ/debt.rst

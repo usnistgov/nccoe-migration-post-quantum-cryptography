@@ -1,4 +1,4 @@
-Is there general guidance to engineers working on cryptographic libraries, network security, and infrastructure development, where long-term security planning is crucial?
-**************************************************************************************************************************************************************************
+Is there general guidance to engineers working on cryptographic libraries, network security, and infrastructure development?
+****************************************************************************************************************************
 
 The IETF Datatracker's `Post-Quantum Cryptography for Engineers <https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-engineers/>`_ draft. The document covers topics such as selecting appropriate PQC algorithms and understanding the differences between PQC Key Encapsulation Mechanisms (KEMs) and traditional Diffie-Hellman (DH) and RSA-style   key exchanges, and it provides insights into expected differences in keys, ciphertext, signature sizes, and processing times between PQC and traditional algorithms.
