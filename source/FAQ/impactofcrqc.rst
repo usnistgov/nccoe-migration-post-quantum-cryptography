@@ -1,7 +1,4 @@
-Is there a document that explains why engineers need to be aware of and understand post-quantum cryptography \(PQC\), detailing the impact of CRQCs on existing systems and the challenges involved in transitioning to post-quantum algorithms?
-***********************************************************************************************************************************************************************************************************************************************************
+Is there general guidance to engineers working on cryptographic libraries, network security, and infrastructure development, where long-term security planning is crucial?
+**************************************************************************************************************************************************************************
 
-
-Yes. The Internet Engineering Task Force \(IETF\) has a draft document on this topic.
-
-See the IETF Datatracker's `Post-Quantum Cryptography for Engineers <https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-engineers/>`_ draft.
+The IETF Datatracker's `Post-Quantum Cryptography for Engineers <https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-engineers/>`_ draft. The document covers topics such as selecting appropriate PQC algorithms and understanding the differences between PQC Key Encapsulation Mechanisms (KEMs) and traditional Diffie-Hellman (DH) and RSA-style   key exchanges, and it provides insights into expected differences in keys, ciphertext, signature sizes, and processing times between PQC and traditional algorithms.
