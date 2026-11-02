@@ -1,5 +1,14 @@
 Are there examples of CRQC-ready cryptographic libraries?
 *********************************************************
 
+* IDEMIA, `Quantum-Ready Cryptographic Libraries <https://www.idemia.com/quantum-ready-cryptographic-libraries>`_ 
 
-Yes. See IDEMIA's `Quantum-Ready Cryptographic Libraries <https://www.idemia.com/quantum-ready-cryptographic-libraries>`_ webpage.
+* AWS, `AWS-LC FIPS 3.0: First cryptographic library to include ML-KEM in FIPS 140-3 validation <https://aws.amazon.com/blogs/security/aws-lc-fips-3-0-first-cryptographic-library-to-include-ml-kem-in-fips-140-3-validation/>`_
+
+* OpenQuantumSafe, `liboqs <https://openquantumsafe.org/liboqs/>`_ is an open source C library for quantum-safe cryptographic algorithms and `OpenSSL 3+ provider containing post-quantum algorithms<https://github.com/open-quantum-safe/oqs-provider>>`_
+
+* Bouncy Castle, New Release: `Bouncy Castle Java 1.86 <https://www.bouncycastle.org/resources/new-release-bouncy-castle-java-1-86/>`_
+
+* wolfSSL, `Embedded SSL/TLS Library <https://www.wolfssl.com/products/wolfssl/>`_
+
+* Microsoft, `Core cryptographic library for Windows, Azure Linux and other products <https://github.com/microsoft/symcrypt>`_
