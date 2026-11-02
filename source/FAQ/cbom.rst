@@ -9,6 +9,6 @@ Here are a few resources that can help you understand and utilize CBOMs:
 
 *   Post-Quantum Cryptography Alliance, `CBOMKit <https://pqca.org/projects/cbomkit/>`_
 
-*   PKIC, `CBOM Profile <https://pkic.org/wg/cbom/>>`_
+*   PKIC, `CBOM Profile <https://pkic.org/wg/cbom/>`_
 
 *   QuSecure, `Cryptographic bill of Materials (CBOM): Continuous Cryptographic Visibility for Crypto-Agility and Post-Quantum Readiness <https://www.qusecure.com/cryptographic-bill-of-materials-cbom/>`_.
