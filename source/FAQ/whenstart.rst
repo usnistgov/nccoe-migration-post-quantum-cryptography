@@ -1,5 +1,5 @@
-Is there guideance on where to start your migration to PQC?
-***********************************************************
+Is there guidance on where to start your migration to PQC?
+**********************************************************
 
 *   `EU PQC Workstream, A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography, 23 June 2025 <https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography>`_
 
