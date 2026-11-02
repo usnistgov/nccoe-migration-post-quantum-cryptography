@@ -1,4 +1,4 @@
-What does it mean in OpenSSH 10.1 if you receiving a warning users when connections use cryptography that is not safe against quantum computers?
+What does it mean in OpenSSH 10.1 if you receive a warning users when connections use cryptography that is not safe against quantum computers?
 ************************************************************************************************************************************************
 
 If you received such a warning, it means that the server you connected to did not offer one of the two post-quantum key agreement algorithms that are being standardised for the SSH protocol: mlkem768x25519-sha256 and sntrup761x25519-sha512 .  Visit OpenSSH's `Post-Quantum Cryptography <https://www.openssh.org/pq.html>`_ webpage to learn more.
