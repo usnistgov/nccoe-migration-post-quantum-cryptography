@@ -33,8 +33,9 @@ Awareness and Preparation
 .. include:: /FAQ/whatlanguage.rst
 .. include:: /FAQ/whencrqc.rst
 .. include:: /FAQ/whatdrivers.rst
-.. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/whatgov.rst
+.. include:: /FAQ/mandates.rst
+.. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/whatintresources.rst
 .. include:: /FAQ/whatsectorresources.rst
 .. include:: /FAQ/denialofmigration.rst
@@ -53,7 +54,7 @@ Awareness and Preparation
 Discovery and Inventory
 -------------------------------
 
-.. include:: /FAQ/mandates.rst
+
 .. include:: /FAQ/whattools.rst
 .. include:: /FAQ/cbom.rst
 .. include:: /FAQ/usecodeql.rst
