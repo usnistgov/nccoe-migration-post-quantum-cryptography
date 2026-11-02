@@ -1,7 +1,7 @@
 Is there guideance on where to start your migration to PQC?
 ***********************************************************
 
-*   `EU PQC Workstream, A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography <https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography>`_
+*   `EU PQC Workstream, A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography, 23 June 2025 <https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography>`_
 
 *   Canadian Forum for Digital Infrastructure Resilience \(CFDIR\), `Chapter Three of Canadian National Quantum-Readiness: Best Practices and Guidelines, version 04, July 2024 <https://ised-isde.canada.ca/site/spectrum-management-telecommunications/sites/default/files/documents/Quantum-Readiness%20Best%20Practices%20-%20v04%20-%2010%20July%202024.pdf>`_ 
 
