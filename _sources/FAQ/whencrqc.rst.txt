@@ -9,7 +9,7 @@ Estimates for the development of a cryptanalytically relevant quantum computer \
 
 Despite uncertainty in when a CRQC will come into existence, experts agree on the importance of preparing for quantum threats now to secure cryptographic systems for the future.
 
-**Additional Resources:** The following resources provide additional assessments of the state of development a CRQC:
+The following resources provide assessments of the state of development a CRQC:
 
 *   Germany’s Federal Office for Information Security \(BSI\), `The status of quantum computer development <https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/Entwicklungsstand-Quantencomputer/entwicklungsstand-quantencomputer_node.html>`_
 *   Global Risk Institute, `Quantum Briefing: Recent Quantum-Computing Progress and its Implications for Cybersecurity <https://globalriskinstitute.org/publication/quantum-briefing-recent-quantum-computing-progress-and-its-implications-for-cybersecurity//>`_
