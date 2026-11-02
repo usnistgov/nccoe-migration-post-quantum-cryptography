@@ -1,7 +1,5 @@
-What is an example of an all-in-one software web server, load balancer, reverse proxy, content cache, and API gateway that supports Post-Quantum Cryptography?
-*********************************************************************************************************************
+Are there Linux distros that can run NGIN with PQC support?
+***********************************************************
 
+This December 3, 2025 `NGINX Blog lists <https://blog.nginx.org/blog/pqc-nginx>`_ lists all Linux distros that can run NGINX with PQC support.
 
-F5 NGINX Plus is an example of an all-in-one software web server, load balancer, reverse proxy, content cache, and API gateway that supports Post-Quantum Cryptography.
-
-See F5's `NGINX Plus R33 Release Now Available <https://community.f5.com/kb/technicalarticles/f5-nginx-plus-r33-release-now-available/336403>`_ article.
