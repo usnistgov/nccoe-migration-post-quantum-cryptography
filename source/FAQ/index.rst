@@ -35,42 +35,40 @@ Awareness and Preparation
 .. include:: /FAQ/whatdrivers.rst
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/mandates.rst
+.. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/whatintresources.rst
 .. include:: /FAQ/whatsectorresources.rst
-.. include:: /FAQ/denialofmigration.rst
 .. include:: /FAQ/environmentreact.rst
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
-.. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/debt.rst
-.. include:: /FAQ/performanceprice.rst
 .. include:: /FAQ/customermodel.rst
-.. include:: /FAQ/methodologies.rst
 .. include:: /FAQ/multiyearupgrade.rst
+.. include:: /FAQ/denialofmigration.rst
 .. include:: /FAQ/listsofsupport.rst
 
 -------------------------------
 Discovery and Inventory
 -------------------------------
 
-
+.. include:: /FAQ/whatiscryptoinventory.rst
 .. include:: /FAQ/whattools.rst
+.. include:: /FAQ/toolstostart.rst
 .. include:: /FAQ/cbom.rst
 .. include:: /FAQ/usecodeql.rst
 .. include:: /FAQ/freeutilities.rst
 .. include:: /FAQ/discovercipher.rst
-.. include:: /FAQ/whatiscryptoinventory.rst
-.. include:: /FAQ/toolstostart.rst
+
 
 -------------------------------
 Risk Assessment and Planning
 -------------------------------
 
 .. include:: /FAQ/whenstart.rst
+.. include:: /FAQ/methodologies.rst
 .. include:: /FAQ/whattimeline.rst
 .. include:: /FAQ/actionabledocuments.rst
-.. include:: /FAQ/faqopenssh.rst
 .. include:: /FAQ/freescanner.rst
 .. include:: /FAQ/readinesssurveys.rst
 .. include:: /FAQ/industrynewsletters.rst
@@ -84,6 +82,7 @@ Migration Execution
 .. include:: /FAQ/whatnccoepub.rst
 .. include:: /FAQ/whatishsm.rst
 .. include:: /FAQ/checkbrowser.rst
+.. include:: /FAQ/faqopenssh.rst
 .. include:: /FAQ/allinone.rst
 .. include:: /FAQ/crqcreadylibraries.rst
 .. include:: /FAQ/adviceforuse.rst
@@ -94,6 +93,7 @@ Migration Execution
 Migration Testing
 -------------------------------
 
+.. include:: /FAQ/performanceprice.rst
 .. include:: /FAQ/spiqeworkshop.rst
 .. include:: /FAQ/httpssecurecerts.rst
 .. include:: /FAQ/benchmarkinternet.rst
