@@ -65,6 +65,7 @@ Risk Assessment and Planning
 -------------------------------
 
 .. include:: /FAQ/whenstart.rst
+.. include:: /FAQ/environmentreact.rst
 .. include:: /FAQ/methodologies.rst
 .. include:: /FAQ/whattimeline.rst
 .. include:: /FAQ/actionabledocuments.rst
