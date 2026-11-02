@@ -1,5 +1,5 @@
-Is there framed the migration to PQC challenge for executive leaders?
-*********************************************************************
+Who has framed the migration to PQC challenge for executive leaders?
+********************************************************************
 
 Deloitte has framed cryptographic resilience, including the multi-year upgrade to post-quantum cryptography, in the context of regular cybersecurity operations, executive reviews, and prioritization discussions. Meta has also published a framework, lessons, and takeaways for managing post-quantum cryptography \(PQC\) migration across complex organizational use cases.
 
