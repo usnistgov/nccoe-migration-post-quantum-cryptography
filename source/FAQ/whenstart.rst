@@ -10,7 +10,7 @@ Is there guidance on where to start your migration to PQC?
 
     *   `PQC Inventory Workbook <https://pqcc.org/pqc-inventory-workbook/>`_
 
-*   Public Key Infrastructure Consortium \(PKIC\), `PQC Capabilities Matrix \(PQCCM\) <https://pkic.org/pqccm>`_
+*   Public Key Infrastructure Consortium \(PKIC\), `PQC Maturity Model <https://pkic.org/wg/pqc/pqcmm/>`_
 
 *   The Netherland’s General Intelligence and Security Service \(AIVD\), Centrum Wiskunde & Informatica \(CWI\), and TNO, an independent not-for-profit research organisation, `The PQC Migration Handbook: Guidelines for Migrating to Post-Quantum Cryptography, Revised and Extended Second Edition, December 2024 <https://publications.tno.nl/publication/34643386/fXcPVHsX/TNO-2024-pqc-en.pdf,>`_
 
