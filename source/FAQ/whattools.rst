@@ -13,4 +13,3 @@ Open source tools
 *   `SonarQube Plugin that detects cryptographic assets in source code and generates CBOM <https://github.com/cbomkit/sonar-cryptography>`_
 *   `A toolset for dealing with Cryptography Bill of Materials (CBOM) <https://github.com/cbomkit/cbomkit>`_
 *   `Cryptographic asset discovery and PQC readiness scanner with CycloneDX CBOM output <https://github.com/CipherIQ/cbom-generator>`_
-*   `Cryptographic asset discovery and PQC readiness scanner with CycloneDX CBOM output <https://github.com/CipherIQ/cbom-generator>`_
