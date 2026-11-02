@@ -14,6 +14,8 @@ With the growing attention on quantum computing as an emerging technology, compo
 
 *   U.S. Cybersecurity and Infrastructure Security Agency \(CISA\), `Quantum-Readiness: Migration to Post-Quantum Cryptography <https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF>`_
 
+*   World Economic Forum, `Quantum Readiness Toolkit: Building a Quantum-Secure Economy <https://www.weforum.org/publications/quantum-readiness-toolkit-building-a-quantum-secure-economy/>`_
+
 "Quantum-Resistant"
 +++++++++++++++++++
 
@@ -40,7 +42,4 @@ With the growing attention on quantum computing as an emerging technology, compo
 
 *   SafeLogic, `Comparing PQC and Classical Algorithms <https://www.safelogic.com/blog/comparing-pqc-and-classical-algorithms>`_
 
-"Quantum Secure"
-+++++++++++++++++++
 
-*   World Economic Forum, `Quantum Readiness Toolkit: Building a Quantum-Secure Economy <https://www.weforum.org/publications/quantum-readiness-toolkit-building-a-quantum-secure-economy/>`_
