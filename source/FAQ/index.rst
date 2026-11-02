@@ -9,9 +9,9 @@ Frequently Asked Questions about Post-Quantum Cryptography
 
 The NIST National Cybersecurity Center of Excellence, NIST’s Applied Cybersecurity Lab, has established a Migration to Post-Quantum Cryptography (PQC) project that is focused on supporting the use of NIST PQC standards.  We’re working with industry and government stakeholders on two workstreams, and will develop demonstrations in each:
 
-1.	**Cryptographic Visibility and Risk Management**, focused on building and maintaining a comprehensive cryptographic inventory to guide PQC migration.
+1.	**Cryptographic Visibility and Risk Management**, focused on discovering and inventorying cryptography use and providing examples of risk based decisions that can be made to prioritize migration to PQC, quantum resistant cryptography.  The goal of the workstream is to provide insights that will help organizations to manage their cryptography by gain visibility, apply risk based decisioning, and implement cryptographic policies to support cryptographic agility.
 
-2.	**Interoperability and Benchmarking**, supporting the technology and public-key cryptography providers who embed PQC algorithms into their products and services.
+2.	**Interoperability and Benchmarking**, supporting the technology and public-key cryptography subject matter experts as they work to who use PQC algorithms in protocols, products and services.
 
 We’ve grouped the most common questions into six key phases of the PQC migration journey, guiding you through the transition needed to protect against the threat of a cryptanalytically relevant quantum computer (CRQC).
 
