@@ -31,8 +31,8 @@ The following bullets offer a timeline that illustrates the directives and resou
 
 *   October 2026, `Commercial National Security Algorithm Suite 2.0 \(CNSA 2.0\) FAQ Updated <https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF>`_
 
-*   October 2026, `Department of War - Memorandum Execute Post Quantum Migration <https://dodcio.defense.gov/Portals/0/Documents/Library/DoW-Execute-PQ-Migration.pdf>`_ 
+*   October 2026, `Department of War - Memorandum Execute Post Quantum Migration <https://drive.google.com/file/d/1DKA2PK01tvhcu752fznnGH5qQzi8PRxb/view?usp=drivesdk>`_ 
 
-*   October 2026, `Department of War - Post Quantum Cryptography (PQC) Implementation Plan <https://dodcio.defense.gov/Portals/0/Documents/Library/DoW-PQC-Implementation.pdf>`_ 
+*   October 2026, `Department of War - Post Quantum Cryptography (PQC) Implementation Plan <https://drive.google.com/file/d/1JvnxJDkI6AvH0psRPUuT6Ci50hS8wB8f/view?usp=drivesdk>`_ 
 
 
