@@ -35,6 +35,7 @@ Awareness and Preparation
 .. include:: /FAQ/whatdrivers.rst
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/mandates.rst
+.. include:: /FAQ/exec_guidance.rst
 .. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/whatintresources.rst
