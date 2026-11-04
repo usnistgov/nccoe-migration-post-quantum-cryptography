@@ -82,6 +82,7 @@ Migration Execution
 .. include:: /FAQ/whatnccoepub.rst
 .. include:: /FAQ/whatpiv.rst
 .. include:: /FAQ/tlsguidance.rst
+.. include:: /FAQ/whatposts.rst
 .. include:: /FAQ/whatishsm.rst
 .. include:: /FAQ/checkbrowser.rst
 .. include:: /FAQ/faqopenssh.rst
