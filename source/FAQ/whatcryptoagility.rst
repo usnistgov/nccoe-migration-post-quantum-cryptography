@@ -1,9 +1,13 @@
 What is cryptographic agility?
 ******************************
 
-*   NIST, `NIST Cybersecurity White Paper \(CSWP 39\), Considerations for Achieving Crypto Agility: Strategies and Practices \(Final\) <https://csrc.nist.gov/pubs/cswp/39/considerations-for-achieving-cryptographic-agility/final>`_ 
+*   NIST, `NIST Cybersecurity White Paper \(CSWP 39\), Considerations for Achieving Crypto Agility: Strategies and Practices \(Final\) <https://csrc.nist.gov/pubs/cswp/39/upd1/considerations-for-achieving-crypto-agility/final>`_ 
+
+Cryptographic (crypto) agility refers to the capabilities needed to replace and adapt cryptographic algorithms in protocols, applications, software, hardware, firmware, and infrastructures while preserving security and ongoing operations. This white paper provides an in-depth survey of current approaches to achieving crypto agility. It discusses challenges and trade-offs and identifies approaches for providing operational mechanisms to achieve crypto agility. It also highlights critical working areas that require additional consideration.
 
 *   IETF, `Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - RFC 7696 also known as BCP 201 <https://datatracker.ietf.org/doc/rfc7696/.`_
+
+Many IETF protocols use cryptographic algorithms to provide confidentiality, integrity, authentication, or digital signature. Communicating peers must support a common set of cryptographic algorithms for these mechanisms to work properly.  This memo provides guidelines to ensure that protocols have the ability to migrate from one mandatory-to-implement algorithm suite to another over time.
 
 What is cryptographic agility readiness?
 ****************************************
