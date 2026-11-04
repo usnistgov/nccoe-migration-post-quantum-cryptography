@@ -41,6 +41,7 @@ Awareness and Preparation
 .. include:: /FAQ/whatsectorresources.rst
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
+.. include:: /FAQ/exercises.rst
 .. include:: /FAQ/debt.rst
 .. include:: /FAQ/customermodel.rst
 .. include:: /FAQ/multiyearupgrade.rst
