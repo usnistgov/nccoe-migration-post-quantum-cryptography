@@ -36,8 +36,10 @@ Information Technology Sector
 Telecom
 +++++++
 
-*   Global Systems for Mobile communications Association \(GSMA\), `PQ.03 Post Quantum Cryptography – Guidelines for Telecom Use Cases v2.0 <https://www.gsma.com/newsroom/gsma_resources/pq-03-post-quantum-cryptography-guidelines-for-telecom-use-cases/>`_
+*   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Use Case Library <https://www.gsma.com/solutions-and-impact/technologies/security/welcome-to-post-quantum-cryptography-use-case-library/>`_
+
+*   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Documents <https://www.gsma.com/solutions-and-impact/technologies/security/post-quantum-cryptography-documents/>`_
 
 *   Alliance for Telecommunications Industry Solutions \(ATIS\), `Preparing 5G for the Quantum Era: An Analysis of 3GPP Architecture and the Transition to Quantum-Resistant Cryptography <https://cdn.atis.org/atis.org/2025/02/25152429/Preparing-5G-for-the-Quantum-Era-WP-V9.pdf>`_
 
-*   Communications Sector Coordinating Council \(CSCC\), `Committee Impact Report on Post Quantum Cryptography <https://comms-scc.org/2023/07/31/the-engineer-who-cried-quantum/>`_
+*   Communications Sector Coordinating Council \(CSCC\), `Post-Quantum Cryptography for Legacy and Migration-Constrained Systems in the Communications Sector <https://comms-scc.org/2026/10/20/post-quantum-cryptography-for-legacy-and-migration-constrained-systems-in-the-communications-sector/>`_
