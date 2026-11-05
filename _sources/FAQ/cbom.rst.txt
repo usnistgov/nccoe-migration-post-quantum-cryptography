@@ -11,4 +11,6 @@ Here are a few resources that can help you understand and utilize CBOMs:
 
 *   PKIC, `CBOM Profile <https://pkic.org/wg/cbom/>`_
 
-*   QuSecure, `Cryptographic bill of Materials (CBOM): Continuous Cryptographic Visibility for Crypto-Agility and Post-Quantum Readiness <https://www.qusecure.com/cryptographic-bill-of-materials-cbom/>`_.
+*   QuSecure, `Cryptographic bill of Materials (CBOM): Continuous Cryptographic Visibility for Crypto-Agility and Post-Quantum Readiness <https://www.qusecure.com/cryptographic-bill-of-materials-cbom/>`_
+
+*   GitHub's `Leveraging CodeQL for CBOM generations <https://github.blog/security/vulnerability-research/addressing-post-quantum-cryptography-with-codeql/#leveraging-codeql-for-cbom-generation>`_ blog post.
