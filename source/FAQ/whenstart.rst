@@ -16,3 +16,5 @@ Is there guidance on where to start your migration to PQC?
 
 *   European Telecommunications Standards Institute \(ETSI\),  `TR 104 016 V1.1.1 – CYBER; Quantum-Safe Cryptography (QSC); A Repeatable Framework for Quantum-Safe Migrations <https://www.etsi.org/deliver/etsi_tr/104000_104099/104016/01.01.01_60/tr_104016v010101p.pdf>`_ 
 
+*   QRAMM | Post-Quantum Cryptography Migration Checklist  `A Step-by-Step Guide for Your PQC Transition <https://qramm.org/toolkit/QRAMM_PQC_Migration_Checklist.pdf>`_ 
+
