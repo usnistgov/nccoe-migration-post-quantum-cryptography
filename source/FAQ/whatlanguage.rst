@@ -1,5 +1,5 @@
-What are some other ways to describe the need to use post-quantum cryptography in our classical computing systems?
-******************************************************************************************************************
+What are some other ways to describe the migration to post-quantum cryptography?
+********************************************************************************
 
 With the growing attention on quantum computing as an emerging technology, compounding the term "quantum" with "readiness", "resistant". "safe", or "secure" has become another way to convey what is being achieved in this cryptographic migration.
 
