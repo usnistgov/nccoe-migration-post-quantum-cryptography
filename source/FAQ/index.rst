@@ -35,11 +35,11 @@ Awareness and Preparation
 .. include:: /FAQ/whencrqc.rst
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/mandates.rst
+.. include:: /FAQ/countrytimelines.rst
 .. include:: /FAQ/whatsectorresources.rst
 .. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/whatcryptoagility.rst
-.. include:: /FAQ/countrytimelines.rst
--- include:: /FAQ/mappings.rst
+.. include:: /FAQ/mappings.rst
 .. include:: /FAQ/learnmore.rst
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
@@ -58,7 +58,6 @@ Discovery and Inventory
 .. include:: /FAQ/whattools.rst
 .. include:: /FAQ/toolstostart.rst
 .. include:: /FAQ/cbom.rst
-.. include:: /FAQ/usecodeql.rst
 .. include:: /FAQ/freeutilities.rst
 .. include:: /FAQ/discovercipher.rst
 
