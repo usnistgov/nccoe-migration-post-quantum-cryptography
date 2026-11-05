@@ -30,12 +30,12 @@ Awareness and Preparation
 -------------------------------
 
 .. include:: /FAQ/whatispqc.rst
+.. include:: /FAQ/whatnccoepub.rst
 .. include:: /FAQ/whatlanguage.rst
 .. include:: /FAQ/whencrqc.rst
 .. include:: /FAQ/whatdrivers.rst
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/mandates.rst
-.. include:: /FAQ/exec_guidance.rst
 .. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/whatintresources.rst
