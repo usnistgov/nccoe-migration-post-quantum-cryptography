@@ -15,4 +15,3 @@ The following are two NIST Cybersecurity White Papers published:
 `NIST CSWP 39, Considerations for Achieving Crypto Agility Strategies and Practices <https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.39.pdf>`_
 
 With regard to CSWP 48, what else can the project map to support your quantum readiness needs?
-
