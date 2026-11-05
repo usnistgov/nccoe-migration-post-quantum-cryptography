@@ -1,4 +1,3 @@
-
 Where can I learn more about the critical need to counter the threat to public key cryptography from a cryptanalytically relevant quantum computer?
 ***************************************************************************************************************************************************
 
