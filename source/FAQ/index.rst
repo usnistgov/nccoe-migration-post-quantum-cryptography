@@ -23,7 +23,7 @@ Please contribute to the FAQ by using `this form <https://forms.gle/2mQEe97LrG3P
 
 If you have anything to further discuss, please contact us at `<applied-crypto-pqc@nist.gov>`_.
 
-**Last Updated:** November, 2026
+**Last Updated:** November 05, 2026
 
 -------------------------------
 Awareness and Preparation
@@ -33,13 +33,14 @@ Awareness and Preparation
 .. include:: /FAQ/whatnccoepub.rst
 .. include:: /FAQ/whatlanguage.rst
 .. include:: /FAQ/whencrqc.rst
-.. include:: /FAQ/whatdrivers.rst
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/mandates.rst
+.. include:: /FAQ/whatsectorresources.rst
 .. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/whatcryptoagility.rst
-.. include:: /FAQ/whatintresources.rst
-.. include:: /FAQ/whatsectorresources.rst
+.. include:: /FAQ/countrytimelines.rst
+-- include:: /FAQ/mappings.rst
+.. include:: /FAQ/learnmore.rst
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
 .. include:: /FAQ/exercises.rst

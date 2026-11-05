@@ -1,5 +1,5 @@
-What are some existing tools that can be used for cryptographic inventorying?
-*****************************************************************************
+What are some existing open source tools that can be used for cryptographic inventorying?
+*****************************************************************************************
 
 Open source tools
 +++++++++++++++++++++
@@ -13,3 +13,5 @@ Open source tools
 *   `SonarQube Plugin that detects cryptographic assets in source code and generates CBOM <https://github.com/cbomkit/sonar-cryptography>`_
 *   `A toolset for dealing with Cryptography Bill of Materials (CBOM) <https://github.com/cbomkit/cbomkit>`_
 *   `Cryptographic asset discovery and PQC readiness scanner with CycloneDX CBOM output <https://github.com/CipherIQ/cbom-generator>`_
+
+Commercial products are often described as Automated Discovery and Inventory tools. If you are aleady operating continuous diagnostics and monitoring tools in your enterprise, consider asking your current tool providers if their tool can be leveraged for disocvery and inventory of crytography algorithms in use, communication protocols and services that use cryptography, cryptographic keys, certificates and certificate chains, systems, applications, or components that depend on cryptography, data protected by cryptography, cryptographic libraries, cryptographic parameters such as key lengths and operational modes, hardware roots of trust such as hardware security modules (HSMs), TPMs, smart cards, and secure enclaves hosting keys or offloading operations, etc.

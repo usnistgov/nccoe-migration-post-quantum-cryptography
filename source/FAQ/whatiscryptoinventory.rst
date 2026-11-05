@@ -5,17 +5,17 @@ A cryptographic inventory is a descriptive record of the cryptography used acros
 
 A cryptographic inventory may include information about:
 
-⁃ Cryptographic algorithms in use, such as RSA, elliptic curve cryptography \(ECC\), AES, SHA-2, or post-quantum algorithms
-⁃ Cryptographic protocols and services, such as TLS, SSH, VPNs, code signing, email encryption, and certificate-based authentication
-⁃ Cryptographic keys, including key type, owner, associated algorithm, application, expiration date, and lifecycle status, without including the key material itself
-⁃ Certificates and certificate chains
-⁃ Systems, applications, or components that depend on cryptography
-⁃ Data protected by cryptography, especially sensitive or long-lived data that may be vulnerable to “harvest now, decrypt later” threats
-- Implementation and software details: Specific cryptographic libraries and versions (e.g., OpenSSL 3.0), module validation statuses (e.g., FIPS 140-3), and Cryptographic Bills of Materials (CBOM) for third-party software dependencies.
-- Cryptographic parameters: Key lengths, operational modes (e.g., CBC vs. GCM), elliptic curves, and classical/quantum security bit strengths.
-- Hardware roots of trust: Hardware security modules (HSMs), TPMs, smart cards, and secure enclaves hosting keys or offloading operations.
-- Cryptographic agility assessment: Degree of algorithmic hardcoding, configurability, and ability to accommodate larger PQC key, ciphertext, and signature sizes.
-- Hosting and vendor boundaries: Cloud KMS services, SaaS dependencies, and third-party data exchange channels.
+* Cryptographic algorithms in use, such as RSA, elliptic curve cryptography \(ECC\), AES, SHA-2, or post-quantum algorithms
+* Cryptographic protocols and services, such as TLS, SSH, VPNs, code signing, email encryption, and certificate-based authentication
+* Cryptographic keys, including key type, owner, associated algorithm, application, expiration date, and lifecycle status, without including the key material itself
+* Certificates and certificate chains
+* Systems, applications, or components that depend on cryptography
+* Data protected by cryptography, especially sensitive or long-lived data that may be vulnerable to “harvest now, decrypt later” threats
+* Implementation and software details: Specific cryptographic libraries and versions (e.g., OpenSSL 3.0), module validation statuses (e.g., FIPS 140-3), and Cryptographic Bills of Materials (CBOM) for third-party software dependencies.
+* Cryptographic parameters: Key lengths, operational modes (e.g., CBC vs. GCM), elliptic curves, and classical/quantum security bit strengths.
+* Hardware roots of trust: Hardware security modules (HSMs), TPMs, smart cards, and secure enclaves hosting keys or offloading operations.
+* Cryptographic agility assessment: Degree of algorithmic hardcoding, configurability, and ability to accommodate larger PQC key, ciphertext, and signature sizes.
+* Hosting and vendor boundaries: Cloud KMS services, SaaS dependencies, and third-party data exchange channels.
 
 Related terms include **cryptographic algorithm inventory**, which focuses specifically on the algorithms in use, and **cryptographic assets**, which may include algorithms, keys, certificates, protocols, libraries, hardware security modules \(HSMs\), and other components that provide or depend on cryptographic protection.
 
