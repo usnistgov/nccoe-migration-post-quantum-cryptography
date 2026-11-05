@@ -70,7 +70,8 @@ Risk Assessment and Planning
 .. include:: /FAQ/environmentreact.rst
 .. include:: /FAQ/methodologies.rst
 .. include:: /FAQ/whattimeline.rst
-.. include:: /FAQ/actionabledocuments.rst
+.. include:: /FAQ/processesorg.rst
+.. include:: 'FAQ/tabeltop.rst
 .. include:: /FAQ/freescanner.rst
 .. include:: /FAQ/readinesssurveys.rst
 .. include:: /FAQ/industrynewsletters.rst
@@ -85,6 +86,7 @@ Migration Execution
 .. include:: /FAQ/whatpiv.rst
 .. include:: /FAQ/tlsguidance.rst
 .. include:: /FAQ/whatposts.rst
+.. include:: /FAQ/embeddedpqc.rst
 .. include:: /FAQ/whatishsm.rst
 .. include:: /FAQ/checkbrowser.rst
 .. include:: /FAQ/faqopenssh.rst
