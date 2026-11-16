@@ -113,7 +113,7 @@ Validation and Monitoring
 -------------------------------
 
 .. include:: /FAQ/whatfips.rst
-
+.. include:: /FAQ/whatfedramp.rst
 
 
 .. |This graphic contains the logos for NIST and the NCCoE.| image:: images/Figure1.png
