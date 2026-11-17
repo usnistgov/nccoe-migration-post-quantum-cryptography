@@ -31,7 +31,6 @@ Awareness and Preparation
 
 .. include:: /FAQ/whatispqc.rst
 .. include:: /FAQ/whatnccoepub.rst
-.. include:: /FAQ/whatlanguage.rst
 .. include:: /FAQ/whencrqc.rst
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/mandates.rst
@@ -39,10 +38,11 @@ Awareness and Preparation
 .. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/mappings.rst
+.. include:: /FAQ/whatlanguage.rst
 .. include:: /FAQ/learnmore.rst
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
-.. include:: /FAQ/whatsectorresources.rst
+.. include:: /FAQ/whatsectorresources.rstgit
 .. include:: /FAQ/exercises.rst
 .. include:: /FAQ/debt.rst
 .. include:: /FAQ/customermodel.rst
