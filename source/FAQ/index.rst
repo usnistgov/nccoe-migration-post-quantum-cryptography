@@ -36,13 +36,13 @@ Awareness and Preparation
 .. include:: /FAQ/whatgov.rst
 .. include:: /FAQ/mandates.rst
 .. include:: /FAQ/countrytimelines.rst
-.. include:: /FAQ/whatsectorresources.rst
 .. include:: /FAQ/harvestnow.rst
 .. include:: /FAQ/whatcryptoagility.rst
 .. include:: /FAQ/mappings.rst
 .. include:: /FAQ/learnmore.rst
 .. include:: /FAQ/freeonline.rst
 .. include:: /FAQ/impactofcrqc.rst
+.. include:: /FAQ/whatsectorresources.rst
 .. include:: /FAQ/exercises.rst
 .. include:: /FAQ/debt.rst
 .. include:: /FAQ/customermodel.rst
