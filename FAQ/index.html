@@ -303,26 +303,20 @@
 <li><a class="reference internal" href="#awareness-and-preparation">Awareness and Preparation</a><ul>
 <li><a class="reference internal" href="#what-is-post-quantum-cryptography-pqc">What is Post-Quantum Cryptography (PQC)?</a></li>
 <li><a class="reference internal" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-to-pqc">What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?</a></li>
+<li><a class="reference internal" href="#when-will-a-cryptanalytically-relevant-quantum-computer-exist">When will a cryptanalytically relevant quantum computer exist?</a></li>
+<li><a class="reference internal" href="#what-u-s-government-policies-memorandums-and-standards-discuss-migration-to-pqc">What U.S. government policies, memorandums, and standards discuss migration to PQC?</a></li>
+<li><a class="reference internal" href="#is-there-a-us-mandate-for-action-related-to-crqc-readiness-or-migration-to-pqc">Is there a US mandate for action related to CRQC-readiness or migration to PQC?</a></li>
+<li><a class="reference internal" href="#where-can-reference-pqc-related-timelines-for-different-countries">Where can reference PQC related timelines for different countries?</a></li>
+<li><a class="reference internal" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat">What is the harvest now, decrypt later cybersecurity threat?</a></li>
+<li><a class="reference internal" href="#what-is-cryptographic-agility">What is cryptographic agility?</a></li>
+<li><a class="reference internal" href="#what-is-cryptographic-agility-readiness">What is cryptographic agility readiness?</a></li>
+<li><a class="reference internal" href="#are-there-mappings-for-aspects-of-migration-to-pqc">Are there mappings for aspects of Migration to PQC?</a></li>
 <li><a class="reference internal" href="#what-are-some-other-ways-to-describe-the-migration-to-post-quantum-cryptography">What are some other ways to describe the migration to post-quantum cryptography?</a><ul>
 <li><a class="reference internal" href="#quantum-readiness">“Quantum-Readiness”</a></li>
 <li><a class="reference internal" href="#quantum-resistant">“Quantum-Resistant”</a></li>
 <li><a class="reference internal" href="#quantum-safe">“Quantum-Safe”</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#when-will-a-cryptanalytically-relevant-quantum-computer-exist">When will a cryptanalytically relevant quantum computer exist?</a></li>
-<li><a class="reference internal" href="#what-u-s-government-policies-memorandums-and-standards-discuss-migration-to-pqc">What U.S. government policies, memorandums, and standards discuss migration to PQC?</a></li>
-<li><a class="reference internal" href="#is-there-a-us-mandate-for-action-related-to-crqc-readiness-or-migration-to-pqc">Is there a US mandate for action related to CRQC-readiness or migration to PQC?</a></li>
-<li><a class="reference internal" href="#where-can-reference-pqc-related-timelines-for-different-countries">Where can reference PQC related timelines for different countries?</a></li>
-<li><a class="reference internal" href="#what-are-some-sector-specific-pqc-resources">What are some Sector-Specific PQC Resources?</a><ul>
-<li><a class="reference internal" href="#financial-services-sector">Financial Services Sector</a></li>
-<li><a class="reference internal" href="#information-technology-sector">Information Technology Sector</a></li>
-<li><a class="reference internal" href="#telecom">Telecom</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat">What is the harvest now, decrypt later cybersecurity threat?</a></li>
-<li><a class="reference internal" href="#what-is-cryptographic-agility">What is cryptographic agility?</a></li>
-<li><a class="reference internal" href="#what-is-cryptographic-agility-readiness">What is cryptographic agility readiness?</a></li>
-<li><a class="reference internal" href="#are-there-mappings-for-aspects-of-migration-to-pqc">Are there mappings for aspects of Migration to PQC?</a></li>
 <li><a class="reference internal" href="#where-can-i-learn-more">Where can I learn more?</a></li>
 <li><a class="reference internal" href="#is-there-a-free-online-platform-that-can-help-anyone-learn-about-aspects-of-the">Is there a free online platform that can help anyone learn about aspects of the ?</a></li>
 <li><a class="reference internal" href="#is-there-general-guidance-to-engineers-working-on-cryptographic-libraries-network-security-and-infrastructure-development">Is there general guidance to engineers working on cryptographic libraries, network security, and infrastructure development?</a></li>
@@ -359,7 +353,7 @@
 </li>
 <li><a class="reference internal" href="#migration-execution">Migration Execution</a><ul>
 <li><a class="reference internal" href="#has-nist-published-strategy-to-manage-and-guide-the-transition-to-post-quantum-cryptography">Has NIST published strategy to manage and guide the transition to post-quantum cryptography?</a></li>
-<li><a class="reference internal" href="#id8">What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?</a></li>
+<li><a class="reference internal" href="#id7">What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?</a></li>
 <li><a class="reference internal" href="#can-i-contribute-feedback-on-drafts-to-personal-identity-verification-piv-specifications-including-nist-sp-800-73-parts-1-and-2-and-nist-sp-800-78-to-pqc-standards">Can I contribute feedback on drafts to Personal Identity Verification (PIV) specifications, including NIST SP 800-73, Parts 1 and 2, and NIST SP 800-78, to PQC standards?</a></li>
 <li><a class="reference internal" href="#is-there-guidance-on-using-tls-to-protect-data-to-include-recommended-configurations-for-post-quantum-cryptography-pqc">IS there guidance on using TLS to protect data, to include recommended configurations for post-quantum cryptography (PQC)?</a></li>
 <li><a class="reference internal" href="#what-is-post-quantum-authentication">What is post-quantum authentication?</a></li>
@@ -452,49 +446,12 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <section id="what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-to-pqc">
 <h3>What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?<a class="headerlink" href="#what-has-the-national-cybersecurity-center-of-excellence-nccoe-published-to-support-migration-to-pqc" title="Link to this heading"></a></h3>
 <p>The following preliminary draft were published before 2024 and frame the challenges that the project could accomplish:
-<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf">Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography</a>
-<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf">Quantum Readiness: Cryptographic Discovery</a>
-<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf">Quantum Readiness: Testing Draft Standards</a></p>
-<p>The are no current plans to issue second drafts or final versions of these publications.</p>
-<p>The project team is using NIST Cybersecurity White Papers to share progress.</p>
-<p>The following are two NIST Cybersecurity White Papers published:
+<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf">Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography</a>,
+<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf">Quantum Readiness: Cryptographic Discovery</a>, and <a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf">Quantum Readiness: Testing Draft Standards</a> .  NOTE: The are no current plan to update and issue second drafts or final versions of these publications.</p>
+<p>The project team is now using NIST Cybersecurity White Papers to share progress and has published two NIST Cybersecurity White Papers published:
 <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.48.ipd.pdf">NIST CSWP 48, Mappings of Migration to PQC Project Capabilities to Risk Framework</a>
 <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.39.pdf">NIST CSWP 39, Considerations for Achieving Crypto Agility Strategies and Practices</a></p>
 <p>With regard to CSWP 48, what else can the project map to support your quantum readiness needs?</p>
-</section>
-<section id="what-are-some-other-ways-to-describe-the-migration-to-post-quantum-cryptography">
-<h3>What are some other ways to describe the migration to post-quantum cryptography?<a class="headerlink" href="#what-are-some-other-ways-to-describe-the-migration-to-post-quantum-cryptography" title="Link to this heading"></a></h3>
-<p>With the growing attention on quantum computing as an emerging technology, compounding the term “quantum” with “readiness”, “resistant”. “safe”, or “secure” has become another way to convey what is being achieved in this cryptographic migration.</p>
-<section id="quantum-readiness">
-<h4>“Quantum-Readiness”<a class="headerlink" href="#quantum-readiness" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Canadian Forum for Digital Infrastructure Resilience (CFDIR), <a class="reference external" href="https://ised-isde.canada.ca/site/spectrum-management-telecommunications/sites/default/files/documents/Quantum-Readiness%20Best%20Practices%20-%20v04%20-%2010%20July%202024.pdf">Canadian National Quantum-Readiness Best Practices and Guidelines</a></p></li>
-<li><p>Cloud Security Alliance, <a class="reference external" href="https://cloudsecurityalliance.org/blog/2024/07/03/quantum-readiness-importance-a-comprehensive-guide">Quantum Readiness Importance: A Comprehensive Guide</a></p></li>
-<li><p>Deloitte, <a class="reference external" href="https://www.deloitte.com/global/en/services/consulting-risk/perspectives/enterprises-consider-practical-steps-toward-quantum-cyber-readiness.html">Quantum Cyber Readiness</a></p></li>
-<li><p>U.S. Cybersecurity and Infrastructure Security Agency (CISA), <a class="reference external" href="https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF">Quantum-Readiness: Migration to Post-Quantum Cryptography</a></p></li>
-<li><p>World Economic Forum, <a class="reference external" href="https://www.weforum.org/publications/quantum-readiness-toolkit-building-a-quantum-secure-economy/">Quantum Readiness Toolkit: Building a Quantum-Secure Economy</a></p></li>
-</ul>
-</section>
-<section id="quantum-resistant">
-<h4>“Quantum-Resistant”<a class="headerlink" href="#quantum-resistant" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Quantum-Resistant appears 15 times in <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8105.pdf">NIST Information Report 8105 Report on Post-Quantum Cryptography</a></p></li>
-<li><p>The National Cryptologic Foundation, <a class="reference external" href="https://cryptologicfoundation.org/community/conferences/convene/quantum-march-2024.html">Convening to Act: Quantum Resistant Cryptography (QRC) in Software</a></p></li>
-<li><p>Microsoft, <a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsofts-quantum-resistant-cryptography-is-here/4238780">Microsoft’s quantum-resistant cryptography is here</a></p></li>
-<li><p>SSH, <a class="reference external" href="https://www.ssh.com/blog/ssh-in-the-world-of-post-quantum-cryptography">SSH in the World of Post-Quantum Cryptography (PQC)</a></p></li>
-<li><p>Technology Review, <a class="reference external" href="https://www.technologyreview.com/2022/09/14/1059400/explainer-quantum-resistant-algorithms/">What are quantum-resistant algorithms—and why do we need them?</a></p></li>
-<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/blog/post-quantum-cryptography-pqc-competitive-advantage-for-tech-vendors">Why Post-Quantum Cryptography (PQC) is Now a Competitive Advantage for Tech Vendors</a></p></li>
-</ul>
-</section>
-<section id="quantum-safe">
-<h4>“Quantum-Safe”<a class="headerlink" href="#quantum-safe" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>IBM, <a class="reference external" href="https://www.ibm.com/think/topics/quantum-safe-cryptography">What is quantum-safe cryptography?</a></p></li>
-<li><p>European Telecommunications Standards Institute (ESTI), <a class="reference external" href="https://www.etsi.org/technologies/quantum-safe-cryptography">Quantum-Safe Cryptography (QSC)</a></p></li>
-<li><p>Germany’s Federal Office for Information Security (BSI), <a class="reference external" href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/quantentechnologien-und-post-quanten-kryptografie_node.html">Quantum Technologies and Quantum-Safe Cryptography</a></p></li>
-<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/blog/comparing-pqc-and-classical-algorithms">Comparing PQC and Classical Algorithms</a></p></li>
-</ul>
-</section>
 </section>
 <section id="when-will-a-cryptanalytically-relevant-quantum-computer-exist">
 <h3>When will a cryptanalytically relevant quantum computer exist?<a class="headerlink" href="#when-will-a-cryptanalytically-relevant-quantum-computer-exist" title="Link to this heading"></a></h3>
@@ -550,47 +507,6 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <li><p>PostQuantumSecurity.org, <a class="reference external" href="https://www.postquantumsecurity.org/trackers/pqc-deadlines.html/">Post-Quantum Migration Deadlines by Country</a></p></li>
 </ul>
 </section>
-<section id="what-are-some-sector-specific-pqc-resources">
-<h3>What are some Sector-Specific PQC Resources?<a class="headerlink" href="#what-are-some-sector-specific-pqc-resources" title="Link to this heading"></a></h3>
-<section id="financial-services-sector">
-<h4>Financial Services Sector<a class="headerlink" href="#financial-services-sector" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Europol, <a class="reference external" href="https://www.europol.europa.eu/cms/sites/default/files/documents/Post-quantum-cryptography-report.pdf">Prioritising Post-Quantum Cryptography Migration Activities in Financial Services</a></p></li>
-<li><p>Financial Services Information Sharing and Analysis Center (FS-ISAC), <a class="reference external" href="https://www.fsisac.com/knowledge/pqc">Post Quantum Cryptography Resources</a></p></li>
-<li><p>X9, <a class="reference external" href="https://x9.org/x9-launches-effort-to-create-post-quantum-cryptography-assessment-guidelines-participants-sought/">Effort to Create Post-Quantum Cryptography Assessment Guidelines</a></p></li>
-<li><p>Bank for International Settlements (BIS), <a class="reference external" href="https://www.bis.org/publ/bppdf/bispap158.pdf">Quantum-readiness for the financial system: a roadmap</a></p></li>
-<li><p>Mastercard, <a class="reference external" href="https://www.mastercard.com/us/en/news-and-trends/Insights/2025/post-quantum-cryptography-white-paper.html">Migration to post-quantum cryptography white paper</a></p></li>
-<li><p>QuSecure, <a class="reference external" href="https://www.qusecure.com/wp-content/uploads/2026/05/QuSecure-Banco-Sabadell-Case-Study.pdf">Banco Sabadell case study</a></p></li>
-</ul>
-</section>
-<section id="information-technology-sector">
-<h4>Information Technology Sector<a class="headerlink" href="#information-technology-sector" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Microsoft, <a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsofts-quantum-resistant-cryptography-is-here/4238780">Microsoft’s Quantum-resistant cryptography is here</a></p>
-<ul>
-<li><p><a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-comes-to-windows-insiders-and-linux/4413803">Post-Quantum Cryptography Comes to Windows Insiders and Linux</a></p></li>
-</ul>
-</li>
-<li><p>Google, <a class="reference external" href="https://cloud.google.com/blog/products/identity-security/announcing-quantum-safe-digital-signatures-in-cloud-kms">Announcing quantum-safe digital signatures in Cloud KMS</a></p></li>
-<li><p>Cloudflare, <a class="reference external" href="https://www.cloudflare.com/press-releases/2025/cloudflare-advances-industrys-first-cloud-native-quantum-safe-zero-trust/">Cloudflare Advances Industry’s First Cloud-Native Quantum-Safe Zero Trust Solution</a></p>
-<ul>
-<li><p><a class="reference external" href="https://blog.cloudflare.com/post-quantum-warp/">Securing today for the quantum future: WARP client now supports post-quantum cryptography</a></p></li>
-</ul>
-</li>
-<li><p>Bouncy Castle, <a class="reference external" href="https://downloads.bouncycastle.org/csharp/docs/PQC-Almanac.pdf">A PQC Almanac</a></p></li>
-<li><p>IBM and InfoSec Global, <a class="reference external" href="https://www.ibm.com/new/announcements/ibm-consulting-and-infosec-global-collaborate-on-visibility-control-of-cryptographic-assets">IBM Consulting and InfoSec Global collaborate on visibility and control of cryptographic assets</a></p></li>
-</ul>
-</section>
-<section id="telecom">
-<h4>Telecom<a class="headerlink" href="#telecom" title="Link to this heading"></a></h4>
-<ul class="simple">
-<li><p>Global Systems for Mobile communications Association (GSMA), <a class="reference external" href="https://www.gsma.com/solutions-and-impact/technologies/security/welcome-to-post-quantum-cryptography-use-case-library/">Post-Quantum Cryptography Use Case Library</a></p></li>
-<li><p>Global Systems for Mobile communications Association (GSMA), <a class="reference external" href="https://www.gsma.com/solutions-and-impact/technologies/security/post-quantum-cryptography-documents/">Post-Quantum Cryptography Documents</a></p></li>
-<li><p>Alliance for Telecommunications Industry Solutions (ATIS), <a class="reference external" href="https://cdn.atis.org/atis.org/2025/02/25152429/Preparing-5G-for-the-Quantum-Era-WP-V9.pdf">Preparing 5G for the Quantum Era: An Analysis of 3GPP Architecture and the Transition to Quantum-Resistant Cryptography</a></p></li>
-<li><p>Communications Sector Coordinating Council (CSCC), <a class="reference external" href="https://comms-scc.org/2026/10/20/post-quantum-cryptography-for-legacy-and-migration-constrained-systems-in-the-communications-sector/">Post-Quantum Cryptography for Legacy and Migration-Constrained Systems in the Communications Sector</a></p></li>
-</ul>
-</section>
-</section>
 <section id="what-is-the-harvest-now-decrypt-later-cybersecurity-threat">
 <h3>What is the harvest now, decrypt later cybersecurity threat?<a class="headerlink" href="#what-is-the-harvest-now-decrypt-later-cybersecurity-threat" title="Link to this heading"></a></h3>
 <ul class="simple">
@@ -607,7 +523,7 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 </ul>
 <p>Cryptographic (crypto) agility refers to the capabilities needed to replace and adapt cryptographic algorithms in protocols, applications, software, hardware, firmware, and infrastructures while preserving security and ongoing operations. This white paper provides an in-depth survey of current approaches to achieving crypto agility. It discusses challenges and trade-offs and identifies approaches for providing operational mechanisms to achieve crypto agility. It also highlights critical working areas that require additional consideration.</p>
 <ul class="simple">
-<li><p>IETF, <a href="#id14"><span class="problematic" id="id15">`Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - RFC 7696 also known as BCP 201 &lt;https://datatracker.ietf.org/doc/rfc7696/.`_</span></a></p></li>
+<li><p>IETF, <a class="reference external" href="https://datatracker.ietf.org/doc/rfc7696/">Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms - RFC 7696 also known as BCP 201</a></p></li>
 </ul>
 <p>Many IETF protocols use cryptographic algorithms to provide confidentiality, integrity, authentication, or digital signature. Communicating peers must support a common set of cryptographic algorithms for these mechanisms to work properly.  This memo provides guidelines to ensure that protocols have the ability to migrate from one mandatory-to-implement algorithm suite to another over time.</p>
 </section>
@@ -633,6 +549,40 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 <li><p>Deloitte, <a class="reference external" href="https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2026/deloitte-cryptographic-resilience-community.pdf">Cryptographic Resilience: A Cyber Security Framework (CSF) 2.0 Community Profile</a></p></li>
 <li><p><a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.48.ipd.pdf">NIST CSWP 48, Mappings of Migration to PQC Project Capabilities to Risk Framework</a></p></li>
 </ul>
+</section>
+<section id="what-are-some-other-ways-to-describe-the-migration-to-post-quantum-cryptography">
+<h3>What are some other ways to describe the migration to post-quantum cryptography?<a class="headerlink" href="#what-are-some-other-ways-to-describe-the-migration-to-post-quantum-cryptography" title="Link to this heading"></a></h3>
+<p>With the growing attention on quantum computing as an emerging technology, compounding the term “quantum” with “readiness”, “resistant”. “safe”, or “secure” has become another way to convey what is being achieved in this cryptographic migration.</p>
+<section id="quantum-readiness">
+<h4>“Quantum-Readiness”<a class="headerlink" href="#quantum-readiness" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Canadian Forum for Digital Infrastructure Resilience (CFDIR), <a class="reference external" href="https://ised-isde.canada.ca/site/spectrum-management-telecommunications/sites/default/files/documents/Quantum-Readiness%20Best%20Practices%20-%20v04%20-%2010%20July%202024.pdf">Canadian National Quantum-Readiness Best Practices and Guidelines</a></p></li>
+<li><p>Cloud Security Alliance, <a class="reference external" href="https://cloudsecurityalliance.org/blog/2024/07/03/quantum-readiness-importance-a-comprehensive-guide">Quantum Readiness Importance: A Comprehensive Guide</a></p></li>
+<li><p>Deloitte, <a class="reference external" href="https://www.deloitte.com/global/en/services/consulting-risk/perspectives/enterprises-consider-practical-steps-toward-quantum-cyber-readiness.html">Quantum Cyber Readiness</a></p></li>
+<li><p>U.S. Cybersecurity and Infrastructure Security Agency (CISA), <a class="reference external" href="https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF">Quantum-Readiness: Migration to Post-Quantum Cryptography</a></p></li>
+<li><p>World Economic Forum, <a class="reference external" href="https://www.weforum.org/publications/quantum-readiness-toolkit-building-a-quantum-secure-economy/">Quantum Readiness Toolkit: Building a Quantum-Secure Economy</a></p></li>
+</ul>
+</section>
+<section id="quantum-resistant">
+<h4>“Quantum-Resistant”<a class="headerlink" href="#quantum-resistant" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Quantum-Resistant appears 15 times in <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8105.pdf">NIST Information Report 8105 Report on Post-Quantum Cryptography</a></p></li>
+<li><p>The National Cryptologic Foundation, <a class="reference external" href="https://cryptologicfoundation.org/community/conferences/convene/quantum-march-2024.html">Convening to Act: Quantum Resistant Cryptography (QRC) in Software</a></p></li>
+<li><p>Microsoft, <a class="reference external" href="https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsofts-quantum-resistant-cryptography-is-here/4238780">Microsoft’s quantum-resistant cryptography is here</a></p></li>
+<li><p>SSH, <a class="reference external" href="https://www.ssh.com/blog/ssh-in-the-world-of-post-quantum-cryptography">SSH in the World of Post-Quantum Cryptography (PQC)</a></p></li>
+<li><p>Technology Review, <a class="reference external" href="https://www.technologyreview.com/2022/09/14/1059400/explainer-quantum-resistant-algorithms/">What are quantum-resistant algorithms—and why do we need them?</a></p></li>
+<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/blog/post-quantum-cryptography-pqc-competitive-advantage-for-tech-vendors">Why Post-Quantum Cryptography (PQC) is Now a Competitive Advantage for Tech Vendors</a></p></li>
+</ul>
+</section>
+<section id="quantum-safe">
+<h4>“Quantum-Safe”<a class="headerlink" href="#quantum-safe" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>IBM, <a class="reference external" href="https://www.ibm.com/think/topics/quantum-safe-cryptography">What is quantum-safe cryptography?</a></p></li>
+<li><p>European Telecommunications Standards Institute (ESTI), <a class="reference external" href="https://www.etsi.org/technologies/quantum-safe-cryptography">Quantum-Safe Cryptography (QSC)</a></p></li>
+<li><p>Germany’s Federal Office for Information Security (BSI), <a class="reference external" href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Quantentechnologien-und-Post-Quanten-Kryptografie/quantentechnologien-und-post-quanten-kryptografie_node.html">Quantum Technologies and Quantum-Safe Cryptography</a></p></li>
+<li><p>SafeLogic, <a class="reference external" href="https://www.safelogic.com/blog/comparing-pqc-and-classical-algorithms">Comparing PQC and Classical Algorithms</a></p></li>
+</ul>
+</section>
 </section>
 <section id="where-can-i-learn-more">
 <h3>Where can I learn more?<a class="headerlink" href="#where-can-i-learn-more" title="Link to this heading"></a></h3>
@@ -818,15 +768,12 @@ The aim of PQC is to develop encryption algorithms that remain secure against th
 This report identifies existing quantum-vulnerable cryptographic standards and the quantum-resistant standards to which information technology products and services will need to transition.</p>
 <p>This report serves as the initial step in a broader strategy to manage and guide the transition to post-quantum cryptography. It provides the technical framework necessary to meet the accelerated migration timelines for federal high value assets and high impact systems while serving as a blueprint for critical infrastructure owners and operators and other organizations undergoing the same shift. This transition will involve the adoption of new PQC algorithms as well as the careful deprecation and eventual removal of quantum-vulnerable algorithms that are currently widespread in technological infrastructures. Public-private engagement will be crucial on the path toward PQC.</p>
 </section>
-<section id="id8">
-<h3>What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<section id="id7">
+<h3>What has the National Cybersecurity Center of Excellence (NCCoE) published to support migration to PQC?<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
 <p>The following preliminary draft were published before 2024 and frame the challenges that the project could accomplish:
-<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf">Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography</a>
-<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf">Quantum Readiness: Cryptographic Discovery</a>
-<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf">Quantum Readiness: Testing Draft Standards</a></p>
-<p>The are no current plans to issue second drafts or final versions of these publications.</p>
-<p>The project team is using NIST Cybersecurity White Papers to share progress.</p>
-<p>The following are two NIST Cybersecurity White Papers published:
+<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf">Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography</a>,
+<a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf">Quantum Readiness: Cryptographic Discovery</a>, and <a class="reference external" href="https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf">Quantum Readiness: Testing Draft Standards</a> .  NOTE: The are no current plan to update and issue second drafts or final versions of these publications.</p>
+<p>The project team is now using NIST Cybersecurity White Papers to share progress and has published two NIST Cybersecurity White Papers published:
 <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.48.ipd.pdf">NIST CSWP 48, Mappings of Migration to PQC Project Capabilities to Risk Framework</a>
 <a class="reference external" href="https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.39.pdf">NIST CSWP 39, Considerations for Achieving Crypto Agility Strategies and Practices</a></p>
 <p>With regard to CSWP 48, what else can the project map to support your quantum readiness needs?</p>
@@ -879,7 +826,7 @@ This report identifies existing quantum-vulnerable cryptographic standards and t
 <ul class="simple">
 <li><p>IDEMIA, <a class="reference external" href="https://www.idemia.com/quantum-ready-cryptographic-libraries">Quantum-Ready Cryptographic Libraries</a></p></li>
 <li><p>AWS, <a class="reference external" href="https://aws.amazon.com/blogs/security/aws-lc-fips-3-0-first-cryptographic-library-to-include-ml-kem-in-fips-140-3-validation/">AWS-LC FIPS 3.0: First cryptographic library to include ML-KEM in FIPS 140-3 validation</a></p></li>
-<li><p>OpenQuantumSafe, <a class="reference external" href="https://openquantumsafe.org/liboqs/">liboqs</a> is an open source C library for quantum-safe cryptographic algorithms and <a href="#id16"><span class="problematic" id="id17">`OpenSSL 3+ is a repository which contains code to enable quantum-safe cryptography (QSC) in a standard OpenSSL (&gt;v1.1) distribution by way of implementing a single shared library &lt;https://github.com/open-quantum-safe/oqs-provider&gt;&gt;`_</span></a>, <a href="#id18"><span class="problematic" id="id19">`the OQS provider &lt;https://docs.openssl.org/master/man7/provider/&gt;&gt;`_</span></a></p></li>
+<li><p>OpenQuantumSafe, <a class="reference external" href="https://openquantumsafe.org/liboqs/">liboqs</a> is an open source C library for quantum-safe cryptographic algorithms and <a href="#id13"><span class="problematic" id="id14">`OpenSSL 3+ is a repository which contains code to enable quantum-safe cryptography (QSC) in a standard OpenSSL (&gt;v1.1) distribution by way of implementing a single shared library &lt;https://github.com/open-quantum-safe/oqs-provider&gt;&gt;`_</span></a>, <a href="#id15"><span class="problematic" id="id16">`the OQS provider &lt;https://docs.openssl.org/master/man7/provider/&gt;&gt;`_</span></a></p></li>
 <li><p>Bouncy Castle, New Release: <a class="reference external" href="https://www.bouncycastle.org/resources/new-release-bouncy-castle-java-1-86/">Bouncy Castle Java 1.86</a></p></li>
 <li><p>wolfSSL, <a class="reference external" href="https://www.wolfssl.com/products/wolfssl/">Embedded SSL/TLS Library</a></p></li>
 <li><p>Microsoft, <a class="reference external" href="https://github.com/microsoft/symcrypt">Core cryptographic library for Windows, Azure Linux and other products</a></p></li>
@@ -888,7 +835,7 @@ This report identifies existing quantum-vulnerable cryptographic standards and t
 <section id="is-there-an-open-source-tool-on-applicability-of-various-pqc-algorithms-for-use-cases">
 <h3>Is there an open-source tool on applicability of various PQC algorithms for use cases?<a class="headerlink" href="#is-there-an-open-source-tool-on-applicability-of-various-pqc-algorithms-for-use-cases" title="Link to this heading"></a></h3>
 <p>TNO’s <a class="reference external" href="https://tno.github.io/PQChoiceAssistant/">PQChoiceAssistant</a></p>
-<p>CNSP QRAMM <a href="#id20"><span class="problematic" id="id21">`Algorithm selection guide https://qramm.org/learn/algorithm-selection-guide.html&gt;`_</span></a></p>
+<p>CNSP QRAMM <a href="#id17"><span class="problematic" id="id18">`Algorithm selection guide https://qramm.org/learn/algorithm-selection-guide.html&gt;`_</span></a></p>
 </section>
 <section id="how-are-operating-system-designers-addressing-the-crqc-threat">
 <h3>How are operating system designers addressing the CRQC threat?<a class="headerlink" href="#how-are-operating-system-designers-addressing-the-crqc-threat" title="Link to this heading"></a></h3>
