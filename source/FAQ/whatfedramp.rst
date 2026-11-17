@@ -1,4 +1,4 @@
-Has there been a FedRamp Cryptographic Module Use Rules Updates?
-****************************************************************
+Has there been a FedRamp Cryptographic Module Use Rules Update?
+***************************************************************
 
-Fedramp issused `RFC-0035 Cryptographic Module Use Rules Updates <https://www.fedramp.gov/rfcs/0035/>` on October 14, 2027 and is accpeting comments through November 17, 2027.
+Fedramp issued `RFC-0035 Cryptographic Module Use Rules Updates <https://www.fedramp.gov/rfcs/0035/>`_ on October 14, 2027 and is accepting comments through November 17, 2027.
