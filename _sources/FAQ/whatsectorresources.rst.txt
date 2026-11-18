@@ -36,6 +36,8 @@ Information Technology Sector
 Telecom
 +++++++
 
+*   `5G Telecommunication PQC Migration Playbook <https://atis.org/resources/5g-telecommunication-pqc-migration-playbook/>`_
+
 *   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Use Case Library <https://www.gsma.com/solutions-and-impact/technologies/security/welcome-to-post-quantum-cryptography-use-case-library/>`_
 
 *   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Documents <https://www.gsma.com/solutions-and-impact/technologies/security/post-quantum-cryptography-documents/>`_
