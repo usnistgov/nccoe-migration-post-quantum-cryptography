@@ -21,6 +21,8 @@ Healthcare
 
 *   `Post-quantum healthcare: A roadmap for cybersecurity resilience in medical data <https://pmc.ncbi.nlm.nih.gov/articles/PMC11141384//>`_
 
+*   `White paper by Google Cloud <https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-new-gemini-notebook-can-help-cisos-policymakers-prepare-for-pqc>`_, a Health-ISAC Community Services Visionary 
+
 Telecom
 +++++++
 
