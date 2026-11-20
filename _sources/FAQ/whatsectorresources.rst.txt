@@ -16,6 +16,24 @@ Financial Services Sector
 
 *   QuSecure, `Banco Sabadell case study <https://www.qusecure.com/wp-content/uploads/2026/05/QuSecure-Banco-Sabadell-Case-Study.pdf>`_
 
+Healthcare
+++++++++++
+
+*   `Post-quantum healthcare: A roadmap for cybersecurity resilience in medical data <https://pmc.ncbi.nlm.nih.gov/articles/PMC11141384//>`_
+
+Telecom
++++++++
+
+*   `5G Telecommunication PQC Migration Playbook <https://atis.org/resources/5g-telecommunication-pqc-migration-playbook/>`_
+
+*   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Use Case Library <https://www.gsma.com/solutions-and-impact/technologies/security/welcome-to-post-quantum-cryptography-use-case-library/>`_
+
+*   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Documents <https://www.gsma.com/solutions-and-impact/technologies/security/post-quantum-cryptography-documents/>`_
+
+*   Alliance for Telecommunications Industry Solutions \(ATIS\), `Preparing 5G for the Quantum Era: An Analysis of 3GPP Architecture and the Transition to Quantum-Resistant Cryptography <https://cdn.atis.org/atis.org/2025/02/25152429/Preparing-5G-for-the-Quantum-Era-WP-V9.pdf>`_
+
+*   Communications Sector Coordinating Council \(CSCC\), `Post-Quantum Cryptography for Legacy and Migration-Constrained Systems in the Communications Sector <https://comms-scc.org/2026/10/20/post-quantum-cryptography-for-legacy-and-migration-constrained-systems-in-the-communications-sector/>`_
+
 Information Technology Sector
 ++++++++++++++++++++++++++++++++++
 *   Microsoft, `Microsoft's Quantum-resistant cryptography is here <https://techcommunity.microsoft.com/blog/microsoft-security-blog/microsofts-quantum-resistant-cryptography-is-here/4238780>`_
@@ -32,16 +50,3 @@ Information Technology Sector
 
 *   IBM and InfoSec Global, `IBM Consulting and InfoSec Global collaborate on visibility and control of cryptographic assets <https://www.ibm.com/new/announcements/ibm-consulting-and-infosec-global-collaborate-on-visibility-control-of-cryptographic-assets>`_
 
-
-Telecom
-+++++++
-
-*   `5G Telecommunication PQC Migration Playbook <https://atis.org/resources/5g-telecommunication-pqc-migration-playbook/>`_
-
-*   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Use Case Library <https://www.gsma.com/solutions-and-impact/technologies/security/welcome-to-post-quantum-cryptography-use-case-library/>`_
-
-*   Global Systems for Mobile communications Association \(GSMA\), `Post-Quantum Cryptography Documents <https://www.gsma.com/solutions-and-impact/technologies/security/post-quantum-cryptography-documents/>`_
-
-*   Alliance for Telecommunications Industry Solutions \(ATIS\), `Preparing 5G for the Quantum Era: An Analysis of 3GPP Architecture and the Transition to Quantum-Resistant Cryptography <https://cdn.atis.org/atis.org/2025/02/25152429/Preparing-5G-for-the-Quantum-Era-WP-V9.pdf>`_
-
-*   Communications Sector Coordinating Council \(CSCC\), `Post-Quantum Cryptography for Legacy and Migration-Constrained Systems in the Communications Sector <https://comms-scc.org/2026/10/20/post-quantum-cryptography-for-legacy-and-migration-constrained-systems-in-the-communications-sector/>`_
